@@ -100,11 +100,10 @@ public class ProcessMedReq extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         btnAccept = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
 
-        btnBAck.setBackground(new java.awt.Color(255, 255, 255));
-        btnBAck.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnBAck.setForeground(new java.awt.Color(102, 0, 102));
+        btnBAck.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnBAck.setForeground(new java.awt.Color(0, 153, 153));
         btnBAck.setText("<< Back");
         btnBAck.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,13 +113,12 @@ public class ProcessMedReq extends javax.swing.JPanel {
 
         jLabel10.setBackground(new java.awt.Color(255, 255, 255));
         jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("Process Medicine Request");
 
-        btnSubmit.setBackground(new java.awt.Color(255, 255, 255));
-        btnSubmit.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(102, 0, 102));
+        btnSubmit.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnSubmit.setForeground(new java.awt.Color(0, 153, 153));
         btnSubmit.setText("SUBMIT");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -129,7 +127,7 @@ public class ProcessMedReq extends javax.swing.JPanel {
         });
 
         imgPresciption.setBackground(new java.awt.Color(255, 255, 255));
-        imgPresciption.setForeground(new java.awt.Color(102, 0, 102));
+        imgPresciption.setForeground(new java.awt.Color(255, 255, 255));
         imgPresciption.setText("Insert Image");
         imgPresciption.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -144,12 +142,12 @@ public class ProcessMedReq extends javax.swing.JPanel {
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Message:");
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Prescription:");
 
         jScrollPane2.setBackground(new java.awt.Color(255, 255, 255));
@@ -187,13 +185,12 @@ public class ProcessMedReq extends javax.swing.JPanel {
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel1.setText("Address:");
 
-        btnAccept.setBackground(new java.awt.Color(255, 255, 255));
-        btnAccept.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnAccept.setForeground(new java.awt.Color(102, 0, 102));
+        btnAccept.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnAccept.setForeground(new java.awt.Color(0, 153, 153));
         btnAccept.setText("ACCEPT");
         btnAccept.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -212,7 +209,7 @@ public class ProcessMedReq extends javax.swing.JPanel {
                         .addContainerGap()
                         .addComponent(btnBAck))
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(175, Short.MAX_VALUE)
+                        .addContainerGap(345, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -234,7 +231,7 @@ public class ProcessMedReq extends javax.swing.JPanel {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(btnSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(237, 237, 237)))))
-                .addContainerGap(176, Short.MAX_VALUE))
+                .addContainerGap(345, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -259,7 +256,7 @@ public class ProcessMedReq extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAccept, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(55, Short.MAX_VALUE))
+                .addContainerGap(121, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

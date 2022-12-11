@@ -177,12 +177,15 @@ public class DeliveryPanel extends javax.swing.JPanel {
         cbFilter = new javax.swing.JComboBox();
         btnBacks = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(0, 153, 153));
+
         jLabel26.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
         jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel26.setText("New Medicine Requests");
 
-        refreshBtn2.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        refreshBtn2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        refreshBtn2.setForeground(new java.awt.Color(0, 153, 153));
         refreshBtn2.setText("Refresh");
         refreshBtn2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -217,15 +220,18 @@ public class DeliveryPanel extends javax.swing.JPanel {
         jScrollPane7.setViewportView(txtDeliveryAddress);
 
         jLabel24.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel24.setText("Delivery Address:");
 
         jLabel12.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Contact Number:");
 
         txtContactNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        btnReqDelivery.setFont(new java.awt.Font("Lucida Grande", 0, 15)); // NOI18N
+        btnReqDelivery.setFont(new java.awt.Font("Lucida Grande", 1, 15)); // NOI18N
+        btnReqDelivery.setForeground(new java.awt.Color(0, 153, 153));
         btnReqDelivery.setText("Request Delivery");
         btnReqDelivery.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,9 +240,11 @@ public class DeliveryPanel extends javax.swing.JPanel {
         });
 
         jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Filter By: ");
 
         jLabel14.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Status");
 
         cbFilter.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
@@ -257,8 +265,8 @@ public class DeliveryPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBacks.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnBacks.setForeground(new java.awt.Color(102, 0, 102));
+        btnBacks.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnBacks.setForeground(new java.awt.Color(0, 153, 153));
         btnBacks.setText("<<<Back");
         btnBacks.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -296,7 +304,7 @@ public class DeliveryPanel extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(btnBacks)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 134, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 128, Short.MAX_VALUE)
                 .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 894, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(49, 49, 49))
         );

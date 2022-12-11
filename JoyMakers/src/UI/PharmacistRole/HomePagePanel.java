@@ -92,8 +92,10 @@ public class HomePagePanel extends javax.swing.JPanel {
         btnBacks = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
 
-        btnRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnRefresh.setForeground(new java.awt.Color(102, 0, 102));
+        setBackground(new java.awt.Color(0, 153, 153));
+
+        btnRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnRefresh.setForeground(new java.awt.Color(0, 153, 153));
         btnRefresh.setText("Refresh");
         btnRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,8 +125,8 @@ public class HomePagePanel extends javax.swing.JPanel {
         tblAssignReq.setPreferredSize(new java.awt.Dimension(375, 64));
         jScrollPane1.setViewportView(tblAssignReq);
 
-        btnViewMedList.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnViewMedList.setForeground(new java.awt.Color(102, 0, 102));
+        btnViewMedList.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnViewMedList.setForeground(new java.awt.Color(0, 153, 153));
         btnViewMedList.setText("View Medicine List");
         btnViewMedList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,8 +134,8 @@ public class HomePagePanel extends javax.swing.JPanel {
             }
         });
 
-        btnProcess.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnProcess.setForeground(new java.awt.Color(102, 0, 102));
+        btnProcess.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnProcess.setForeground(new java.awt.Color(0, 153, 153));
         btnProcess.setText("Process");
         btnProcess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,8 +150,8 @@ public class HomePagePanel extends javax.swing.JPanel {
         txtMessage.setRows(5);
         jScrollPane3.setViewportView(txtMessage);
 
-        btnBacks.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnBacks.setForeground(new java.awt.Color(102, 0, 102));
+        btnBacks.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnBacks.setForeground(new java.awt.Color(0, 153, 153));
         btnBacks.setText("<<<Back");
         btnBacks.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,7 +160,7 @@ public class HomePagePanel extends javax.swing.JPanel {
         });
 
         jLabel11.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("HomePage");
 
@@ -202,13 +204,10 @@ public class HomePagePanel extends javax.swing.JPanel {
                 .addComponent(btnRefresh)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addComponent(btnViewMedList, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(34, 34, 34)
-                        .addComponent(btnProcess, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(54, 54, 54)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnViewMedList, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnProcess, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(53, 53, 53))
