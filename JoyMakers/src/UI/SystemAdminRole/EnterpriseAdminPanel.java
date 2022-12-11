@@ -135,7 +135,7 @@ public class EnterpriseAdminPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblEntAdmin);
 
-        jLabel5.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel5.setText("Name");
