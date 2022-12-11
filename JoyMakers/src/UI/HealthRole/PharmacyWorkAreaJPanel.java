@@ -82,15 +82,19 @@ public class PharmacyWorkAreaJPanel extends javax.swing.JPanel {
         lblsendercon = new javax.swing.JLabel();
         txtSenderContact = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
-        btnrefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        btnrefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnrefresh.setForeground(new java.awt.Color(0, 153, 153));
         btnrefresh.setText("Refresh");
         btnrefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnrefreshActionPerformed(evt);
             }
         });
+
+        jScrollPane1.setBackground(new java.awt.Color(0, 153, 153));
 
         tblmedreq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         tblmedreq.setForeground(new java.awt.Color(102, 0, 102));
@@ -117,8 +121,8 @@ public class PharmacyWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblmedreq);
 
-        btnnewreq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnnewreq.setForeground(new java.awt.Color(102, 0, 102));
+        btnnewreq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnnewreq.setForeground(new java.awt.Color(0, 153, 153));
         btnnewreq.setText("New Request");
         btnnewreq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,8 +130,8 @@ public class PharmacyWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btndelete.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btndelete.setForeground(new java.awt.Color(102, 0, 102));
+        btndelete.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btndelete.setForeground(new java.awt.Color(0, 153, 153));
         btndelete.setText("Delete Request");
         btndelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,8 +139,8 @@ public class PharmacyWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnview.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnview.setForeground(new java.awt.Color(102, 0, 102));
+        btnview.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnview.setForeground(new java.awt.Color(0, 153, 153));
         btnview.setText("View Status or Updates");
         btnview.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,7 +148,8 @@ public class PharmacyWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnBack.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        btnBack.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(0, 153, 153));
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,40 +158,40 @@ public class PharmacyWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(102, 0, 102));
+        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
         lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbltitle.setText("Request Pharmacy Work Area");
 
         lbldelby.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbldelby.setForeground(new java.awt.Color(102, 0, 102));
+        lbldelby.setForeground(new java.awt.Color(255, 255, 255));
         lbldelby.setText("Delivered By");
 
         txtDeliveredBy.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtDeliveredBy.setForeground(new java.awt.Color(102, 0, 102));
 
         lbldelcon.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbldelcon.setForeground(new java.awt.Color(102, 0, 102));
+        lbldelcon.setForeground(new java.awt.Color(255, 255, 255));
         lbldelcon.setText("Delivery Contact");
 
         txtDeliveryContact.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtDeliveryContact.setForeground(new java.awt.Color(102, 0, 102));
 
         lbldeldate.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbldeldate.setForeground(new java.awt.Color(102, 0, 102));
+        lbldeldate.setForeground(new java.awt.Color(255, 255, 255));
         lbldeldate.setText("Delivery Date");
 
         txtDeliveryDate.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtDeliveryDate.setForeground(new java.awt.Color(102, 0, 102));
 
         lblsentby.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblsentby.setForeground(new java.awt.Color(102, 0, 102));
+        lblsentby.setForeground(new java.awt.Color(255, 255, 255));
         lblsentby.setText("Sent By");
 
         txtSentby.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtSentby.setForeground(new java.awt.Color(102, 0, 102));
 
         lblsendercon.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblsendercon.setForeground(new java.awt.Color(102, 0, 102));
+        lblsendercon.setForeground(new java.awt.Color(255, 255, 255));
         lblsendercon.setText("Sender Contact");
 
         txtSenderContact.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N

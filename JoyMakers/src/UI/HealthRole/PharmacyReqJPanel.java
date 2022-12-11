@@ -110,11 +110,11 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         txtconno = new javax.swing.JTextField();
         lblconno = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
         btnreqmed.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnreqmed.setForeground(new java.awt.Color(102, 0, 102));
+        btnreqmed.setForeground(new java.awt.Color(0, 153, 153));
         btnreqmed.setText("Request Medicine");
         btnreqmed.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,8 +122,8 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnback.setForeground(new java.awt.Color(102, 0, 102));
+        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        btnback.setForeground(new java.awt.Color(0, 153, 153));
         btnback.setText("<< Back");
         btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,7 +132,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         });
 
         lblstreet.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblstreet.setForeground(new java.awt.Color(102, 0, 102));
+        lblstreet.setForeground(new java.awt.Color(255, 255, 255));
         lblstreet.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblstreet.setText("Street:");
 
@@ -161,6 +161,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         jScrollPane2.setViewportView(tblmed);
 
         btnadd.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        btnadd.setForeground(new java.awt.Color(0, 153, 153));
         btnadd.setText("Add");
         btnadd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -169,7 +170,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         });
 
         btndel.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btndel.setForeground(new java.awt.Color(102, 0, 102));
+        btndel.setForeground(new java.awt.Color(0, 153, 153));
         btndel.setText("Delete");
         btndel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,7 +179,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         });
 
         btnmod.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnmod.setForeground(new java.awt.Color(102, 0, 102));
+        btnmod.setForeground(new java.awt.Color(0, 153, 153));
         btnmod.setText("Modify");
         btnmod.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,10 +188,11 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         });
 
         lblprescription.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblprescription.setForeground(new java.awt.Color(102, 0, 102));
+        lblprescription.setForeground(new java.awt.Color(255, 255, 255));
         lblprescription.setText("Prescription:");
 
         btnupload.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        btnupload.setForeground(new java.awt.Color(0, 153, 153));
         btnupload.setText("Upload");
         btnupload.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -199,11 +201,11 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         });
 
         lblmedname.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblmedname.setForeground(new java.awt.Color(102, 0, 102));
+        lblmedname.setForeground(new java.awt.Color(255, 255, 255));
         lblmedname.setText("Medicine Name:");
 
         lblquant.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblquant.setForeground(new java.awt.Color(102, 0, 102));
+        lblquant.setForeground(new java.awt.Color(255, 255, 255));
         lblquant.setText("Quantity:");
 
         txtmedname.setBackground(new java.awt.Color(204, 204, 204));
@@ -215,7 +217,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         txtquant.setForeground(new java.awt.Color(102, 0, 102));
 
         lblnoimg.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblnoimg.setForeground(new java.awt.Color(102, 0, 102));
+        lblnoimg.setForeground(new java.awt.Color(255, 255, 255));
         lblnoimg.setText("No image uploaded");
 
         txtstreet.setBackground(new java.awt.Color(204, 204, 204));
@@ -223,7 +225,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         txtstreet.setForeground(new java.awt.Color(102, 0, 102));
 
         lbladd.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbladd.setForeground(new java.awt.Color(102, 0, 102));
+        lbladd.setForeground(new java.awt.Color(255, 255, 255));
         lbladd.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lbladd.setText("Area:");
 
@@ -232,7 +234,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         txtadd.setForeground(new java.awt.Color(102, 0, 102));
 
         lblcity.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblcity.setForeground(new java.awt.Color(102, 0, 102));
+        lblcity.setForeground(new java.awt.Color(255, 255, 255));
         lblcity.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblcity.setText("City:");
 
@@ -241,7 +243,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         txtcity.setForeground(new java.awt.Color(102, 0, 102));
 
         lblstate.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblstate.setForeground(new java.awt.Color(102, 0, 102));
+        lblstate.setForeground(new java.awt.Color(255, 255, 255));
         lblstate.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblstate.setText("State:");
 
@@ -250,7 +252,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         txtstate.setForeground(new java.awt.Color(102, 0, 102));
 
         lblpin.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblpin.setForeground(new java.awt.Color(102, 0, 102));
+        lblpin.setForeground(new java.awt.Color(255, 255, 255));
         lblpin.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblpin.setText("Pin:");
 
@@ -259,12 +261,12 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         txtpin.setForeground(new java.awt.Color(102, 0, 102));
 
         lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(102, 0, 102));
+        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
         lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbltitle.setText("New Pharmacy Request");
 
         btnupdate.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnupdate.setForeground(new java.awt.Color(102, 0, 102));
+        btnupdate.setForeground(new java.awt.Color(0, 153, 153));
         btnupdate.setText("Update");
         btnupdate.setEnabled(false);
         btnupdate.addActionListener(new java.awt.event.ActionListener() {
@@ -283,7 +285,7 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         });
 
         lblconno.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblconno.setForeground(new java.awt.Color(102, 0, 102));
+        lblconno.setForeground(new java.awt.Color(255, 255, 255));
         lblconno.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblconno.setText("Contact Number:");
 
@@ -292,79 +294,83 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btnback)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 517, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(lblcity)
-                                .addComponent(lblstate)
-                                .addComponent(lblpin)
-                                .addComponent(lblconno))
-                            .addGap(18, 18, 18)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(txtstate, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtcity, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtpin, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(btnreqmed)
-                                .addComponent(txtconno, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(lblstreet, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(lbladd, javax.swing.GroupLayout.Alignment.TRAILING))
-                            .addGap(18, 18, 18)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(txtstreet, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txtadd, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblprescription)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblnoimg)
-                        .addGap(18, 18, 18)
-                        .addComponent(btnupload, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addContainerGap()
+                        .addComponent(btnback)
+                        .addGap(42, 42, 42)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(btndel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(lblmedname, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(lblquant, javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(btnmod, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(lblcity)
+                                        .addComponent(lblstate)
+                                        .addComponent(lblpin)
+                                        .addComponent(lblconno))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(txtstate, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(txtcity, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(txtpin, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(btnreqmed)
+                                        .addComponent(txtconno, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(layout.createSequentialGroup()
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(lblstreet, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(lbladd, javax.swing.GroupLayout.Alignment.TRAILING))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(txtstreet, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(txtadd, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnadd, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnupdate, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(txtquant, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 172, Short.MAX_VALUE)
-                                .addComponent(txtmedname, javax.swing.GroupLayout.Alignment.LEADING)))))
-                .addContainerGap(13, Short.MAX_VALUE))
+                                .addComponent(lblprescription)
+                                .addGap(18, 18, 18)
+                                .addComponent(lblnoimg)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnupload, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(135, 135, 135)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(btnmod, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(lblmedname, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtmedname, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(lblquant)
+                                            .addComponent(txtquant, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(btndel, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(133, 133, 133)
+                                        .addComponent(btnadd, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(btnupdate, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(343, 343, 343)
+                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 517, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(479, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnback)
-                    .addComponent(lbltitle))
-                .addGap(76, 76, 76)
+                .addGap(17, 17, 17)
+                .addComponent(lbltitle)
+                .addGap(65, 65, 65)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
                         .addComponent(btnmod, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btndel, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(40, 40, 40)
+                        .addGap(34, 34, 34)
                         .addComponent(lblmedname)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(txtmedname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(3, 3, 3)
+                        .addGap(15, 15, 15)
                         .addComponent(lblquant)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(txtquant, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnadd)
                             .addComponent(btnupdate)))
@@ -400,7 +406,11 @@ public class PharmacyReqJPanel extends javax.swing.JPanel {
                     .addComponent(lblconno))
                 .addGap(20, 20, 20)
                 .addComponent(btnreqmed, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnback)
+                .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
  private boolean checkPin(String phoneNumber) {

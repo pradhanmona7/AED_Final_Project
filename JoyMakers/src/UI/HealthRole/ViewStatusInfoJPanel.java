@@ -110,10 +110,10 @@ public class ViewStatusInfoJPanel extends javax.swing.JPanel {
         btnsubmit = new javax.swing.JButton();
         lbltitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnback.setForeground(new java.awt.Color(102, 0, 102));
+        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnback.setForeground(new java.awt.Color(0, 153, 153));
         btnback.setText("<< Back");
         btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,7 +122,7 @@ public class ViewStatusInfoJPanel extends javax.swing.JPanel {
         });
 
         lbladd.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbladd.setForeground(new java.awt.Color(102, 0, 102));
+        lbladd.setForeground(new java.awt.Color(255, 255, 255));
         lbladd.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lbladd.setText("Address:");
 
@@ -158,11 +158,11 @@ public class ViewStatusInfoJPanel extends javax.swing.JPanel {
         jScrollPane2.setViewportView(tblmed);
 
         lblprescription.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblprescription.setForeground(new java.awt.Color(102, 0, 102));
+        lblprescription.setForeground(new java.awt.Color(255, 255, 255));
         lblprescription.setText("Prescription:");
 
         lblmsg.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblmsg.setForeground(new java.awt.Color(102, 0, 102));
+        lblmsg.setForeground(new java.awt.Color(255, 255, 255));
         lblmsg.setText("Message:");
 
         txtadd.setEditable(false);
@@ -176,8 +176,8 @@ public class ViewStatusInfoJPanel extends javax.swing.JPanel {
         lblimg.setBackground(new java.awt.Color(204, 204, 204));
         lblimg.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        btnuploadpres.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnuploadpres.setForeground(new java.awt.Color(102, 0, 102));
+        btnuploadpres.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnuploadpres.setForeground(new java.awt.Color(0, 153, 153));
         btnuploadpres.setText("Upload Prescription");
         btnuploadpres.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -185,8 +185,8 @@ public class ViewStatusInfoJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnsubmit.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnsubmit.setForeground(new java.awt.Color(102, 0, 102));
+        btnsubmit.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        btnsubmit.setForeground(new java.awt.Color(0, 153, 153));
         btnsubmit.setText("SUBMIT");
         btnsubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,7 +195,7 @@ public class ViewStatusInfoJPanel extends javax.swing.JPanel {
         });
 
         lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(102, 0, 102));
+        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
         lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbltitle.setText("View Request Status");
 
@@ -211,6 +211,7 @@ public class ViewStatusInfoJPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnsubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -218,19 +219,23 @@ public class ViewStatusInfoJPanel extends javax.swing.JPanel {
                                 .addComponent(lbladd)
                                 .addGap(18, 18, 18)
                                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(50, 50, 50)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(lblprescription)
+                                .addGap(50, 50, 50)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(lblprescription)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(btnuploadpres))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(5, 5, 5)
+                                        .addComponent(lblmsg)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnuploadpres))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addComponent(lblimg, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(lblmsg)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addComponent(btnsubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(15, 15, 15)))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(

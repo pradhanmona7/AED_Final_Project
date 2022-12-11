@@ -63,11 +63,11 @@ public class DocReqJPanel extends javax.swing.JPanel {
         txtpur = new javax.swing.JTextArea();
         lbltitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
         lblnoofpat.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblnoofpat.setForeground(new java.awt.Color(102, 0, 102));
+        lblnoofpat.setForeground(new java.awt.Color(255, 255, 255));
         lblnoofpat.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblnoofpat.setText("Number of Patients:");
 
@@ -75,8 +75,8 @@ public class DocReqJPanel extends javax.swing.JPanel {
         txtnoofpat.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtnoofpat.setForeground(new java.awt.Color(102, 0, 102));
 
-        btnreq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnreq.setForeground(new java.awt.Color(102, 0, 102));
+        btnreq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        btnreq.setForeground(new java.awt.Color(0, 153, 153));
         btnreq.setText("REQUEST");
         btnreq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -84,8 +84,8 @@ public class DocReqJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnback.setForeground(new java.awt.Color(102, 0, 102));
+        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        btnback.setForeground(new java.awt.Color(0, 153, 153));
         btnback.setText("<<Back");
         btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,30 +94,30 @@ public class DocReqJPanel extends javax.swing.JPanel {
         });
 
         lblpurpose.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblpurpose.setForeground(new java.awt.Color(102, 0, 102));
+        lblpurpose.setForeground(new java.awt.Color(255, 255, 255));
         lblpurpose.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblpurpose.setText("Purpose:");
 
         lblpattype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblpattype.setForeground(new java.awt.Color(102, 0, 102));
+        lblpattype.setForeground(new java.awt.Color(255, 255, 255));
         lblpattype.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblpattype.setText("Patients Type:");
 
         lblcase.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblcase.setForeground(new java.awt.Color(102, 0, 102));
+        lblcase.setForeground(new java.awt.Color(255, 255, 255));
         lblcase.setText("Case:");
 
         lbldoctype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbldoctype.setForeground(new java.awt.Color(102, 0, 102));
+        lbldoctype.setForeground(new java.awt.Color(255, 255, 255));
         lbldoctype.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lbldoctype.setText("Doctor Type :");
 
         rbnewcheckup.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        rbnewcheckup.setForeground(new java.awt.Color(102, 0, 102));
+        rbnewcheckup.setForeground(new java.awt.Color(255, 255, 255));
         rbnewcheckup.setText("New Checkup");
 
         rbregcheckup.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        rbregcheckup.setForeground(new java.awt.Color(102, 0, 102));
+        rbregcheckup.setForeground(new java.awt.Color(255, 255, 255));
         rbregcheckup.setSelected(true);
         rbregcheckup.setText("Regular Checkup");
         rbregcheckup.addActionListener(new java.awt.event.ActionListener() {
@@ -127,11 +127,11 @@ public class DocReqJPanel extends javax.swing.JPanel {
         });
 
         cbpattype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbpattype.setForeground(new java.awt.Color(102, 0, 102));
+        cbpattype.setForeground(new java.awt.Color(0, 153, 153));
         cbpattype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Child", "Adult", "Old", "Mix" }));
 
         cbdoctype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbdoctype.setForeground(new java.awt.Color(102, 0, 102));
+        cbdoctype.setForeground(new java.awt.Color(0, 153, 153));
         cbdoctype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "General Physician", "Pediatrician", "Cardiologist", "Urologist", "Psychiatrist", "Ophthalmologist", "Orthopedist", "Dermatologist" }));
 
         txtpur.setBackground(new java.awt.Color(204, 204, 204));
@@ -143,7 +143,7 @@ public class DocReqJPanel extends javax.swing.JPanel {
 
         lbltitle.setBackground(new java.awt.Color(255, 255, 255));
         lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(102, 0, 102));
+        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
         lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbltitle.setText("New Doctor Request");
 
@@ -151,12 +151,12 @@ public class DocReqJPanel extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(6, 6, 6)
-                .addComponent(btnback)
-                .addContainerGap(715, Short.MAX_VALUE))
             .addComponent(lbltitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(685, Short.MAX_VALUE)
+                .addComponent(btnreq)
+                .addGap(593, 593, 593))
+            .addGroup(layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(lblpurpose)
@@ -164,34 +164,32 @@ public class DocReqJPanel extends javax.swing.JPanel {
                     .addComponent(lblcase)
                     .addComponent(lblnoofpat)
                     .addComponent(lblpattype))
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(rbnewcheckup)
-                            .addComponent(rbregcheckup)
-                            .addComponent(txtnoofpat)
-                            .addComponent(cbpattype, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cbdoctype, 0, 250, Short.MAX_VALUE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
-                        .addComponent(btnreq))
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(rbnewcheckup)
+                        .addComponent(rbregcheckup)
+                        .addComponent(txtnoofpat)
+                        .addComponent(cbpattype, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cbdoctype, 0, 250, Short.MAX_VALUE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(69, 69, 69)
+                .addComponent(btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btnback)
-                .addGap(15, 15, 15)
-                .addComponent(lbltitle)
-                .addGap(35, 35, 35)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbldoctype)
-                    .addComponent(cbdoctype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(44, 44, 44)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(lbltitle)
+                        .addGap(55, 55, 55))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(cbdoctype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(lbldoctype)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblcase)
@@ -206,13 +204,15 @@ public class DocReqJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblpattype, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(cbpattype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(31, 31, 31)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblpurpose))
-                .addGap(25, 25, 25)
+                .addGap(26, 26, 26)
                 .addComponent(btnreq, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(125, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 128, Short.MAX_VALUE)
+                .addComponent(btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(129, 129, 129))
         );
     }// </editor-fold>//GEN-END:initComponents
 
