@@ -94,7 +94,7 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
         btnback = new javax.swing.JButton();
         lbltitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
 
         orgtable.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         orgtable.setForeground(new java.awt.Color(102, 0, 102));
@@ -126,9 +126,8 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(orgtable);
 
-        btnaddorg.setBackground(new java.awt.Color(255, 255, 255));
-        btnaddorg.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnaddorg.setForeground(new java.awt.Color(102, 0, 102));
+        btnaddorg.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        btnaddorg.setForeground(new java.awt.Color(0, 153, 153));
         btnaddorg.setText("Add Organization");
         btnaddorg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,8 +135,8 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
             }
         });
 
-        cborg.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cborg.setForeground(new java.awt.Color(102, 0, 102));
+        cborg.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        cborg.setForeground(new java.awt.Color(0, 153, 153));
         cborg.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         cborg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,13 +145,12 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
         });
 
         lblorgtype.setBackground(new java.awt.Color(255, 255, 255));
-        lblorgtype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblorgtype.setForeground(new java.awt.Color(102, 0, 102));
+        lblorgtype.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        lblorgtype.setForeground(new java.awt.Color(255, 255, 255));
         lblorgtype.setText("Organization Type ");
 
-        btnback.setBackground(new java.awt.Color(255, 255, 255));
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnback.setForeground(new java.awt.Color(102, 0, 102));
+        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        btnback.setForeground(new java.awt.Color(0, 153, 153));
         btnback.setText("<< Back");
         btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,7 +160,7 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
 
         lbltitle.setBackground(new java.awt.Color(255, 255, 255));
         lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(102, 0, 102));
+        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
         lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbltitle.setText("MANAGE ORGANIZATION WORKAREA");
 
@@ -171,43 +169,41 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(133, 133, 133)
+                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 507, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(63, 63, 63)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblorgtype)
                             .addComponent(cborg, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnaddorg)
-                            .addComponent(lblorgtype))
-                        .addGap(18, 18, 18)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 556, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnback)
-                        .addGap(41, 41, 41)
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 507, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(58, Short.MAX_VALUE))
+                            .addComponent(btnback))
+                        .addGap(44, 44, 44)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 556, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(539, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnback))
+                        .addGap(129, 129, 129)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(22, 22, 22)
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(41, 41, 41)
+                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(lblorgtype)
-                        .addGap(34, 34, 34)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(cborg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(35, 35, 35)
-                        .addComponent(btnaddorg, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(28, 28, 28)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(260, Short.MAX_VALUE))
+                        .addGap(45, 45, 45)
+                        .addComponent(btnaddorg, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(29, 29, 29)))
+                .addGap(174, 174, 174)
+                .addComponent(btnback)
+                .addContainerGap(211, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
