@@ -5,14 +5,14 @@
  */
 package UI.AdminRole;
 
-import Business.Enterprise.Enterprise;
-import Business.Enterprise.HospitalEnterprise;
-import Business.Enterprise.NGOEnterprise;
-import Business.Enterprise.ResturantEnterprise;
-import Business.Enterprise.TransportationEnterprise;
-import Business.Organization.Organisation;
-import Business.Organization.Organisation.Type;
-import Business.Organization.OrganisationDirectory;
+import Model.Enterprise.Enterprise;
+import Model.Enterprise.HospitalEnterprise;
+import Model.Enterprise.NGOEnterprise;
+import Model.Enterprise.ResturantEnterprise;
+import Model.Enterprise.TransportationEnterprise;
+import Model.Organization.Organisation;
+import Model.Organization.Organisation.Type;
+import Model.Organization.OrganisationDirectory;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;

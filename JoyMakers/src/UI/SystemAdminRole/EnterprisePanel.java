@@ -5,9 +5,9 @@
  */
 package UI.SystemAdminRole;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
+import Model.EcoSystem;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;

@@ -5,10 +5,10 @@
  */
 package UI.SystemAdminRole;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.Organisation;
+import Model.EcoSystem;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.Organisation;
 import java.awt.CardLayout;
 import java.util.ArrayList;
 import javax.swing.JPanel;

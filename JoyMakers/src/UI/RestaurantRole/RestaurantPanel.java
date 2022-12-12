@@ -7,11 +7,11 @@ package UI.RestaurantRole;
 
 import UI.RestaurantRole.*;
 import UI.DoctorRole.*;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.RestaurantOrg;
-import Business.UserAccount.UserAccount;
+import Model.EcoSystem;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.RestaurantOrg;
+import Model.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.event.KeyEvent;
 import javax.swing.JFrame;

@@ -5,17 +5,17 @@
  */
 package UI.StorageRole;
 
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.DoctorOrg;
-import Business.Organization.TutorOrg;
-import Business.Organization.StorageOrg;
-import Business.Organization.Organisation;
-import Business.Organization.TransportOrg;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.TutorVolunteerWorkReq;
-import Business.WorkQueue.VolunteerStorageWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.DoctorOrg;
+import Model.Organization.TutorOrg;
+import Model.Organization.StorageOrg;
+import Model.Organization.Organisation;
+import Model.Organization.TransportOrg;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.TutorVolunteerWorkReq;
+import Model.WorkQueue.VolunteerStorageWorkRequest;
+import Model.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

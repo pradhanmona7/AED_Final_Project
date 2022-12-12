@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 package UI.TutorRole;
-import Business.Enterprise.Enterprise;
-import Business.Organization.Organisation;
-import Business.Organization.VolunteerOrg;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.TutorVolunteerWorkReq;
-import Business.WorkQueue.LaboratoryTestWorkReq;
+import Model.Enterprise.Enterprise;
+import Model.Organization.Organisation;
+import Model.Organization.VolunteerOrg;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.TutorVolunteerWorkReq;
+import Model.WorkQueue.LaboratoryTestWorkReq;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.text.SimpleDateFormat;

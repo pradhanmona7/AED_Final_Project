@@ -9,8 +9,8 @@ package UI.VolunteerRole;
  *
  * @author krishna
  */
-import Business.Employee.Volunteer;
-import Business.UserAccount.UserAccount;
+import Model.Employee.Volunteer;
+import Model.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.text.ParseException;

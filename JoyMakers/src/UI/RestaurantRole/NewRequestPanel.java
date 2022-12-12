@@ -6,15 +6,15 @@
 package UI.RestaurantRole;
 
 import UI.RestaurantRole.*;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.Organisation;
-import Business.Organization.RestaurantOrg;
-import Business.Organization.TransportOrg;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.VolunteerRestaurantWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import Model.EcoSystem;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.Organisation;
+import Model.Organization.RestaurantOrg;
+import Model.Organization.TransportOrg;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.VolunteerRestaurantWorkRequest;
+import Model.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.text.SimpleDateFormat;
 import java.util.Date;

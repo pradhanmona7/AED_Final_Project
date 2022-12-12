@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 package UI.RestaurantRole;
-import Business.Enterprise.Enterprise;
-import Business.FoodCare;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.VolunteerRestaurantWorkRequest;
+import Model.Enterprise.Enterprise;
+import Model.FoodCare;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.VolunteerRestaurantWorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.awt.Image;

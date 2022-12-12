@@ -10,10 +10,10 @@ package UI.HealthRole;
  * @author Mrinalini
  */
 
-import Business.Enterprise.Enterprise;
-import Business.Medicare;
-import Business.Network.Network;
-import Business.UserAccount.UserAccount;
+import Model.Enterprise.Enterprise;
+import Model.Medicare;
+import Model.Network.Network;
+import Model.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.time.LocalDate;

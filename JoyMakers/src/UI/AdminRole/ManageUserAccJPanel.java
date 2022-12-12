@@ -5,13 +5,13 @@
  */
 package UI.AdminRole;
 
-import Business.Employee.Employee;
-import Business.Employee.Volunteer;
-import Business.Enterprise.Enterprise;
-import Business.Organization.Organisation;
-import Business.Role.Role;
-import static Business.Role.Role.Type.Volunteer;
-import Business.UserAccount.UserAccount;
+import Model.Employee.Employee;
+import Model.Employee.Volunteer;
+import Model.Enterprise.Enterprise;
+import Model.Organization.Organisation;
+import Model.Role.Role;
+import static Model.Role.Role.Type.Volunteer;
+import Model.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -5,7 +5,7 @@
  */
 package UI.TutorRole;
 
-import Business.WorkQueue.TutorVolunteerWorkReq;
+import Model.WorkQueue.TutorVolunteerWorkReq;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.text.ParseException;

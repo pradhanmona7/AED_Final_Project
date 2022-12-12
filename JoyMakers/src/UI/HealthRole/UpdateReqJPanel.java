@@ -9,7 +9,7 @@ package UI.HealthRole;
  *
  * @author Mrinalini
  */
-import Business.WorkQueue.HospitalDoctorWorkReq;
+import Model.WorkQueue.HospitalDoctorWorkReq;
 import java.awt.CardLayout;
 import java.text.SimpleDateFormat;
 import java.util.Date;

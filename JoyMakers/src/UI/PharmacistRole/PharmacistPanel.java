@@ -6,11 +6,11 @@
 package UI.PharmacistRole;
 
 import UI.DoctorRole.*;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.PharmacyOrg;
-import Business.UserAccount.UserAccount;
+import Model.EcoSystem;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.PharmacyOrg;
+import Model.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 /**

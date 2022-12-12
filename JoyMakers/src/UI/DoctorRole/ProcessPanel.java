@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 package UI.DoctorRole;
-import Business.Enterprise.Enterprise;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.HospitalDoctorWorkReq;
-import Business.WorkQueue.WorkRequest;
+import Model.Enterprise.Enterprise;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.HospitalDoctorWorkReq;
+import Model.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.text.ParseException;

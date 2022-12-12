@@ -5,8 +5,8 @@
  */
 package UI.TutorRole;
 
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.TutorVolunteerWorkReq;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.TutorVolunteerWorkReq;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.time.LocalDate;

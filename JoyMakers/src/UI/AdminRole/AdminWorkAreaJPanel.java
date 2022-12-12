@@ -5,8 +5,8 @@
  */
 package UI.AdminRole;
 
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 

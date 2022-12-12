@@ -4,11 +4,11 @@
  * and open the template in the editor.
  */
 package UI.PharmacistRole;
-import Business.Enterprise.Enterprise;
-import Business.Medicare;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.HospitalDoctorWorkReq;
-import Business.WorkQueue.HospitalPharmacyWorkReq;
+import Model.Enterprise.Enterprise;
+import Model.Medicare;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.HospitalDoctorWorkReq;
+import Model.WorkQueue.HospitalPharmacyWorkReq;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.awt.Image;

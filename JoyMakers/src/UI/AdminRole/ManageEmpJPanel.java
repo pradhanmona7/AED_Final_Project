@@ -5,9 +5,9 @@
  */
 package UI.AdminRole;
 
-import Business.Employee.Employee;
-import Business.Organization.Organisation;
-import Business.Organization.OrganisationDirectory;
+import Model.Employee.Employee;
+import Model.Organization.Organisation;
+import Model.Organization.OrganisationDirectory;
 import java.awt.CardLayout;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

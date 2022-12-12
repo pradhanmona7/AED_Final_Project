@@ -5,12 +5,12 @@
  */
 package MainUserInterface;
 
-import Business.DB4OUtil.DB4OUtil;
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.Organisation;
-import Business.UserAccount.UserAccount;
+import Model.DB4OUtil.DB4OUtil;
+import Model.EcoSystem;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.Organisation;
+import Model.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Color;
 import javax.swing.JOptionPane;

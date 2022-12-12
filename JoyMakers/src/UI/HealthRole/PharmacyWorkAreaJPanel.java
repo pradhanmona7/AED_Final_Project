@@ -10,17 +10,17 @@ package UI.HealthRole;
  * @author gauri
  */
 
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.DoctorOrg;
-import Business.Organization.HealthOrg;
-import Business.Organization.Organisation;
-import Business.Organization.PharmacyOrg;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.HospitalDoctorWorkReq;
-import Business.WorkQueue.HospitalPharmacyWorkReq;
-import Business.WorkQueue.VolunteerStorageWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.DoctorOrg;
+import Model.Organization.HealthOrg;
+import Model.Organization.Organisation;
+import Model.Organization.PharmacyOrg;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.HospitalDoctorWorkReq;
+import Model.WorkQueue.HospitalPharmacyWorkReq;
+import Model.WorkQueue.VolunteerStorageWorkRequest;
+import Model.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.text.SimpleDateFormat;

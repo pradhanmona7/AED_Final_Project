@@ -5,15 +5,15 @@
  */
 package UI.HealthRole;
 
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.DoctorOrg;
-import Business.Organization.HealthOrg;
-import Business.Organization.Organisation;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.TutorVolunteerWorkReq;
-import Business.WorkQueue.HospitalDoctorWorkReq;
-import Business.WorkQueue.WorkRequest;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.DoctorOrg;
+import Model.Organization.HealthOrg;
+import Model.Organization.Organisation;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.TutorVolunteerWorkReq;
+import Model.WorkQueue.HospitalDoctorWorkReq;
+import Model.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

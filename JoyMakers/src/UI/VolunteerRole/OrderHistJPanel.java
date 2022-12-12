@@ -9,13 +9,13 @@ package UI.VolunteerRole;
  *
  * @author krishna
  */
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.TutorVolunteerWorkReq;
-import Business.WorkQueue.HospitalDoctorWorkReq;
-import Business.WorkQueue.VolunteerStorageWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import Model.EcoSystem;
+import Model.Enterprise.Enterprise;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.TutorVolunteerWorkReq;
+import Model.WorkQueue.HospitalDoctorWorkReq;
+import Model.WorkQueue.VolunteerStorageWorkRequest;
+import Model.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.text.SimpleDateFormat;

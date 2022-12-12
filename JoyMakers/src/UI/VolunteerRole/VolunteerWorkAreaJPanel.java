@@ -9,17 +9,17 @@ package UI.VolunteerRole;
  *
  * @author krishna
  */
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.StorageOrg;
-import Business.Organization.Organisation;
-import Business.Organization.VolunteerOrg;
-import Business.Role.VolunteerRole;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.TutorVolunteerWorkReq;
-import Business.WorkQueue.VolunteerStorageWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import Model.EcoSystem;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.StorageOrg;
+import Model.Organization.Organisation;
+import Model.Organization.VolunteerOrg;
+import Model.Role.VolunteerRole;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.TutorVolunteerWorkReq;
+import Model.WorkQueue.VolunteerStorageWorkRequest;
+import Model.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.text.ParseException;

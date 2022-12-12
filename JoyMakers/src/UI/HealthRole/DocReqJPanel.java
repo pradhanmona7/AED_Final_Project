@@ -9,13 +9,13 @@ package UI.HealthRole;
  *
  * @author Mrinalini 
  */
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Organization.DoctorOrg;
-import Business.Organization.HealthOrg;
-import Business.Organization.Organisation;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.HospitalDoctorWorkReq;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Organization.DoctorOrg;
+import Model.Organization.HealthOrg;
+import Model.Organization.Organisation;
+import Model.UserAccount.UserAccount;
+import Model.WorkQueue.HospitalDoctorWorkReq;
 import java.awt.CardLayout;
 import java.awt.Component;
 import javax.swing.JOptionPane;

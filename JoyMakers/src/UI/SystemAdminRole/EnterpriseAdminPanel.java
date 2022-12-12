@@ -5,12 +5,12 @@
  */
 package UI.SystemAdminRole;
 
-import Business.EcoSystem;
-import Business.Employee.Employee;
-import Business.Enterprise.Enterprise;
-import Business.Network.Network;
-import Business.Role.AdminRole;
-import Business.UserAccount.UserAccount;
+import Model.EcoSystem;
+import Model.Employee.Employee;
+import Model.Enterprise.Enterprise;
+import Model.Network.Network;
+import Model.Role.AdminRole;
+import Model.UserAccount.UserAccount;
 import java.awt.CardLayout;
 import java.awt.Component;
 import java.util.regex.Matcher;
