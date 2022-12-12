@@ -23,20 +23,20 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace pref="413" max="32767" attributes="0"/>
-              <Component id="btndocreq" min="-2" pref="206" max="-2" attributes="0"/>
+              <Component id="JM_btndocreq" min="-2" pref="206" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
-              <Component id="btnmedreq" min="-2" pref="206" max="-2" attributes="0"/>
+              <Component id="JM_btnmedreq" min="-2" pref="206" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="403" max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="451" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="jLabel1" min="-2" pref="137" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel1" min="-2" pref="137" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="231" max="-2" attributes="0"/>
-                      <Component id="jLabel2" min="-2" pref="146" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel2" min="-2" pref="146" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="lbltitle" min="-2" pref="415" max="-2" attributes="0"/>
+                  <Component id="JM_lbltitle" min="-2" pref="415" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -46,16 +46,16 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-              <Component id="lbltitle" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_lbltitle" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="255" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jLabel1" pref="180" max="32767" attributes="0"/>
-                  <Component id="jLabel2" max="32767" attributes="0"/>
+                  <Component id="JM_jLabel1" pref="180" max="32767" attributes="0"/>
+                  <Component id="JM_jLabel2" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnmedreq" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="btndocreq" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="JM_btnmedreq" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="JM_btndocreq" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="235" max="-2" attributes="0"/>
           </Group>
@@ -63,7 +63,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btndocreq">
+    <Component class="javax.swing.JButton" name="JM_btndocreq">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -74,10 +74,10 @@
         <Property name="text" type="java.lang.String" value="Request Doctor"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btndocreqActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btndocreqActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnmedreq">
+    <Component class="javax.swing.JButton" name="JM_btnmedreq">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -88,10 +88,10 @@
         <Property name="text" type="java.lang.String" value="Request Medicine"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnmedreqActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnmedreqActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lbltitle">
+    <Component class="javax.swing.JLabel" name="JM_lbltitle">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -106,14 +106,14 @@
         <Property name="text" type="java.lang.String" value="Health Department Work Area"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="JM_jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/HealthRole/doctor.png"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="JM_jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/HealthRole/medicine.png"/>

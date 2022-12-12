@@ -41,33 +41,33 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
         autoPopCB();
     }
     private void autoPopCB(){       
-        cborg.removeAllItems();
+        JM_cborg.removeAllItems();
         if(ent.getEntType().equals(Enterprise.EntType.NGO)){
             for (NGOEnterprise.Type type : NGOEnterprise.Type.values()){
             if (!type.getType().equals(Type.Admin.getOrgType()))
-                cborg.addItem(type);
+                JM_cborg.addItem(type);
             }
         }else if(ent.getEntType().equals(Enterprise.EntType.Hospital)){
            
             for (HospitalEnterprise.Type type : HospitalEnterprise.Type.values()){
             if (!type.getType().equals(Type.Admin.getOrgType()))
-                cborg.addItem(type);
+                JM_cborg.addItem(type);
             }
         }else if(ent.getEntType().equals(Enterprise.EntType.Transpotation)){
            
             for (TransportationEnterprise.Type type : TransportationEnterprise.Type.values()){
             if (!type.getType().equals(Type.Admin.getOrgType()))
-                cborg.addItem(type);
+                JM_cborg.addItem(type);
             }
         } else{
             for(ResturantEnterprise.Type type: ResturantEnterprise.Type.values()){
-                cborg.addItem(type);
+                JM_cborg.addItem(type);
             }
         }
     }
     
     private void autoPopTbl(){
-        DefaultTableModel mdl = (DefaultTableModel) orgtable.getModel();
+        DefaultTableModel mdl = (DefaultTableModel) JM_orgtable.getModel();
         mdl.setRowCount(0);
         for (Organisation org : dir.getOrgList()){
             Object[] row = new Object[2];
@@ -86,19 +86,19 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        orgtable = new javax.swing.JTable();
-        btnaddorg = new javax.swing.JButton();
-        cborg = new javax.swing.JComboBox();
-        lblorgtype = new javax.swing.JLabel();
-        btnback = new javax.swing.JButton();
-        lbltitle = new javax.swing.JLabel();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
+        JM_orgtable = new javax.swing.JTable();
+        JM_btnaddorg = new javax.swing.JButton();
+        JM_cborg = new javax.swing.JComboBox();
+        JM_lblorgtype = new javax.swing.JLabel();
+        JM_btnback = new javax.swing.JButton();
+        JM_lbltitle = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        orgtable.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
-        orgtable.setForeground(new java.awt.Color(102, 0, 102));
-        orgtable.setModel(new javax.swing.table.DefaultTableModel(
+        JM_orgtable.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
+        JM_orgtable.setForeground(new java.awt.Color(102, 0, 102));
+        JM_orgtable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},
                 {null, null},
@@ -124,45 +124,45 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(orgtable);
+        JM_jScrollPane1.setViewportView(JM_orgtable);
 
-        btnaddorg.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnaddorg.setForeground(new java.awt.Color(0, 153, 153));
-        btnaddorg.setText("Add Organization");
-        btnaddorg.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnaddorg.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnaddorg.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnaddorg.setText("Add Organization");
+        JM_btnaddorg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnaddorgActionPerformed(evt);
+                JM_btnaddorgActionPerformed(evt);
             }
         });
 
-        cborg.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        cborg.setForeground(new java.awt.Color(0, 153, 153));
-        cborg.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        cborg.addActionListener(new java.awt.event.ActionListener() {
+        JM_cborg.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_cborg.setForeground(new java.awt.Color(0, 153, 153));
+        JM_cborg.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        JM_cborg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cborgActionPerformed(evt);
+                JM_cborgActionPerformed(evt);
             }
         });
 
-        lblorgtype.setBackground(new java.awt.Color(255, 255, 255));
-        lblorgtype.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        lblorgtype.setForeground(new java.awt.Color(255, 255, 255));
-        lblorgtype.setText("Organization Type ");
+        JM_lblorgtype.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lblorgtype.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_lblorgtype.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblorgtype.setText("Organization Type ");
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnback.setForeground(new java.awt.Color(0, 153, 153));
-        btnback.setText("<< Back");
-        btnback.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnback.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnback.setText("<< Back");
+        JM_btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnbackActionPerformed(evt);
+                JM_btnbackActionPerformed(evt);
             }
         });
 
-        lbltitle.setBackground(new java.awt.Color(255, 255, 255));
-        lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
-        lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbltitle.setText("MANAGE ORGANIZATION WORKAREA");
+        JM_lbltitle.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_lbltitle.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_lbltitle.setText("MANAGE ORGANIZATION WORKAREA");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -172,16 +172,16 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(133, 133, 133)
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 507, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 507, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(63, 63, 63)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblorgtype)
-                            .addComponent(cborg, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnaddorg)
-                            .addComponent(btnback))
+                            .addComponent(JM_lblorgtype)
+                            .addComponent(JM_cborg, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_btnaddorg)
+                            .addComponent(JM_btnback))
                         .addGap(44, 44, 44)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 556, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 556, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(539, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -190,28 +190,28 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(129, 129, 129)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(22, 22, 22)
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(lblorgtype)
+                        .addComponent(JM_lblorgtype)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cborg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_cborg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(45, 45, 45)
-                        .addComponent(btnaddorg, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_btnaddorg, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(29, 29, 29)))
                 .addGap(174, 174, 174)
-                .addComponent(btnback)
+                .addComponent(JM_btnback)
                 .addContainerGap(211, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnaddorgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnaddorgActionPerformed
+    private void JM_btnaddorgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnaddorgActionPerformed
     
 
         if(ent.getEntType().equals(Enterprise.EntType.NGO)){
-            NGOEnterprise.Type type = (NGOEnterprise.Type) cborg.getSelectedItem();
+            NGOEnterprise.Type type = (NGOEnterprise.Type) JM_cborg.getSelectedItem();
                 System.out.println("-----"+type+"----"+type.getType()+"-----"+dir.getOrgList());
             for(Organisation org: dir.getOrgList()){
                 System.out.println("-------"+org.getName());
@@ -224,7 +224,7 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
             dir.createNGOOrg(type);
 
         }else if(ent.getEntType().equals(Enterprise.EntType.Hospital)){
-            HospitalEnterprise.Type type = (HospitalEnterprise.Type) cborg.getSelectedItem();
+            HospitalEnterprise.Type type = (HospitalEnterprise.Type) JM_cborg.getSelectedItem();
             for(Organisation org: dir.getOrgList()){
                 if(org.getName().equals(type.getType())){
                     JOptionPane.showMessageDialog(null, "This organisation already exists.");
@@ -233,7 +233,7 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
             }
             dir.createHospOrg(type);
         }else if(ent.getEntType().equals(Enterprise.EntType.Transpotation)){
-            TransportationEnterprise.Type type = (TransportationEnterprise.Type) cborg.getSelectedItem();
+            TransportationEnterprise.Type type = (TransportationEnterprise.Type) JM_cborg.getSelectedItem();
             for(Organisation org: dir.getOrgList()){
                 if(org.getName().equals(type.getType())){
                     JOptionPane.showMessageDialog(null, "This organisation already exists.");
@@ -243,7 +243,7 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
             dir.createLTranportationOrg(type);
         }
         else {
-            ResturantEnterprise.Type type = (ResturantEnterprise.Type) cborg.getSelectedItem();
+            ResturantEnterprise.Type type = (ResturantEnterprise.Type) JM_cborg.getSelectedItem();
             for(Organisation org: dir.getOrgList()){
                 if(org.getName().equals(type.getType())){
                     JOptionPane.showMessageDialog(null, "This organisation already exists.");
@@ -255,27 +255,27 @@ public class ManageOrgJPanel extends javax.swing.JPanel {
         System.out.println("----existed========");
         autoPopTbl();
 
-    }//GEN-LAST:event_btnaddorgActionPerformed
+    }//GEN-LAST:event_JM_btnaddorgActionPerformed
 
-    private void cborgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cborgActionPerformed
+    private void JM_cborgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_cborgActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_cborgActionPerformed
+    }//GEN-LAST:event_JM_cborgActionPerformed
 
-    private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbackActionPerformed
+    private void JM_btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnbackActionPerformed
 
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnbackActionPerformed
+    }//GEN-LAST:event_JM_btnbackActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnaddorg;
-    private javax.swing.JButton btnback;
-    private javax.swing.JComboBox cborg;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel lblorgtype;
-    private javax.swing.JLabel lbltitle;
-    private javax.swing.JTable orgtable;
+    private javax.swing.JButton JM_btnaddorg;
+    private javax.swing.JButton JM_btnback;
+    private javax.swing.JComboBox JM_cborg;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JLabel JM_lblorgtype;
+    private javax.swing.JLabel JM_lbltitle;
+    private javax.swing.JTable JM_orgtable;
     // End of variables declaration//GEN-END:variables
 }

@@ -48,10 +48,10 @@ public class ProcessPanel extends javax.swing.JPanel {
     {
         if(req.getDocName()!=null)
         {
-        txtDocName.setText(req.getDocName());
-        dtChoser.setDate(req.getDate());
-        txtOffNumber.setText(String.valueOf(req.getNumber()));
-        txtAddress.setText(req.getAddress());
+        JM_txtDocName.setText(req.getDocName());
+        JM_dtChoser.setDate(req.getDate());
+        JM_txtOffNumber.setText(String.valueOf(req.getNumber()));
+        JM_txtAddress.setText(req.getAddress());
         
         Date time = null;
         String volTime = req.getTime();
@@ -62,7 +62,7 @@ public class ProcessPanel extends javax.swing.JPanel {
         } catch (ParseException ex) {
         }
 
-        tsTime.setValue(time);
+        JM_tsTime.setValue(time);
         }
     }
 
@@ -142,97 +142,97 @@ public class ProcessPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_jLabel3 = new javax.swing.JLabel();
+        JM_jLabel4 = new javax.swing.JLabel();
         Date date = new Date();
         SpinnerDateModel sm = new SpinnerDateModel(date, null, null, Calendar.HOUR_OF_DAY);
-        tsTime = new javax.swing.JSpinner(sm);
-        jLabel5 = new javax.swing.JLabel();
-        txtOffNumber = new javax.swing.JTextField();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        txtAddress = new javax.swing.JTextArea();
-        btnAdd = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        txtDocName = new javax.swing.JTextField();
-        jLabel10 = new javax.swing.JLabel();
-        btnBack = new javax.swing.JButton();
-        dtChoser = new com.toedter.calendar.JDateChooser();
+        JM_tsTime = new javax.swing.JSpinner(sm);
+        JM_jLabel5 = new javax.swing.JLabel();
+        JM_txtOffNumber = new javax.swing.JTextField();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
+        JM_txtAddress = new javax.swing.JTextArea();
+        JM_btnAdd = new javax.swing.JButton();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_txtDocName = new javax.swing.JTextField();
+        JM_jLabel10 = new javax.swing.JLabel();
+        JM_btnBack = new javax.swing.JButton();
+        JM_dtChoser = new com.toedter.calendar.JDateChooser();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setForeground(new java.awt.Color(102, 0, 102));
 
-        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(102, 0, 102));
-        jLabel2.setText("Address:");
+        JM_jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        JM_jLabel2.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel2.setForeground(new java.awt.Color(102, 0, 102));
+        JM_jLabel2.setText("Address:");
 
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(102, 0, 102));
-        jLabel3.setText("Date:");
+        JM_jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        JM_jLabel3.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel3.setForeground(new java.awt.Color(102, 0, 102));
+        JM_jLabel3.setText("Date:");
 
-        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel4.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(102, 0, 102));
-        jLabel4.setText("Time:");
+        JM_jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        JM_jLabel4.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel4.setForeground(new java.awt.Color(102, 0, 102));
+        JM_jLabel4.setText("Time:");
 
-        JSpinner.DateEditor de = new JSpinner.DateEditor(tsTime, "HH:mm");
-        tsTime.setEditor(de);
-        tsTime.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JSpinner.DateEditor de = new JSpinner.DateEditor(JM_tsTime, "HH:mm");
+        JM_tsTime.setEditor(de);
+        JM_tsTime.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel5.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(102, 0, 102));
-        jLabel5.setText("Office Number:");
+        JM_jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+        JM_jLabel5.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel5.setForeground(new java.awt.Color(102, 0, 102));
+        JM_jLabel5.setText("Office Number:");
 
-        txtOffNumber.setBackground(new java.awt.Color(204, 204, 204));
-        txtOffNumber.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtOffNumber.addActionListener(new java.awt.event.ActionListener() {
+        JM_txtOffNumber.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtOffNumber.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtOffNumber.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtOffNumberActionPerformed(evt);
+                JM_txtOffNumberActionPerformed(evt);
             }
         });
 
-        txtAddress.setBackground(new java.awt.Color(204, 204, 204));
-        txtAddress.setColumns(20);
-        txtAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtAddress.setForeground(new java.awt.Color(102, 0, 102));
-        txtAddress.setRows(5);
-        jScrollPane1.setViewportView(txtAddress);
+        JM_txtAddress.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtAddress.setColumns(20);
+        JM_txtAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtAddress.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtAddress.setRows(5);
+        JM_jScrollPane1.setViewportView(JM_txtAddress);
 
-        btnAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnAdd.setForeground(new java.awt.Color(102, 0, 102));
-        btnAdd.setText("Add");
-        btnAdd.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        JM_btnAdd.setForeground(new java.awt.Color(102, 0, 102));
+        JM_btnAdd.setText("Add");
+        JM_btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAddActionPerformed(evt);
+                JM_btnAddActionPerformed(evt);
             }
         });
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 0, 102));
-        jLabel1.setText("Name:");
+        JM_jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(102, 0, 102));
+        JM_jLabel1.setText("Name:");
 
-        txtDocName.setBackground(new java.awt.Color(204, 204, 204));
-        txtDocName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtDocName.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtDocName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        jLabel10.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(102, 0, 102));
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("Process Doctor Request");
+        JM_jLabel10.setBackground(new java.awt.Color(255, 255, 255));
+        JM_jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel10.setForeground(new java.awt.Color(102, 0, 102));
+        JM_jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel10.setText("Process Doctor Request");
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnBack.setText("<< Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        JM_btnBack.setText("<< Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btnBackActionPerformed(evt);
             }
         });
 
-        dtChoser.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_dtChoser.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -243,29 +243,29 @@ public class ProcessPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(81, 81, 81)
-                        .addComponent(jLabel1))
+                        .addComponent(JM_jLabel1))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
                             .addGap(54, 54, 54)
-                            .addComponent(jLabel2))
-                        .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING)))
+                            .addComponent(JM_jLabel2))
+                        .addComponent(JM_jLabel3, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(JM_jLabel4, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(JM_jLabel5, javax.swing.GroupLayout.Alignment.TRAILING)))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnAdd)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnAdd)
+                    .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(txtOffNumber, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(tsTime, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
-                        .addComponent(dtChoser, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE))
-                    .addComponent(txtDocName, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_txtOffNumber, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(JM_tsTime, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                        .addComponent(JM_dtChoser, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE))
+                    .addComponent(JM_txtDocName, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(170, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnBack)
+                .addComponent(JM_btnBack)
                 .addGap(42, 42, 42)
-                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 532, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 532, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -273,60 +273,60 @@ public class ProcessPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnBack)
-                    .addComponent(jLabel10))
+                    .addComponent(JM_btnBack)
+                    .addComponent(JM_jLabel10))
                 .addGap(82, 82, 82)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtDocName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1))
+                    .addComponent(JM_txtDocName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel1))
                 .addGap(14, 14, 14)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel2)
+                    .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(17, 17, 17)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel3)
+                        .addComponent(JM_jLabel3)
                         .addGap(14, 14, 14)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(tsTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel4))
+                            .addComponent(JM_tsTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_jLabel4))
                         .addGap(9, 9, 9)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtOffNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5))
+                            .addComponent(JM_txtOffNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_jLabel5))
                         .addGap(18, 18, 18)
-                        .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(dtChoser, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_dtChoser, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(77, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtOffNumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtOffNumberActionPerformed
+    private void JM_txtOffNumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtOffNumberActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtOffNumberActionPerformed
+    }//GEN-LAST:event_JM_txtOffNumberActionPerformed
 
-    private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
-        String name=txtDocName.getText();
+    private void JM_btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnAddActionPerformed
+        String name=JM_txtDocName.getText();
         if(name==null || name.equals(""))
         {
             JOptionPane.showMessageDialog(null, "Name field cannot be left empty");
             return;
         }
-        String addr=txtAddress.getText();
+        String addr=JM_txtAddress.getText();
         if(addr==null || addr.equals(""))
         {
             JOptionPane.showMessageDialog(null, "Address field cannot be left empty");
             return;
         }
-        String num = txtOffNumber.getText();
+        String num = JM_txtOffNumber.getText();
         if(!checkPhoneNumber(num))
         {
             JOptionPane.showMessageDialog(null, "Enter a valid contact number");
             return;
         }
 
-        Date date = dtChoser.getDate();
+        Date date = JM_dtChoser.getDate();
         if(date == null || date.equals("")){
             JOptionPane.showMessageDialog(null, "Date field cannot be left empty");
             return;
@@ -334,7 +334,7 @@ public class ProcessPanel extends javax.swing.JPanel {
 
         SimpleDateFormat fmt = new SimpleDateFormat("HH:mm");
 
-        Date time =  (Date) tsTime.getValue();
+        Date time =  (Date) JM_tsTime.getValue();
         String time1 = fmt.format(time);
         if(time1 == null || time1.equals("")){
             JOptionPane.showMessageDialog(null, "Time field cannot be left empty");
@@ -358,14 +358,14 @@ public class ProcessPanel extends javax.swing.JPanel {
         req.setNumber(num);
         req.setStatus("Completed");
         JOptionPane.showMessageDialog(null, "Successfully booked appointment");
-        dtChoser.setDate(null);
-        txtDocName.setText("");
-        txtOffNumber.setText("");
-        txtAddress.setText("");
+        JM_dtChoser.setDate(null);
+        JM_txtDocName.setText("");
+        JM_txtOffNumber.setText("");
+        JM_txtAddress.setText("");
 
-    }//GEN-LAST:event_btnAddActionPerformed
+    }//GEN-LAST:event_JM_btnAddActionPerformed
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
 
         userProcessContainer.remove(this);
         Component[] componentArray = userProcessContainer.getComponents();
@@ -375,23 +375,23 @@ public class ProcessPanel extends javax.swing.JPanel {
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
 
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAdd;
-    private javax.swing.JButton btnBack;
-    private com.toedter.calendar.JDateChooser dtChoser;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JSpinner tsTime;
-    private javax.swing.JTextArea txtAddress;
-    private javax.swing.JTextField txtDocName;
-    private javax.swing.JTextField txtOffNumber;
+    private javax.swing.JButton JM_btnAdd;
+    private javax.swing.JButton JM_btnBack;
+    private com.toedter.calendar.JDateChooser JM_dtChoser;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel10;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_jLabel3;
+    private javax.swing.JLabel JM_jLabel4;
+    private javax.swing.JLabel JM_jLabel5;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JSpinner JM_tsTime;
+    private javax.swing.JTextArea JM_txtAddress;
+    private javax.swing.JTextField JM_txtDocName;
+    private javax.swing.JTextField JM_txtOffNumber;
     // End of variables declaration//GEN-END:variables
 }

@@ -33,12 +33,12 @@ public class MedJPanel extends javax.swing.JPanel {
         initComponents();
          this.userProcessContainer = userProcessContainer;
         this.med = med;
-        txtname.setText(med.getMed_name());
-        txtquant.setText(med.getMed_quantity()+"");
+        JM_txtname.setText(med.getMed_name());
+        JM_txtquant.setText(med.getMed_quantity()+"");
         this.flag = flag;
         if(flag==1){
-            btnSave.setVisible(false);
-            btnUpdate.setVisible(false);
+            JM_btnSave.setVisible(false);
+            JM_btnUpdate.setVisible(false);
         }
     }
 
@@ -51,63 +51,63 @@ public class MedJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lbltitle = new javax.swing.JLabel();
-        lblname = new javax.swing.JLabel();
-        txtname = new javax.swing.JTextField();
-        lblquant = new javax.swing.JLabel();
-        txtquant = new javax.swing.JTextField();
-        btnSave = new javax.swing.JButton();
-        btnUpdate = new javax.swing.JButton();
-        btnBack = new javax.swing.JButton();
+        JM_lbltitle = new javax.swing.JLabel();
+        JM_lblname = new javax.swing.JLabel();
+        JM_txtname = new javax.swing.JTextField();
+        JM_lblquant = new javax.swing.JLabel();
+        JM_txtquant = new javax.swing.JTextField();
+        JM_btnSave = new javax.swing.JButton();
+        JM_btnUpdate = new javax.swing.JButton();
+        JM_btnBack = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        lbltitle.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
-        lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbltitle.setText("Medicine Details");
+        JM_lbltitle.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
+        JM_lbltitle.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_lbltitle.setText("Medicine Details");
 
-        lblname.setBackground(new java.awt.Color(255, 255, 255));
-        lblname.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblname.setForeground(new java.awt.Color(255, 255, 255));
-        lblname.setText("Name:");
+        JM_lblname.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lblname.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblname.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblname.setText("Name:");
 
-        txtname.setEditable(false);
-        txtname.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtname.setEditable(false);
+        JM_txtname.setForeground(new java.awt.Color(102, 0, 102));
 
-        lblquant.setBackground(new java.awt.Color(255, 255, 255));
-        lblquant.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblquant.setForeground(new java.awt.Color(255, 255, 255));
-        lblquant.setText("Quantity:");
+        JM_lblquant.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lblquant.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblquant.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblquant.setText("Quantity:");
 
-        txtquant.setEditable(false);
-        txtquant.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtquant.setEditable(false);
+        JM_txtquant.setForeground(new java.awt.Color(102, 0, 102));
 
-        btnSave.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnSave.setForeground(new java.awt.Color(0, 153, 153));
-        btnSave.setText("Save");
-        btnSave.setEnabled(false);
-        btnSave.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnSave.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnSave.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnSave.setText("Save");
+        JM_btnSave.setEnabled(false);
+        JM_btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSaveActionPerformed(evt);
+                JM_btnSaveActionPerformed(evt);
             }
         });
 
-        btnUpdate.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnUpdate.setForeground(new java.awt.Color(0, 153, 153));
-        btnUpdate.setText("Update");
-        btnUpdate.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnUpdate.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnUpdate.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnUpdate.setText("Update");
+        JM_btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnUpdateActionPerformed(evt);
+                JM_btnUpdateActionPerformed(evt);
             }
         });
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        btnBack.setForeground(new java.awt.Color(0, 153, 153));
-        btnBack.setText("<< Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_btnBack.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBack.setText("<< Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btnBackActionPerformed(evt);
             }
         });
 
@@ -119,32 +119,30 @@ public class MedJPanel extends javax.swing.JPanel {
                 .addGap(446, 446, 446)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(lblname))
+                            .addComponent(JM_lblname)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(0, 13, Short.MAX_VALUE)
-                                .addComponent(lblquant)))
+                                .addComponent(JM_lblquant)))
                         .addGap(42, 42, 42)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtname, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtquant, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtname, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtquant, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(JM_btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(25, 25, 25)))
                         .addGap(670, 670, 670))))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(592, 592, 592)
-                        .addComponent(btnUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_btnUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(79, 79, 79)
-                        .addComponent(btnBack)))
+                        .addComponent(JM_btnBack)))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -154,37 +152,37 @@ public class MedJPanel extends javax.swing.JPanel {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(126, 126, 126)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtname, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblname)))
+                            .addComponent(JM_txtname, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_lblname)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblquant)
-                    .addComponent(txtquant, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lblquant)
+                    .addComponent(JM_txtquant, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(27, 27, 27)
-                .addComponent(btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 224, Short.MAX_VALUE)
-                .addComponent(btnBack)
+                .addComponent(JM_btnBack)
                 .addGap(211, 211, 211))
         );
 
-        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnSave, btnUpdate});
+        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {JM_btnSave, JM_btnUpdate});
 
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
+    private void JM_btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnSaveActionPerformed
         // TODO add your handling code here:
-        String quanttxt = txtquant.getText();
+        String quanttxt = JM_txtquant.getText();
         if(quanttxt.equals("") || quanttxt==null){
             JOptionPane.showMessageDialog(null,"Enter medicine details.");
             return;
         }
         try{
-            Integer.parseInt(txtquant.getText());
+            Integer.parseInt(JM_txtquant.getText());
         }catch(NumberFormatException e){
             JOptionPane.showMessageDialog(null, "Enter Quantity");
             return;
@@ -192,20 +190,20 @@ public class MedJPanel extends javax.swing.JPanel {
         int final_quant = Integer.parseInt(quanttxt);
         med.setMed_quantity(final_quant);
         JOptionPane.showMessageDialog(null, "Successfully updated Medicine details");
-        txtquant.setEditable(false);
-        btnSave.setEnabled(false);
-        btnUpdate.setEnabled(true);
+        JM_txtquant.setEditable(false);
+        JM_btnSave.setEnabled(false);
+        JM_btnUpdate.setEnabled(true);
 
-    }//GEN-LAST:event_btnSaveActionPerformed
+    }//GEN-LAST:event_JM_btnSaveActionPerformed
 
-    private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
+    private void JM_btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnUpdateActionPerformed
         // TODO add your handling code here:
-        txtquant.setEditable(true);
-        btnSave.setEnabled(true);
-        btnUpdate.setEnabled(false);
-    }//GEN-LAST:event_btnUpdateActionPerformed
+        JM_txtquant.setEditable(true);
+        JM_btnSave.setEnabled(true);
+        JM_btnUpdate.setEnabled(false);
+    }//GEN-LAST:event_JM_btnUpdateActionPerformed
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
         // TODO add your handling code here:
         if(flag==1){
             userProcessContainer.remove(this);
@@ -220,17 +218,17 @@ public class MedJPanel extends javax.swing.JPanel {
         pharmacyReqJPanel.populatemedtbl();
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBack;
-    private javax.swing.JButton btnSave;
-    private javax.swing.JButton btnUpdate;
-    private javax.swing.JLabel lblname;
-    private javax.swing.JLabel lblquant;
-    private javax.swing.JLabel lbltitle;
-    private javax.swing.JTextField txtname;
-    private javax.swing.JTextField txtquant;
+    private javax.swing.JButton JM_btnBack;
+    private javax.swing.JButton JM_btnSave;
+    private javax.swing.JButton JM_btnUpdate;
+    private javax.swing.JLabel JM_lblname;
+    private javax.swing.JLabel JM_lblquant;
+    private javax.swing.JLabel JM_lbltitle;
+    private javax.swing.JTextField JM_txtname;
+    private javax.swing.JTextField JM_txtquant;
     // End of variables declaration//GEN-END:variables
 }

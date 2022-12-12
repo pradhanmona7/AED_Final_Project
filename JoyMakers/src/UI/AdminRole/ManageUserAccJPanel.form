@@ -28,36 +28,36 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
-                      <Component id="lbltitle" min="-2" pref="520" max="-2" attributes="0"/>
+                      <Component id="JM_lbltitle" min="-2" pref="520" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="btnback" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblpwd" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblorg" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblemp" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblrole" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblusername" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_btnback" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblpwd" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblorg" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblemp" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblrole" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblusername" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                              <Component id="btncreate" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_btncreate" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="orgcb" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rolecb" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txtusername" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="empcb" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txtpwd" min="-2" pref="180" max="-2" attributes="0"/>
+                                  <Component id="JM_orgcb" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="JM_rolecb" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="JM_txtusername" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="JM_empcb" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="JM_txtpwd" min="-2" pref="180" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="538" max="-2" attributes="0"/>
+                      <Component id="JM_jScrollPane1" min="-2" pref="538" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="327" max="32767" attributes="0"/>
@@ -68,48 +68,48 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="lbltitle" min="-2" pref="54" max="-2" attributes="0"/>
+              <Component id="JM_lbltitle" min="-2" pref="54" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblorg" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="orgcb" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblorg" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_orgcb" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblemp" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="empcb" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblemp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_empcb" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblrole" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="rolecb" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblrole" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_rolecb" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblusername" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtusername" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblusername" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_txtusername" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblpwd" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtpwd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblpwd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_txtpwd" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="btncreate" min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="JM_btncreate" min="-2" pref="37" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="jScrollPane1" min="-2" pref="266" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane1" min="-2" pref="266" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="265" max="32767" attributes="0"/>
-              <Component id="btnback" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnback" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btncreate">
+    <Component class="javax.swing.JButton" name="JM_btncreate">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="1"/>
@@ -120,10 +120,10 @@
         <Property name="text" type="java.lang.String" value="Create User"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncreateActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btncreateActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblusername">
+    <Component class="javax.swing.JLabel" name="JM_lblusername">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -138,14 +138,14 @@
         <Property name="text" type="java.lang.String" value="User Name"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane1">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTable" name="usertable">
+        <Component class="javax.swing.JTable" name="JM_usertable">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name=".AppleSystemUIFont" size="13" style="0"/>
@@ -180,7 +180,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="lblpwd">
+    <Component class="javax.swing.JLabel" name="JM_lblpwd">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -195,7 +195,7 @@
         <Property name="text" type="java.lang.String" value="Password"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblemp">
+    <Component class="javax.swing.JLabel" name="JM_lblemp">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -210,7 +210,7 @@
         <Property name="text" type="java.lang.String" value="Employee"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JComboBox" name="empcb">
+    <Component class="javax.swing.JComboBox" name="JM_empcb">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -228,7 +228,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblorg">
+    <Component class="javax.swing.JLabel" name="JM_lblorg">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -243,7 +243,7 @@
         <Property name="text" type="java.lang.String" value="Organization"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JComboBox" name="orgcb">
+    <Component class="javax.swing.JComboBox" name="JM_orgcb">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -261,10 +261,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="orgcbActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_orgcbActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblrole">
+    <Component class="javax.swing.JLabel" name="JM_lblrole">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -279,7 +279,7 @@
         <Property name="text" type="java.lang.String" value="Role"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JComboBox" name="rolecb">
+    <Component class="javax.swing.JComboBox" name="JM_rolecb">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -297,10 +297,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rolecbActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_rolecbActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnback">
+    <Component class="javax.swing.JButton" name="JM_btnback">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="1"/>
@@ -311,10 +311,10 @@
         <Property name="text" type="java.lang.String" value="&lt;&lt; Back"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbackActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnbackActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lbltitle">
+    <Component class="javax.swing.JLabel" name="JM_lbltitle">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -329,7 +329,7 @@
         <Property name="text" type="java.lang.String" value="MANAGE USER ACCOUNT WORKAREA"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtusername">
+    <Component class="javax.swing.JTextField" name="JM_txtusername">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -339,7 +339,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JPasswordField" name="txtpwd">
+    <Component class="javax.swing.JPasswordField" name="JM_txtpwd">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="0" red="66" type="rgb"/>

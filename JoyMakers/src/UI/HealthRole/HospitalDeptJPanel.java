@@ -67,41 +67,41 @@ public class HospitalDeptJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btndocreq = new javax.swing.JButton();
-        btnmedreq = new javax.swing.JButton();
-        lbltitle = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        JM_btndocreq = new javax.swing.JButton();
+        JM_btnmedreq = new javax.swing.JButton();
+        JM_lbltitle = new javax.swing.JLabel();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        btndocreq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btndocreq.setForeground(new java.awt.Color(0, 153, 153));
-        btndocreq.setText("Request Doctor");
-        btndocreq.addActionListener(new java.awt.event.ActionListener() {
+        JM_btndocreq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btndocreq.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btndocreq.setText("Request Doctor");
+        JM_btndocreq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btndocreqActionPerformed(evt);
+                JM_btndocreqActionPerformed(evt);
             }
         });
 
-        btnmedreq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnmedreq.setForeground(new java.awt.Color(0, 153, 153));
-        btnmedreq.setText("Request Medicine");
-        btnmedreq.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnmedreq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnmedreq.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnmedreq.setText("Request Medicine");
+        JM_btnmedreq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnmedreqActionPerformed(evt);
+                JM_btnmedreqActionPerformed(evt);
             }
         });
 
-        lbltitle.setBackground(new java.awt.Color(255, 255, 255));
-        lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
-        lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbltitle.setText("Health Department Work Area");
+        JM_lbltitle.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_lbltitle.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_lbltitle.setText("Health Department Work Area");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/HealthRole/doctor.png"))); // NOI18N
+        JM_jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/HealthRole/doctor.png"))); // NOI18N
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/HealthRole/medicine.png"))); // NOI18N
+        JM_jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/HealthRole/medicine.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -109,61 +109,61 @@ public class HospitalDeptJPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(413, Short.MAX_VALUE)
-                .addComponent(btndocreq, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btndocreq, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(172, 172, 172)
-                .addComponent(btnmedreq, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnmedreq, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(403, 403, 403))
             .addGroup(layout.createSequentialGroup()
                 .addGap(451, 451, 451)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(231, 231, 231)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 415, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 415, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(24, 24, 24)
-                .addComponent(lbltitle)
+                .addComponent(JM_lbltitle)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 255, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 180, Short.MAX_VALUE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(JM_jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 180, Short.MAX_VALUE)
+                    .addComponent(JM_jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnmedreq, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btndocreq, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_btnmedreq, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btndocreq, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(235, 235, 235))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btndocreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btndocreqActionPerformed
+    private void JM_btndocreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btndocreqActionPerformed
         // TODO add your handling code here:
         DoctorWorkAreaJPanel panel = new DoctorWorkAreaJPanel(userProcessContainer, ua, org, ent, net);
         userProcessContainer.add("HospitalDeptDoctorWorkAreaJPanel", panel);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btndocreqActionPerformed
+    }//GEN-LAST:event_JM_btndocreqActionPerformed
 
-    private void btnmedreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmedreqActionPerformed
+    private void JM_btnmedreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnmedreqActionPerformed
         // TODO add your handling code here:
         PharmacyWorkAreaJPanel pharmacyWorkAreaJPanel = new PharmacyWorkAreaJPanel(userProcessContainer, ua,ent, net);
         userProcessContainer.add("pharmacyWorkAreaJPanel", pharmacyWorkAreaJPanel);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnmedreqActionPerformed
+    }//GEN-LAST:event_JM_btnmedreqActionPerformed
 
     
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btndocreq;
-    private javax.swing.JButton btnmedreq;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel lbltitle;
+    private javax.swing.JButton JM_btndocreq;
+    private javax.swing.JButton JM_btnmedreq;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_lbltitle;
     // End of variables declaration//GEN-END:variables
 }

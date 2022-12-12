@@ -28,7 +28,7 @@
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="JM_jPanel1" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -40,7 +40,7 @@
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jPanel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="94" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -48,7 +48,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel1">
+    <Container class="javax.swing.JPanel" name="JM_jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="99" green="99" red="0" type="rgb"/>
@@ -62,39 +62,39 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="257" max="-2" attributes="0"/>
-                          <Component id="lbltitle" min="-2" pref="530" max="-2" attributes="0"/>
+                          <Component id="JM_lbltitle" min="-2" pref="530" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="514" max="-2" attributes="0"/>
-                          <Component id="lblOrganisation" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblOrganisation" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="orgcombo" min="-2" pref="250" max="-2" attributes="0"/>
+                          <Component id="JM_orgcombo" min="-2" pref="250" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="LblOrg" min="-2" max="-2" attributes="0"/>
-                                      <Component id="LblName" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_LblOrg" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_LblName" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtName" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
-                                      <Component id="CbOrg" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                      <Component id="JM_txtName" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                      <Component id="JM_CbOrg" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="btncreate" min="-2" pref="172" max="-2" attributes="0"/>
+                                  <Component id="JM_btncreate" min="-2" pref="172" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="jScrollPane1" min="-2" pref="496" max="-2" attributes="0"/>
+                          <Component id="JM_jScrollPane1" min="-2" pref="496" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                          <Component id="btnback" min="-2" pref="114" max="-2" attributes="0"/>
+                          <Component id="JM_btnback" min="-2" pref="114" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace min="252" pref="512" max="32767" attributes="0"/>
@@ -105,41 +105,41 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="lbltitle" min="-2" pref="54" max="-2" attributes="0"/>
+                  <Component id="JM_lbltitle" min="-2" pref="54" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="orgcombo" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblOrganisation" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="JM_orgcombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_lblOrganisation" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="LblOrg" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="CbOrg" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_LblOrg" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_CbOrg" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="txtName" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="LblName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_txtName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_LblName" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                          <Component id="btncreate" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="JM_btncreate" min="-2" pref="37" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                          <Component id="jScrollPane1" min="-2" pref="232" max="-2" attributes="0"/>
+                          <Component id="JM_jScrollPane1" min="-2" pref="232" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="130" max="32767" attributes="0"/>
-                  <Component id="btnback" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="JM_btnback" min="-2" pref="35" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+        <Container class="javax.swing.JScrollPane" name="JM_jScrollPane1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -151,7 +151,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JTable" name="OrgTbl">
+            <Component class="javax.swing.JTable" name="JM_OrgTbl">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name=".AppleSystemUIFont" size="13" style="0"/>
@@ -172,7 +172,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JButton" name="btncreate">
+        <Component class="javax.swing.JButton" name="JM_btncreate">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name=".AppleSystemUIFont" size="14" style="1"/>
@@ -183,10 +183,10 @@
             <Property name="text" type="java.lang.String" value="Create Employee"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncreateActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btncreateActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JComboBox" name="orgcombo">
+        <Component class="javax.swing.JComboBox" name="JM_orgcombo">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name=".SF NS Mono" size="14" style="0"/>
@@ -201,10 +201,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="orgcomboActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_orgcomboActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblOrganisation">
+        <Component class="javax.swing.JLabel" name="JM_lblOrganisation">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -218,7 +218,7 @@
             <Property name="text" type="java.lang.String" value="Organization"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="btnback">
+        <Component class="javax.swing.JButton" name="JM_btnback">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name=".AppleSystemUIFont" size="14" style="1"/>
@@ -229,10 +229,10 @@
             <Property name="text" type="java.lang.String" value="&lt;&lt; Back"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbackActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnbackActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="LblName">
+        <Component class="javax.swing.JLabel" name="JM_LblName">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -246,7 +246,7 @@
             <Property name="text" type="java.lang.String" value="Name:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtName">
+        <Component class="javax.swing.JTextField" name="JM_txtName">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name=".SF NS Mono" size="14" style="0"/>
@@ -256,7 +256,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JComboBox" name="CbOrg">
+        <Component class="javax.swing.JComboBox" name="JM_CbOrg">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name=".SF NS Mono" size="14" style="0"/>
@@ -274,7 +274,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="LblOrg">
+        <Component class="javax.swing.JLabel" name="JM_LblOrg">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -288,7 +288,7 @@
             <Property name="text" type="java.lang.String" value="Organization:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lbltitle">
+        <Component class="javax.swing.JLabel" name="JM_lbltitle">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="c3" green="c3" red="b4" type="rgb"/>

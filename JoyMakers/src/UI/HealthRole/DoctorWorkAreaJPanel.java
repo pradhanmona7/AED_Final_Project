@@ -58,39 +58,39 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnrefresh = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        tbldocrequest = new javax.swing.JTable();
-        btnnewreq = new javax.swing.JButton();
-        btndelreq = new javax.swing.JButton();
-        btnBack = new javax.swing.JButton();
-        lbltitle = new javax.swing.JLabel();
-        lblname = new javax.swing.JLabel();
-        txtName = new javax.swing.JTextField();
-        lblAddress = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        txtAddress = new javax.swing.JTextArea();
-        lbldate = new javax.swing.JLabel();
-        txtDate = new javax.swing.JTextField();
-        lbltime = new javax.swing.JLabel();
-        txtTime = new javax.swing.JTextField();
-        lblcontact = new javax.swing.JLabel();
-        txtnumber = new javax.swing.JTextField();
+        JM_btnrefresh = new javax.swing.JButton();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
+        JM_tbldocrequest = new javax.swing.JTable();
+        JM_btnnewreq = new javax.swing.JButton();
+        JM_btndelreq = new javax.swing.JButton();
+        JM_btnBack = new javax.swing.JButton();
+        JM_lbltitle = new javax.swing.JLabel();
+        JM_lblname = new javax.swing.JLabel();
+        JM_txtName = new javax.swing.JTextField();
+        JM_lblAddress = new javax.swing.JLabel();
+        JM_jScrollPane2 = new javax.swing.JScrollPane();
+        JM_txtAddress = new javax.swing.JTextArea();
+        JM_lbldate = new javax.swing.JLabel();
+        JM_txtDate = new javax.swing.JTextField();
+        JM_lbltime = new javax.swing.JLabel();
+        JM_txtTime = new javax.swing.JTextField();
+        JM_lblcontact = new javax.swing.JLabel();
+        JM_txtnumber = new javax.swing.JTextField();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        btnrefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnrefresh.setForeground(new java.awt.Color(0, 153, 153));
-        btnrefresh.setText("Refresh");
-        btnrefresh.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnrefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        JM_btnrefresh.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnrefresh.setText("Refresh");
+        JM_btnrefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnrefreshActionPerformed(evt);
+                JM_btnrefreshActionPerformed(evt);
             }
         });
 
-        tbldocrequest.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
-        tbldocrequest.setForeground(new java.awt.Color(102, 0, 102));
-        tbldocrequest.setModel(new javax.swing.table.DefaultTableModel(
+        JM_tbldocrequest.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
+        JM_tbldocrequest.setForeground(new java.awt.Color(102, 0, 102));
+        JM_tbldocrequest.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -116,95 +116,95 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        tbldocrequest.addMouseListener(new java.awt.event.MouseAdapter() {
+        JM_tbldocrequest.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                tbldocrequestMouseClicked(evt);
+                JM_tbldocrequestMouseClicked(evt);
             }
         });
-        jScrollPane1.setViewportView(tbldocrequest);
+        JM_jScrollPane1.setViewportView(JM_tbldocrequest);
 
-        btnnewreq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnnewreq.setForeground(new java.awt.Color(0, 153, 153));
-        btnnewreq.setText("Create New Request");
-        btnnewreq.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnnewreq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        JM_btnnewreq.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnnewreq.setText("Create New Request");
+        JM_btnnewreq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnnewreqActionPerformed(evt);
-            }
-        });
-
-        btndelreq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btndelreq.setForeground(new java.awt.Color(0, 153, 153));
-        btndelreq.setText("Delete Request");
-        btndelreq.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btndelreqActionPerformed(evt);
+                JM_btnnewreqActionPerformed(evt);
             }
         });
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnBack.setForeground(new java.awt.Color(0, 153, 153));
-        btnBack.setText("<< Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btndelreq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        JM_btndelreq.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btndelreq.setText("Delete Request");
+        JM_btndelreq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btndelreqActionPerformed(evt);
             }
         });
 
-        lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
-        lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbltitle.setText("Request Doctor Work Area");
-
-        lblname.setBackground(new java.awt.Color(255, 255, 255));
-        lblname.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblname.setForeground(new java.awt.Color(255, 255, 255));
-        lblname.setText("Name:");
-
-        txtName.setEditable(false);
-        txtName.setBackground(new java.awt.Color(255, 255, 255));
-        txtName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtName.setForeground(new java.awt.Color(102, 0, 102));
-
-        lblAddress.setBackground(new java.awt.Color(255, 255, 255));
-        lblAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblAddress.setForeground(new java.awt.Color(255, 255, 255));
-        lblAddress.setText("Address:");
-
-        txtAddress.setEditable(false);
-        txtAddress.setBackground(new java.awt.Color(204, 204, 204));
-        txtAddress.setColumns(20);
-        txtAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtAddress.setForeground(new java.awt.Color(102, 0, 102));
-        txtAddress.setRows(5);
-        jScrollPane2.setViewportView(txtAddress);
-
-        lbldate.setBackground(new java.awt.Color(255, 255, 255));
-        lbldate.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbldate.setForeground(new java.awt.Color(255, 255, 255));
-        lbldate.setText("Date:");
-
-        txtDate.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtDate.setForeground(new java.awt.Color(102, 0, 102));
-
-        lbltime.setBackground(new java.awt.Color(255, 255, 255));
-        lbltime.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbltime.setForeground(new java.awt.Color(255, 255, 255));
-        lbltime.setText("Time:");
-
-        txtTime.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtTime.setForeground(new java.awt.Color(102, 0, 102));
-
-        lblcontact.setBackground(new java.awt.Color(255, 255, 255));
-        lblcontact.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblcontact.setForeground(new java.awt.Color(255, 255, 255));
-        lblcontact.setText("Contact Number:");
-
-        txtnumber.setEditable(false);
-        txtnumber.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtnumber.setForeground(new java.awt.Color(102, 0, 102));
-        txtnumber.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnBack.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBack.setText("<< Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtnumberActionPerformed(evt);
+                JM_btnBackActionPerformed(evt);
+            }
+        });
+
+        JM_lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_lbltitle.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_lbltitle.setText("Request Doctor Work Area");
+
+        JM_lblname.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lblname.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblname.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblname.setText("Name:");
+
+        JM_txtName.setEditable(false);
+        JM_txtName.setBackground(new java.awt.Color(255, 255, 255));
+        JM_txtName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtName.setForeground(new java.awt.Color(102, 0, 102));
+
+        JM_lblAddress.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lblAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblAddress.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblAddress.setText("Address:");
+
+        JM_txtAddress.setEditable(false);
+        JM_txtAddress.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtAddress.setColumns(20);
+        JM_txtAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtAddress.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtAddress.setRows(5);
+        JM_jScrollPane2.setViewportView(JM_txtAddress);
+
+        JM_lbldate.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lbldate.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lbldate.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbldate.setText("Date:");
+
+        JM_txtDate.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtDate.setForeground(new java.awt.Color(102, 0, 102));
+
+        JM_lbltime.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lbltime.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lbltime.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltime.setText("Time:");
+
+        JM_txtTime.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtTime.setForeground(new java.awt.Color(102, 0, 102));
+
+        JM_lblcontact.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lblcontact.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblcontact.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblcontact.setText("Contact Number:");
+
+        JM_txtnumber.setEditable(false);
+        JM_txtnumber.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtnumber.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtnumber.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JM_txtnumberActionPerformed(evt);
             }
         });
 
@@ -214,126 +214,126 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnrefresh)
+                .addComponent(JM_btnrefresh)
                 .addGap(605, 605, 605))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(440, 440, 440)
-                        .addComponent(btnnewreq)
+                        .addComponent(JM_btnnewreq)
                         .addGap(18, 18, 18)
-                        .addComponent(btndelreq))
+                        .addComponent(JM_btndelreq))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(307, 307, 307)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(lblname)
-                            .addComponent(lblAddress)
-                            .addComponent(lbldate)
-                            .addComponent(lbltime)
-                            .addComponent(lblcontact))
+                            .addComponent(JM_lblname)
+                            .addComponent(JM_lblAddress)
+                            .addComponent(JM_lbldate)
+                            .addComponent(JM_lbltime)
+                            .addComponent(JM_lblcontact))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtDate, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtTime, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtnumber, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(JM_jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtName, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtDate, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtTime, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtnumber, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(466, 466, 466)
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 395, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 395, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(312, 312, 312)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 625, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 625, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(51, 51, 51)
-                        .addComponent(btnBack)))
+                        .addComponent(JM_btnBack)))
                 .addContainerGap(463, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(48, 48, 48)
-                .addComponent(lbltitle)
+                .addComponent(JM_lbltitle)
                 .addGap(56, 56, 56)
-                .addComponent(btnrefresh)
+                .addComponent(JM_btnrefresh)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnnewreq, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btndelreq, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_btnnewreq, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btndelreq, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblname))
+                    .addComponent(JM_txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_lblname))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblAddress)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lblAddress)
+                    .addComponent(JM_jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(JM_txtDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_lbldate))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lbldate))
+                    .addComponent(JM_txtTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_lbltime))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lbltime))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtnumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblcontact))
+                    .addComponent(JM_txtnumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_lblcontact))
                 .addGap(44, 44, 44)
-                .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(59, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnrefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnrefreshActionPerformed
+    private void JM_btnrefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnrefreshActionPerformed
 
         autoPopReqTbl();
-    }//GEN-LAST:event_btnrefreshActionPerformed
+    }//GEN-LAST:event_JM_btnrefreshActionPerformed
 
-    private void tbldocrequestMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tbldocrequestMouseClicked
+    private void JM_tbldocrequestMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JM_tbldocrequestMouseClicked
 
-        int selectedRow = tbldocrequest.getSelectedRow();
+        int selectedRow = JM_tbldocrequest.getSelectedRow();
         if(selectedRow<0){
             JOptionPane.showConfirmDialog(null, "Select a row to view details","Warning", JOptionPane.WARNING_MESSAGE);
         }
         else{
 
-            HospitalDoctorWorkReq req = (HospitalDoctorWorkReq)tbldocrequest.getValueAt(selectedRow, 0);
+            HospitalDoctorWorkReq req = (HospitalDoctorWorkReq)JM_tbldocrequest.getValueAt(selectedRow, 0);
             if(!req.getStatus().equalsIgnoreCase("Completed"))
             {
                 JOptionPane.showMessageDialog(null, "Updates Unavailable");
                 return;
             }
-            txtName.setText(req.getDocName());
-            txtAddress.setText(req.getAddress());
+            JM_txtName.setText(req.getDocName());
+            JM_txtAddress.setText(req.getAddress());
             SimpleDateFormat formatter = new SimpleDateFormat("dd MMM, yyyy");
             Date date = req.getDate();
             String docDate = formatter.format(date);
-            txtDate.setText(docDate);
-            txtTime.setText(req.getTime());
-            txtnumber.setText(String.valueOf(req.getNumber()));
+            JM_txtDate.setText(docDate);
+            JM_txtTime.setText(req.getTime());
+            JM_txtnumber.setText(String.valueOf(req.getNumber()));
 
         }
-    }//GEN-LAST:event_tbldocrequestMouseClicked
+    }//GEN-LAST:event_JM_tbldocrequestMouseClicked
 
-    private void btnnewreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnewreqActionPerformed
+    private void JM_btnnewreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnnewreqActionPerformed
 
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         
         userProcessContainer.add("ReqDoc Panel", new DocReqJPanel(userProcessContainer, ua, ent,net));
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnnewreqActionPerformed
+    }//GEN-LAST:event_JM_btnnewreqActionPerformed
 
-    private void btndelreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btndelreqActionPerformed
-        int selectedRow = tbldocrequest.getSelectedRow();
+    private void JM_btndelreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btndelreqActionPerformed
+        int selectedRow = JM_tbldocrequest.getSelectedRow();
         if(selectedRow>=0){
             int selectionButton = JOptionPane.YES_NO_OPTION;
             int selectionResult = JOptionPane.showConfirmDialog(null, "Sure about deleting this request??","Warning",selectionButton);
             if(selectionResult == JOptionPane.YES_OPTION){
-                HospitalDoctorWorkReq req = (HospitalDoctorWorkReq)tbldocrequest.getValueAt(selectedRow, 0);
+                HospitalDoctorWorkReq req = (HospitalDoctorWorkReq)JM_tbldocrequest.getValueAt(selectedRow, 0);
                 if(req.getStatus().equalsIgnoreCase("completed"))
                 {
                     JOptionPane.showMessageDialog(null, "Unable to delete accomplished request");
@@ -374,42 +374,42 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         else{
             JOptionPane.showMessageDialog(null, "Select a Row");
         }
-    }//GEN-LAST:event_btndelreqActionPerformed
+    }//GEN-LAST:event_JM_btndelreqActionPerformed
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
         // TODO add your handling code here:
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
-    private void txtnumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnumberActionPerformed
+    private void JM_txtnumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtnumberActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnumberActionPerformed
+    }//GEN-LAST:event_JM_txtnumberActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBack;
-    private javax.swing.JButton btndelreq;
-    private javax.swing.JButton btnnewreq;
-    private javax.swing.JButton btnrefresh;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JLabel lblAddress;
-    private javax.swing.JLabel lblcontact;
-    private javax.swing.JLabel lbldate;
-    private javax.swing.JLabel lblname;
-    private javax.swing.JLabel lbltime;
-    private javax.swing.JLabel lbltitle;
-    private javax.swing.JTable tbldocrequest;
-    private javax.swing.JTextArea txtAddress;
-    private javax.swing.JTextField txtDate;
-    private javax.swing.JTextField txtName;
-    private javax.swing.JTextField txtTime;
-    private javax.swing.JTextField txtnumber;
+    private javax.swing.JButton JM_btnBack;
+    private javax.swing.JButton JM_btndelreq;
+    private javax.swing.JButton JM_btnnewreq;
+    private javax.swing.JButton JM_btnrefresh;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JScrollPane JM_jScrollPane2;
+    private javax.swing.JLabel JM_lblAddress;
+    private javax.swing.JLabel JM_lblcontact;
+    private javax.swing.JLabel JM_lbldate;
+    private javax.swing.JLabel JM_lblname;
+    private javax.swing.JLabel JM_lbltime;
+    private javax.swing.JLabel JM_lbltitle;
+    private javax.swing.JTable JM_tbldocrequest;
+    private javax.swing.JTextArea JM_txtAddress;
+    private javax.swing.JTextField JM_txtDate;
+    private javax.swing.JTextField JM_txtName;
+    private javax.swing.JTextField JM_txtTime;
+    private javax.swing.JTextField JM_txtnumber;
     // End of variables declaration//GEN-END:variables
 public void autoPopReqTbl() {
-       DefaultTableModel mdl = (DefaultTableModel) tbldocrequest.getModel();
+       DefaultTableModel mdl = (DefaultTableModel) JM_tbldocrequest.getModel();
        mdl.setRowCount(0);
        for (Iterator<WorkRequest> it = ua.getWorkQueue().getWrList().iterator(); it.hasNext();) 
        {

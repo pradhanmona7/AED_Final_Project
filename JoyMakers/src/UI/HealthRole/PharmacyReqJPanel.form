@@ -28,64 +28,64 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnback" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_btnback" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="lblcity" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lblstate" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lblpin" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lblconno" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_lblcity" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_lblstate" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_lblpin" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_lblconno" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtstate" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
-                                      <Component id="txtcity" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
-                                      <Component id="txtpin" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
-                                      <Component id="btnreqmed" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtconno" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
+                                      <Component id="JM_txtstate" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
+                                      <Component id="JM_txtcity" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
+                                      <Component id="JM_txtpin" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
+                                      <Component id="JM_btnreqmed" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_txtconno" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="lblstreet" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lbladd" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_lblstreet" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JM_lbladd" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtstreet" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
-                                      <Component id="txtadd" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
+                                      <Component id="JM_txtstreet" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
+                                      <Component id="JM_txtadd" alignment="0" min="-2" pref="197" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="lblprescription" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_lblprescription" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="lblnoimg" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_lblnoimg" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="btnupload" min="-2" pref="104" max="-2" attributes="0"/>
+                              <Component id="JM_btnupload" min="-2" pref="104" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_jScrollPane2" min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="btnmod" min="-2" pref="126" max="-2" attributes="0"/>
-                                          <Component id="lblmedname" alignment="0" min="-2" pref="126" max="-2" attributes="0"/>
-                                          <Component id="txtmedname" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
-                                          <Component id="lblquant" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="txtquant" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
-                                          <Component id="btndel" alignment="0" min="-2" pref="126" max="-2" attributes="0"/>
+                                          <Component id="JM_btnmod" min="-2" pref="126" max="-2" attributes="0"/>
+                                          <Component id="JM_lblmedname" alignment="0" min="-2" pref="126" max="-2" attributes="0"/>
+                                          <Component id="JM_txtmedname" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
+                                          <Component id="JM_lblquant" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="JM_txtquant" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
+                                          <Component id="JM_btndel" alignment="0" min="-2" pref="126" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
-                                      <Component id="btnadd" min="-2" pref="87" max="-2" attributes="0"/>
+                                      <Component id="JM_btnadd" min="-2" pref="87" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="btnupdate" min="-2" pref="87" max="-2" attributes="0"/>
+                                      <Component id="JM_btnupdate" min="-2" pref="87" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -93,7 +93,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="343" max="-2" attributes="0"/>
-                      <Component id="lbltitle" min="-2" pref="517" max="-2" attributes="0"/>
+                      <Component id="JM_lbltitle" min="-2" pref="517" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="479" max="32767" attributes="0"/>
@@ -104,80 +104,80 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-              <Component id="lbltitle" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_lbltitle" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
-                      <Component id="btnmod" min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="JM_btnmod" min="-2" pref="37" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btndel" min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="JM_btndel" min="-2" pref="37" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                      <Component id="lblmedname" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_lblmedname" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="txtmedname" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_txtmedname" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                      <Component id="lblquant" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_lblquant" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="txtquant" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_txtquant" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnadd" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnupdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_btnadd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_btnupdate" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <Component id="jScrollPane2" alignment="0" min="-2" pref="317" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane2" alignment="0" min="-2" pref="317" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblprescription" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblnoimg" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                  <Component id="btnupload" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblprescription" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblnoimg" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="JM_btnupload" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtstreet" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblstreet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtstreet" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblstreet" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtadd" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lbladd" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtadd" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lbladd" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lblcity" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtcity" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblcity" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtcity" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtstate" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblstate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtstate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblstate" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtpin" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblpin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtpin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblpin" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtconno" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblconno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtconno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblconno" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-              <Component id="btnreqmed" min="-2" pref="37" max="-2" attributes="0"/>
+              <Component id="JM_btnreqmed" min="-2" pref="37" max="-2" attributes="0"/>
               <EmptySpace pref="24" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="btnback" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnback" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btnreqmed">
+    <Component class="javax.swing.JButton" name="JM_btnreqmed">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -188,10 +188,10 @@
         <Property name="text" type="java.lang.String" value="Request Medicine"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnreqmedActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnreqmedActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnback">
+    <Component class="javax.swing.JButton" name="JM_btnback">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -202,10 +202,10 @@
         <Property name="text" type="java.lang.String" value="&lt;&lt; Back"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbackActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnbackActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblstreet">
+    <Component class="javax.swing.JLabel" name="JM_lblstreet">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -217,14 +217,14 @@
         <Property name="text" type="java.lang.String" value="Street:"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane2">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTable" name="tblmed">
+        <Component class="javax.swing.JTable" name="JM_tblmed">
           <Properties>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="0" red="66" type="rgb"/>
@@ -254,12 +254,12 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblmedMouseClicked"/>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="JM_tblmedMouseClicked"/>
           </Events>
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="btnadd">
+    <Component class="javax.swing.JButton" name="JM_btnadd">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -270,10 +270,10 @@
         <Property name="text" type="java.lang.String" value="Add"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnaddActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnaddActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btndel">
+    <Component class="javax.swing.JButton" name="JM_btndel">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -284,10 +284,10 @@
         <Property name="text" type="java.lang.String" value="Delete"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btndelActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btndelActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnmod">
+    <Component class="javax.swing.JButton" name="JM_btnmod">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -298,10 +298,10 @@
         <Property name="text" type="java.lang.String" value="Modify"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnmodActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnmodActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblprescription">
+    <Component class="javax.swing.JLabel" name="JM_lblprescription">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -312,7 +312,7 @@
         <Property name="text" type="java.lang.String" value="Prescription:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnupload">
+    <Component class="javax.swing.JButton" name="JM_btnupload">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -323,10 +323,10 @@
         <Property name="text" type="java.lang.String" value="Upload"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnuploadActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnuploadActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblmedname">
+    <Component class="javax.swing.JLabel" name="JM_lblmedname">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -337,7 +337,7 @@
         <Property name="text" type="java.lang.String" value="Medicine Name:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblquant">
+    <Component class="javax.swing.JLabel" name="JM_lblquant">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -348,7 +348,7 @@
         <Property name="text" type="java.lang.String" value="Quantity:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtmedname">
+    <Component class="javax.swing.JTextField" name="JM_txtmedname">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -361,7 +361,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtquant">
+    <Component class="javax.swing.JTextField" name="JM_txtquant">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -374,7 +374,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblnoimg">
+    <Component class="javax.swing.JLabel" name="JM_lblnoimg">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -385,7 +385,7 @@
         <Property name="text" type="java.lang.String" value="No image uploaded"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtstreet">
+    <Component class="javax.swing.JTextField" name="JM_txtstreet">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -398,7 +398,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lbladd">
+    <Component class="javax.swing.JLabel" name="JM_lbladd">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -410,7 +410,7 @@
         <Property name="text" type="java.lang.String" value="Area:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtadd">
+    <Component class="javax.swing.JTextField" name="JM_txtadd">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -423,7 +423,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblcity">
+    <Component class="javax.swing.JLabel" name="JM_lblcity">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -435,7 +435,7 @@
         <Property name="text" type="java.lang.String" value="City:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtcity">
+    <Component class="javax.swing.JTextField" name="JM_txtcity">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -448,7 +448,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblstate">
+    <Component class="javax.swing.JLabel" name="JM_lblstate">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -460,7 +460,7 @@
         <Property name="text" type="java.lang.String" value="State:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtstate">
+    <Component class="javax.swing.JTextField" name="JM_txtstate">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -473,7 +473,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblpin">
+    <Component class="javax.swing.JLabel" name="JM_lblpin">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -485,7 +485,7 @@
         <Property name="text" type="java.lang.String" value="Pin:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtpin">
+    <Component class="javax.swing.JTextField" name="JM_txtpin">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -498,7 +498,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lbltitle">
+    <Component class="javax.swing.JLabel" name="JM_lbltitle">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="24" style="1"/>
@@ -510,7 +510,7 @@
         <Property name="text" type="java.lang.String" value="New Pharmacy Request"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnupdate">
+    <Component class="javax.swing.JButton" name="JM_btnupdate">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -522,10 +522,10 @@
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnupdateActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnupdateActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtconno">
+    <Component class="javax.swing.JTextField" name="JM_txtconno">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -538,10 +538,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtconnoActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_txtconnoActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblconno">
+    <Component class="javax.swing.JLabel" name="JM_lblconno">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>

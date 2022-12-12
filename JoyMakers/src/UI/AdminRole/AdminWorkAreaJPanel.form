@@ -29,25 +29,25 @@
               <EmptySpace pref="320" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="btnmanageorg" min="-2" pref="239" max="-2" attributes="0"/>
+                      <Component id="JM_btnmanageorg" min="-2" pref="239" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="jLabel1" min="-2" pref="143" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel1" min="-2" pref="143" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="btnmanageemp" min="-2" pref="239" max="-2" attributes="0"/>
+                      <Component id="JM_btnmanageemp" min="-2" pref="239" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="btnmanageuser" min="-2" pref="239" max="-2" attributes="0"/>
+                      <Component id="JM_btnmanageuser" min="-2" pref="239" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                      <Component id="jLabel2" min="-2" pref="143" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel2" min="-2" pref="143" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel3" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="287" max="-2" attributes="0"/>
@@ -61,15 +61,15 @@
               <Component id="Lbltitle" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="301" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabel1" alignment="1" min="-2" pref="181" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="1" min="-2" pref="177" max="-2" attributes="0"/>
-                  <Component id="jLabel3" alignment="1" min="-2" pref="177" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel1" alignment="1" min="-2" pref="181" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel2" alignment="1" min="-2" pref="177" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel3" alignment="1" min="-2" pref="177" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnmanageuser" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="btnmanageemp" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                  <Component id="btnmanageorg" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="JM_btnmanageuser" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="JM_btnmanageemp" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                  <Component id="JM_btnmanageorg" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
           </Group>
@@ -92,7 +92,7 @@
         <Property name="text" type="java.lang.String" value="Administrative Role Work Area"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnmanageuser">
+    <Component class="javax.swing.JButton" name="JM_btnmanageuser">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -103,10 +103,10 @@
         <Property name="text" type="java.lang.String" value="Manage User"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnmanageuserActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnmanageuserActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnmanageemp">
+    <Component class="javax.swing.JButton" name="JM_btnmanageemp">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -117,10 +117,10 @@
         <Property name="text" type="java.lang.String" value="Manage Employee"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnmanageempActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnmanageempActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnmanageorg">
+    <Component class="javax.swing.JButton" name="JM_btnmanageorg">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -131,24 +131,24 @@
         <Property name="text" type="java.lang.String" value="Manage Organization"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnmanageorgActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnmanageorgActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="JM_jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/AdminRole/organization.png"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="JM_jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/AdminRole/employee.png"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="JM_jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/AdminRole/user.png"/>

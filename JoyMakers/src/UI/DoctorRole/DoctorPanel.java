@@ -45,41 +45,41 @@ public class DoctorPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnHomePage = new javax.swing.JButton();
-        btnNewCases = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        JM_btnHomePage = new javax.swing.JButton();
+        JM_btnNewCases = new javax.swing.JButton();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
-        btnHomePage.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        btnHomePage.setForeground(new java.awt.Color(0, 153, 153));
-        btnHomePage.setText("HomePage");
-        btnHomePage.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnHomePage.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        JM_btnHomePage.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnHomePage.setText("HomePage");
+        JM_btnHomePage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnHomePageActionPerformed(evt);
+                JM_btnHomePageActionPerformed(evt);
             }
         });
 
-        btnNewCases.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
-        btnNewCases.setForeground(new java.awt.Color(0, 153, 153));
-        btnNewCases.setText("New Cases");
-        btnNewCases.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnNewCases.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
+        JM_btnNewCases.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnNewCases.setText("New Cases");
+        JM_btnNewCases.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnNewCasesActionPerformed(evt);
+                JM_btnNewCasesActionPerformed(evt);
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Doctor Panel");
+        JM_jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel1.setText("Doctor Panel");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/DoctorRole/doc.png"))); // NOI18N
+        JM_jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/DoctorRole/doc.png"))); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/DoctorRole/cases.png"))); // NOI18N
+        JM_jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/DoctorRole/cases.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -87,61 +87,61 @@ public class DoctorPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(445, 445, 445)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(369, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnHomePage, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_btnHomePage, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(250, 250, 250)
-                        .addComponent(btnNewCases, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_btnNewCases, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(261, 261, 261)
-                        .addComponent(jLabel3)))
+                        .addComponent(JM_jLabel3)))
                 .addGap(352, 352, 352))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(55, 55, 55)
-                .addComponent(jLabel1)
+                .addComponent(JM_jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 102, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnNewCases, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnHomePage, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_btnNewCases, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnHomePage, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(350, 350, 350))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnNewCasesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNewCasesActionPerformed
+    private void JM_btnNewCasesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnNewCasesActionPerformed
         // TODO add your handling code here:
         NewCasePanel newCasePanel = new NewCasePanel(userProcessContainer, ua, org, net, ent);
         userProcessContainer.add("newCasePanel", newCasePanel);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnNewCasesActionPerformed
+    }//GEN-LAST:event_JM_btnNewCasesActionPerformed
 
-    private void btnHomePageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHomePageActionPerformed
+    private void JM_btnHomePageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnHomePageActionPerformed
         // TODO add your handling code here:
         HomePagePanel homePagePanel = new HomePagePanel(userProcessContainer, ua, org, net, ent);
         userProcessContainer.add("homePagePanel", homePagePanel);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnHomePageActionPerformed
+    }//GEN-LAST:event_JM_btnHomePageActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnHomePage;
-    private javax.swing.JButton btnNewCases;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton JM_btnHomePage;
+    private javax.swing.JButton JM_btnNewCases;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_jLabel3;
     // End of variables declaration//GEN-END:variables
 }

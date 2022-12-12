@@ -23,14 +23,14 @@ public class UpdateReqJPanel extends javax.swing.JPanel {
     public UpdateReqJPanel(JPanel userProcessContainer, HospitalDoctorWorkReq request) {
         initComponents();
         this.userProcessContainer=userProcessContainer;
-        txtname.setText(request.getDocName());
-        txtadd.setText(request.getAddress());
+        JM_txtname.setText(request.getDocName());
+        JM_txtadd.setText(request.getAddress());
         SimpleDateFormat formatter = new SimpleDateFormat("dd MMM, yyyy");
         Date date = request.getDate();
         String docDate = formatter.format(date);
-        txtdt.setText(docDate);
-        txttime.setText(request.getTime());
-        txtno.setText(String.valueOf(request.getNumber()));
+        JM_txtdt.setText(docDate);
+        JM_txttime.setText(request.getTime());
+        JM_txtno.setText(String.valueOf(request.getNumber()));
     }
 
     /**
@@ -42,71 +42,76 @@ public class UpdateReqJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblname = new javax.swing.JLabel();
-        txtname = new javax.swing.JTextField();
-        lbladd = new javax.swing.JLabel();
-        lbldate = new javax.swing.JLabel();
-        lbltime = new javax.swing.JLabel();
-        lblno = new javax.swing.JLabel();
-        txtno = new javax.swing.JTextField();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        txtadd = new javax.swing.JTextArea();
-        btnback = new javax.swing.JButton();
-        txtdt = new javax.swing.JTextField();
-        txttime = new javax.swing.JTextField();
-        lbltitle = new javax.swing.JLabel();
+        JM_lblname = new javax.swing.JLabel();
+        JM_txtname = new javax.swing.JTextField();
+        JM_lbladd = new javax.swing.JLabel();
+        JM_lbldate = new javax.swing.JLabel();
+        JM_lbltime = new javax.swing.JLabel();
+        JM_lblno = new javax.swing.JLabel();
+        JM_txtno = new javax.swing.JTextField();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
+        JM_txtadd = new javax.swing.JTextArea();
+        JM_btnback = new javax.swing.JButton();
+        JM_txtdt = new javax.swing.JTextField();
+        JM_txttime = new javax.swing.JTextField();
+        JM_lbltitle = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
-        lblname.setForeground(new java.awt.Color(255, 255, 255));
-        lblname.setText("Name:");
+        JM_lblname.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblname.setText("Name:");
 
-        txtname.setEditable(false);
-
-        lbladd.setForeground(new java.awt.Color(255, 255, 255));
-        lbladd.setText("Address:");
-
-        lbldate.setForeground(new java.awt.Color(255, 255, 255));
-        lbldate.setText("Date:");
-
-        lbltime.setForeground(new java.awt.Color(255, 255, 255));
-        lbltime.setText("Time:");
-
-        lblno.setForeground(new java.awt.Color(255, 255, 255));
-        lblno.setText("Office Number:");
-
-        txtno.setEditable(false);
-        txtno.setBackground(new java.awt.Color(204, 204, 204));
-        txtno.addActionListener(new java.awt.event.ActionListener() {
+        JM_txtname.setEditable(false);
+        JM_txtname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtnoActionPerformed(evt);
+                JM_txtnameActionPerformed(evt);
             }
         });
 
-        txtadd.setEditable(false);
-        txtadd.setBackground(new java.awt.Color(204, 204, 204));
-        txtadd.setColumns(20);
-        txtadd.setRows(5);
-        jScrollPane1.setViewportView(txtadd);
+        JM_lbladd.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbladd.setText("Address:");
 
-        btnback.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        btnback.setForeground(new java.awt.Color(0, 153, 153));
-        btnback.setText("<<Back");
-        btnback.addActionListener(new java.awt.event.ActionListener() {
+        JM_lbldate.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbldate.setText("Date:");
+
+        JM_lbltime.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltime.setText("Time:");
+
+        JM_lblno.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblno.setText("Office Number:");
+
+        JM_txtno.setEditable(false);
+        JM_txtno.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnbackActionPerformed(evt);
+                JM_txtnoActionPerformed(evt);
             }
         });
 
-        txtdt.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtadd.setEditable(false);
+        JM_txtadd.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtadd.setColumns(20);
+        JM_txtadd.setRows(5);
+        JM_jScrollPane1.setViewportView(JM_txtadd);
 
-        txttime.setBackground(new java.awt.Color(204, 204, 204));
+        JM_btnback.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        JM_btnback.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnback.setText("<<Back");
+        JM_btnback.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JM_btnbackActionPerformed(evt);
+            }
+        });
 
-        lbltitle.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
-        lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbltitle.setText("Request Update");
+        JM_txtdt.setBackground(new java.awt.Color(204, 204, 204));
+
+        JM_txttime.setBackground(new java.awt.Color(204, 204, 204));
+
+        JM_lbltitle.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        JM_lbltitle.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_lbltitle.setText("Request Update");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -115,95 +120,99 @@ public class UpdateReqJPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(360, 360, 360)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lblno)
-                    .addComponent(lbldate)
-                    .addComponent(lblname)
-                    .addComponent(lbladd)
-                    .addComponent(lbltime))
+                    .addComponent(JM_lblno)
+                    .addComponent(JM_lbldate)
+                    .addComponent(JM_lblname)
+                    .addComponent(JM_lbladd)
+                    .addComponent(JM_lbltime))
                 .addGap(47, 47, 47)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(txtname, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_txtname, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txttime, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtdt, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtno, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txttime, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtdt, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtno, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(207, 717, Short.MAX_VALUE))))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(264, 264, 264)
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 523, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 523, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(25, 25, 25)
-                        .addComponent(btnback)))
+                        .addComponent(JM_btnback)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtdt, txtname, txtno, txttime});
+        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {JM_txtdt, JM_txtname, JM_txtno, JM_txttime});
 
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(23, 23, 23)
-                .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(69, 69, 69)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblname))
+                    .addComponent(JM_txtname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_lblname))
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lbladd)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lbladd)
+                    .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(67, 67, 67)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbldate)
-                    .addComponent(txtdt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lbldate)
+                    .addComponent(JM_txtdt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lbltime)
-                    .addComponent(txttime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lbltime)
+                    .addComponent(JM_txttime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(33, 33, 33)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblno, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lblno, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_txtno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(btnback)
+                .addComponent(JM_btnback)
                 .addContainerGap(260, Short.MAX_VALUE))
         );
 
-        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {txtdt, txtname, txtno, txttime});
+        layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {JM_txtdt, JM_txtname, JM_txtno, JM_txttime});
 
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnoActionPerformed
+    private void JM_txtnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtnoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtnoActionPerformed
+    }//GEN-LAST:event_JM_txtnoActionPerformed
 
-    private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbackActionPerformed
+    private void JM_btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnbackActionPerformed
 
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnbackActionPerformed
+    }//GEN-LAST:event_JM_btnbackActionPerformed
+
+    private void JM_txtnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtnameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JM_txtnameActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnback;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel lbladd;
-    private javax.swing.JLabel lbldate;
-    private javax.swing.JLabel lblname;
-    private javax.swing.JLabel lblno;
-    private javax.swing.JLabel lbltime;
-    private javax.swing.JLabel lbltitle;
-    private javax.swing.JTextArea txtadd;
-    private javax.swing.JTextField txtdt;
-    private javax.swing.JTextField txtname;
-    private javax.swing.JTextField txtno;
-    private javax.swing.JTextField txttime;
+    private javax.swing.JButton JM_btnback;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JLabel JM_lbladd;
+    private javax.swing.JLabel JM_lbldate;
+    private javax.swing.JLabel JM_lblname;
+    private javax.swing.JLabel JM_lblno;
+    private javax.swing.JLabel JM_lbltime;
+    private javax.swing.JLabel JM_lbltitle;
+    private javax.swing.JTextArea JM_txtadd;
+    private javax.swing.JTextField JM_txtdt;
+    private javax.swing.JTextField JM_txtname;
+    private javax.swing.JTextField JM_txtno;
+    private javax.swing.JTextField JM_txttime;
     // End of variables declaration//GEN-END:variables
 }

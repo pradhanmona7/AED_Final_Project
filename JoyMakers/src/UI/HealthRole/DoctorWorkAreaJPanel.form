@@ -23,46 +23,46 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="btnrefresh" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnrefresh" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="605" max="-2" attributes="0"/>
           </Group>
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="440" max="-2" attributes="0"/>
-                      <Component id="btnnewreq" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_btnnewreq" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btndelreq" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_btndelreq" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="307" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="lblname" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblAddress" min="-2" max="-2" attributes="0"/>
-                          <Component id="lbldate" min="-2" max="-2" attributes="0"/>
-                          <Component id="lbltime" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblcontact" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblname" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblAddress" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lbldate" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lbltime" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_lblcontact" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jScrollPane2" min="-2" pref="250" max="-2" attributes="0"/>
-                          <Component id="txtName" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="txtDate" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="txtTime" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="txtnumber" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="JM_jScrollPane2" min="-2" pref="250" max="-2" attributes="0"/>
+                          <Component id="JM_txtName" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="JM_txtDate" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="JM_txtTime" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="JM_txtnumber" min="-2" pref="150" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="466" max="-2" attributes="0"/>
-                      <Component id="lbltitle" min="-2" pref="395" max="-2" attributes="0"/>
+                      <Component id="JM_lbltitle" min="-2" pref="395" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="312" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="625" max="-2" attributes="0"/>
+                      <Component id="JM_jScrollPane1" min="-2" pref="625" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_btnBack" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="463" max="32767" attributes="0"/>
@@ -73,50 +73,50 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-              <Component id="lbltitle" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_lbltitle" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-              <Component id="btnrefresh" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnrefresh" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="150" max="-2" attributes="0"/>
+              <Component id="JM_jScrollPane1" min="-2" pref="150" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnnewreq" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
-                  <Component id="btndelreq" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="JM_btnnewreq" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="JM_btndelreq" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtName" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblname" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblname" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="lblAddress" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jScrollPane2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane2" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="JM_txtDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lbldate" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtDate" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="lbldate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lbltime" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtTime" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lbltime" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtnumber" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblcontact" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtnumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblcontact" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-              <Component id="btnBack" min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="JM_btnBack" min="-2" pref="33" max="-2" attributes="0"/>
               <EmptySpace pref="59" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btnrefresh">
+    <Component class="javax.swing.JButton" name="JM_btnrefresh">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -127,17 +127,17 @@
         <Property name="text" type="java.lang.String" value="Refresh"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnrefreshActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnrefreshActionPerformed"/>
       </Events>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane1">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTable" name="tbldocrequest">
+        <Component class="javax.swing.JTable" name="JM_tbldocrequest">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name=".AppleSystemUIFont" size="13" style="0"/>
@@ -159,12 +159,12 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tbldocrequestMouseClicked"/>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="JM_tbldocrequestMouseClicked"/>
           </Events>
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="btnnewreq">
+    <Component class="javax.swing.JButton" name="JM_btnnewreq">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -175,10 +175,10 @@
         <Property name="text" type="java.lang.String" value="Create New Request"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnewreqActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnnewreqActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btndelreq">
+    <Component class="javax.swing.JButton" name="JM_btndelreq">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="0"/>
@@ -189,10 +189,10 @@
         <Property name="text" type="java.lang.String" value="Delete Request"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btndelreqActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btndelreqActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnBack">
+    <Component class="javax.swing.JButton" name="JM_btnBack">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="1"/>
@@ -203,10 +203,10 @@
         <Property name="text" type="java.lang.String" value="&lt;&lt; Back"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnBackActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lbltitle">
+    <Component class="javax.swing.JLabel" name="JM_lbltitle">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="24" style="1"/>
@@ -218,7 +218,7 @@
         <Property name="text" type="java.lang.String" value="Request Doctor Work Area"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblname">
+    <Component class="javax.swing.JLabel" name="JM_lblname">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -232,7 +232,7 @@
         <Property name="text" type="java.lang.String" value="Name:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtName">
+    <Component class="javax.swing.JTextField" name="JM_txtName">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -246,7 +246,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblAddress">
+    <Component class="javax.swing.JLabel" name="JM_lblAddress">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -260,14 +260,14 @@
         <Property name="text" type="java.lang.String" value="Address:"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane2">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTextArea" name="txtAddress">
+        <Component class="javax.swing.JTextArea" name="JM_txtAddress">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -285,7 +285,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="lbldate">
+    <Component class="javax.swing.JLabel" name="JM_lbldate">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -299,7 +299,7 @@
         <Property name="text" type="java.lang.String" value="Date:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtDate">
+    <Component class="javax.swing.JTextField" name="JM_txtDate">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -309,7 +309,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lbltime">
+    <Component class="javax.swing.JLabel" name="JM_lbltime">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -323,7 +323,7 @@
         <Property name="text" type="java.lang.String" value="Time:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtTime">
+    <Component class="javax.swing.JTextField" name="JM_txtTime">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -333,7 +333,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblcontact">
+    <Component class="javax.swing.JLabel" name="JM_lblcontact">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -347,7 +347,7 @@
         <Property name="text" type="java.lang.String" value="Contact Number:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtnumber">
+    <Component class="javax.swing.JTextField" name="JM_txtnumber">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -358,7 +358,7 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtnumberActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_txtnumberActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

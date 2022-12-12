@@ -47,136 +47,136 @@ public class DocReqJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblnoofpat = new javax.swing.JLabel();
-        txtnoofpat = new javax.swing.JTextField();
-        btnreq = new javax.swing.JButton();
-        btnback = new javax.swing.JButton();
-        lblpurpose = new javax.swing.JLabel();
-        lblpattype = new javax.swing.JLabel();
-        lblcase = new javax.swing.JLabel();
-        lbldoctype = new javax.swing.JLabel();
-        rbnewcheckup = new javax.swing.JRadioButton();
-        rbregcheckup = new javax.swing.JRadioButton();
-        cbpattype = new javax.swing.JComboBox();
-        cbdoctype = new javax.swing.JComboBox();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        txtpur = new javax.swing.JTextArea();
-        lbltitle = new javax.swing.JLabel();
+        JM_lblnoofpat = new javax.swing.JLabel();
+        JM_txtnoofpat = new javax.swing.JTextField();
+        JM_btnreq = new javax.swing.JButton();
+        JM_btnback = new javax.swing.JButton();
+        JM_lblpurpose = new javax.swing.JLabel();
+        JM_lblpattype = new javax.swing.JLabel();
+        JM_lblcase = new javax.swing.JLabel();
+        JM_lbldoctype = new javax.swing.JLabel();
+        JM_rbnewcheckup = new javax.swing.JRadioButton();
+        JM_rbregcheckup = new javax.swing.JRadioButton();
+        JM_cbpattype = new javax.swing.JComboBox();
+        JM_cbdoctype = new javax.swing.JComboBox();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
+        JM_txtpur = new javax.swing.JTextArea();
+        JM_lbltitle = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
-        lblnoofpat.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblnoofpat.setForeground(new java.awt.Color(255, 255, 255));
-        lblnoofpat.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblnoofpat.setText("Number of Patients:");
+        JM_lblnoofpat.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblnoofpat.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblnoofpat.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_lblnoofpat.setText("Number of Patients:");
 
-        txtnoofpat.setBackground(new java.awt.Color(204, 204, 204));
-        txtnoofpat.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtnoofpat.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtnoofpat.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtnoofpat.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtnoofpat.setForeground(new java.awt.Color(102, 0, 102));
 
-        btnreq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnreq.setForeground(new java.awt.Color(0, 153, 153));
-        btnreq.setText("REQUEST");
-        btnreq.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnreq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnreq.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnreq.setText("REQUEST");
+        JM_btnreq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnreqActionPerformed(evt);
+                JM_btnreqActionPerformed(evt);
             }
         });
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnback.setForeground(new java.awt.Color(0, 153, 153));
-        btnback.setText("<<Back");
-        btnback.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnback.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnback.setText("<<Back");
+        JM_btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnbackActionPerformed(evt);
+                JM_btnbackActionPerformed(evt);
             }
         });
 
-        lblpurpose.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblpurpose.setForeground(new java.awt.Color(255, 255, 255));
-        lblpurpose.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblpurpose.setText("Purpose:");
+        JM_lblpurpose.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblpurpose.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblpurpose.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_lblpurpose.setText("Purpose:");
 
-        lblpattype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblpattype.setForeground(new java.awt.Color(255, 255, 255));
-        lblpattype.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lblpattype.setText("Patients Type:");
+        JM_lblpattype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblpattype.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblpattype.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_lblpattype.setText("Patients Type:");
 
-        lblcase.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblcase.setForeground(new java.awt.Color(255, 255, 255));
-        lblcase.setText("Case:");
+        JM_lblcase.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lblcase.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblcase.setText("Case:");
 
-        lbldoctype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbldoctype.setForeground(new java.awt.Color(255, 255, 255));
-        lbldoctype.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lbldoctype.setText("Doctor Type :");
+        JM_lbldoctype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_lbldoctype.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbldoctype.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_lbldoctype.setText("Doctor Type :");
 
-        rbnewcheckup.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        rbnewcheckup.setForeground(new java.awt.Color(255, 255, 255));
-        rbnewcheckup.setText("New Checkup");
+        JM_rbnewcheckup.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_rbnewcheckup.setForeground(new java.awt.Color(255, 255, 255));
+        JM_rbnewcheckup.setText("New Checkup");
 
-        rbregcheckup.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        rbregcheckup.setForeground(new java.awt.Color(255, 255, 255));
-        rbregcheckup.setSelected(true);
-        rbregcheckup.setText("Regular Checkup");
-        rbregcheckup.addActionListener(new java.awt.event.ActionListener() {
+        JM_rbregcheckup.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_rbregcheckup.setForeground(new java.awt.Color(255, 255, 255));
+        JM_rbregcheckup.setSelected(true);
+        JM_rbregcheckup.setText("Regular Checkup");
+        JM_rbregcheckup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                rbregcheckupActionPerformed(evt);
+                JM_rbregcheckupActionPerformed(evt);
             }
         });
 
-        cbpattype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbpattype.setForeground(new java.awt.Color(0, 153, 153));
-        cbpattype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Child", "Adult", "Old", "Mix" }));
+        JM_cbpattype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_cbpattype.setForeground(new java.awt.Color(0, 153, 153));
+        JM_cbpattype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Child", "Adult", "Old", "Mix" }));
 
-        cbdoctype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbdoctype.setForeground(new java.awt.Color(0, 153, 153));
-        cbdoctype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "General Physician", "Pediatrician", "Cardiologist", "Urologist", "Psychiatrist", "Ophthalmologist", "Orthopedist", "Dermatologist" }));
+        JM_cbdoctype.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_cbdoctype.setForeground(new java.awt.Color(0, 153, 153));
+        JM_cbdoctype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "General Physician", "Pediatrician", "Cardiologist", "Urologist", "Psychiatrist", "Ophthalmologist", "Orthopedist", "Dermatologist" }));
 
-        txtpur.setBackground(new java.awt.Color(204, 204, 204));
-        txtpur.setColumns(20);
-        txtpur.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtpur.setForeground(new java.awt.Color(102, 0, 102));
-        txtpur.setRows(5);
-        jScrollPane1.setViewportView(txtpur);
+        JM_txtpur.setBackground(new java.awt.Color(204, 204, 204));
+        JM_txtpur.setColumns(20);
+        JM_txtpur.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtpur.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtpur.setRows(5);
+        JM_jScrollPane1.setViewportView(JM_txtpur);
 
-        lbltitle.setBackground(new java.awt.Color(255, 255, 255));
-        lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
-        lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbltitle.setText("New Doctor Request");
+        JM_lbltitle.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_lbltitle.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_lbltitle.setText("New Doctor Request");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(lbltitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JM_lbltitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(685, Short.MAX_VALUE)
-                .addComponent(btnreq)
+                .addComponent(JM_btnreq)
                 .addGap(593, 593, 593))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lblpurpose)
-                    .addComponent(lbldoctype)
-                    .addComponent(lblcase)
-                    .addComponent(lblnoofpat)
-                    .addComponent(lblpattype))
+                    .addComponent(JM_lblpurpose)
+                    .addComponent(JM_lbldoctype)
+                    .addComponent(JM_lblcase)
+                    .addComponent(JM_lblnoofpat)
+                    .addComponent(JM_lblpattype))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(rbnewcheckup)
-                        .addComponent(rbregcheckup)
-                        .addComponent(txtnoofpat)
-                        .addComponent(cbpattype, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cbdoctype, 0, 250, Short.MAX_VALUE)))
+                        .addComponent(JM_rbnewcheckup)
+                        .addComponent(JM_rbregcheckup)
+                        .addComponent(JM_txtnoofpat)
+                        .addComponent(JM_cbpattype, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_cbdoctype, 0, 250, Short.MAX_VALUE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(69, 69, 69)
-                .addComponent(btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -185,47 +185,46 @@ public class DocReqJPanel extends javax.swing.JPanel {
                 .addGap(44, 44, 44)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(lbltitle)
+                        .addComponent(JM_lbltitle)
                         .addGap(55, 55, 55))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cbdoctype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(lbldoctype)))
+                        .addComponent(JM_cbdoctype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_lbldoctype)))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(JM_lblcase)
+                    .addComponent(JM_rbnewcheckup))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(JM_rbregcheckup)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblcase)
-                    .addComponent(rbnewcheckup))
+                    .addComponent(JM_lblnoofpat, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_txtnoofpat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(rbregcheckup)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblnoofpat, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtnoofpat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblpattype, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cbpattype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(JM_lblpattype, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_cbpattype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(31, 31, 31)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblpurpose))
+                    .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_lblpurpose))
                 .addGap(26, 26, 26)
-                .addComponent(btnreq, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnreq, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 128, Short.MAX_VALUE)
-                .addComponent(btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(129, 129, 129))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnreqActionPerformed
+    private void JM_btnreqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnreqActionPerformed
         HospitalDoctorWorkReq req = new HospitalDoctorWorkReq();
-        String doctype = (String)cbdoctype.getSelectedItem();
+        String doctype = (String)JM_cbdoctype.getSelectedItem();
         if(doctype == null || doctype.equals("")){
             JOptionPane.showMessageDialog(null, "Doctor Type can't be empty!");
             return;
         }
         req.setDocType(doctype);
 
-        String type = txtnoofpat.getText();
+        String type = JM_txtnoofpat.getText();
         if(type == null || type.equals("")){
             JOptionPane.showMessageDialog(null, "Number of Patients cannot be empty!");
             return;
@@ -245,21 +244,21 @@ public class DocReqJPanel extends javax.swing.JPanel {
         }
         req.setNoOfPatients(totalpat);
 
-        String msg = txtpur.getText();
+        String msg = JM_txtpur.getText();
         if(msg == null || msg.equals("")){
             JOptionPane.showMessageDialog(null, "Purpose cannot be empty");
             return;
         }
         req.setMessage(msg);
 
-        String pattype=(String)cbpattype.getSelectedItem();
+        String pattype=(String)JM_cbpattype.getSelectedItem();
         if(pattype == null || pattype.equals("")){
             JOptionPane.showMessageDialog(null, "Patient Type cannot be empty");
             return;
         }
         req.setPatientType(pattype);
         String patcase;
-        if(rbnewcheckup.isSelected())
+        if(JM_rbnewcheckup.isSelected())
         {
             patcase="New Checkup";
         }
@@ -291,14 +290,14 @@ public class DocReqJPanel extends javax.swing.JPanel {
         }
 
         JOptionPane.showMessageDialog(null, "Successfully Sent Doctor Request");
-        cbdoctype.setSelectedIndex(0);
-        txtnoofpat.setText("");
-        txtpur.setText("");
-        cbpattype.setSelectedIndex(0);
-        rbnewcheckup.setSelected(true);
-    }//GEN-LAST:event_btnreqActionPerformed
+        JM_cbdoctype.setSelectedIndex(0);
+        JM_txtnoofpat.setText("");
+        JM_txtpur.setText("");
+        JM_cbpattype.setSelectedIndex(0);
+        JM_rbnewcheckup.setSelected(true);
+    }//GEN-LAST:event_JM_btnreqActionPerformed
 
-    private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbackActionPerformed
+    private void JM_btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnbackActionPerformed
 
         userProcessContainer.remove(this);
         Component[] componentArray = userProcessContainer.getComponents();
@@ -307,28 +306,28 @@ public class DocReqJPanel extends javax.swing.JPanel {
         dwjp.autoPopReqTbl();
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnbackActionPerformed
+    }//GEN-LAST:event_JM_btnbackActionPerformed
 
-    private void rbregcheckupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbregcheckupActionPerformed
+    private void JM_rbregcheckupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_rbregcheckupActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_rbregcheckupActionPerformed
+    }//GEN-LAST:event_JM_rbregcheckupActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnback;
-    private javax.swing.JButton btnreq;
-    private javax.swing.JComboBox cbdoctype;
-    private javax.swing.JComboBox cbpattype;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel lblcase;
-    private javax.swing.JLabel lbldoctype;
-    private javax.swing.JLabel lblnoofpat;
-    private javax.swing.JLabel lblpattype;
-    private javax.swing.JLabel lblpurpose;
-    private javax.swing.JLabel lbltitle;
-    private javax.swing.JRadioButton rbnewcheckup;
-    private javax.swing.JRadioButton rbregcheckup;
-    private javax.swing.JTextField txtnoofpat;
-    private javax.swing.JTextArea txtpur;
+    private javax.swing.JButton JM_btnback;
+    private javax.swing.JButton JM_btnreq;
+    private javax.swing.JComboBox JM_cbdoctype;
+    private javax.swing.JComboBox JM_cbpattype;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JLabel JM_lblcase;
+    private javax.swing.JLabel JM_lbldoctype;
+    private javax.swing.JLabel JM_lblnoofpat;
+    private javax.swing.JLabel JM_lblpattype;
+    private javax.swing.JLabel JM_lblpurpose;
+    private javax.swing.JLabel JM_lbltitle;
+    private javax.swing.JRadioButton JM_rbnewcheckup;
+    private javax.swing.JRadioButton JM_rbregcheckup;
+    private javax.swing.JTextField JM_txtnoofpat;
+    private javax.swing.JTextArea JM_txtpur;
     // End of variables declaration//GEN-END:variables
 }

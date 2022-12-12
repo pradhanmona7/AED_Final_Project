@@ -33,19 +33,19 @@ public class ManageEmpJPanel extends javax.swing.JPanel {
         autoPopOrgEmpCB();
     }
     public void autoPopOrgCB(){
-        orgcombo.removeAllItems();
+        JM_orgcombo.removeAllItems();
         for (Organisation org : orgDir.getOrgList()){
-            orgcombo.addItem(org);
+            JM_orgcombo.addItem(org);
         }
     }
     public void autoPopOrgEmpCB(){
-        CbOrg.removeAllItems();
+        JM_CbOrg.removeAllItems();
         for (Organisation org : orgDir.getOrgList()){
-            CbOrg.addItem(org);
+            JM_CbOrg.addItem(org);
         }
     }
     private void autoPoptbl(Organisation org){
-        DefaultTableModel mdl = (DefaultTableModel) OrgTbl.getModel();
+        DefaultTableModel mdl = (DefaultTableModel) JM_OrgTbl.getModel();
         mdl.setRowCount(0);
         for (Employee emp : org.getEmpDir().getEmpList()){
             Object[] row = new Object[2];
@@ -63,29 +63,29 @@ public class ManageEmpJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        OrgTbl = new javax.swing.JTable();
-        btncreate = new javax.swing.JButton();
-        orgcombo = new javax.swing.JComboBox();
-        lblOrganisation = new javax.swing.JLabel();
-        btnback = new javax.swing.JButton();
-        LblName = new javax.swing.JLabel();
-        txtName = new javax.swing.JTextField();
-        CbOrg = new javax.swing.JComboBox();
-        LblOrg = new javax.swing.JLabel();
-        lbltitle = new javax.swing.JLabel();
+        JM_jPanel1 = new javax.swing.JPanel();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
+        JM_OrgTbl = new javax.swing.JTable();
+        JM_btncreate = new javax.swing.JButton();
+        JM_orgcombo = new javax.swing.JComboBox();
+        JM_lblOrganisation = new javax.swing.JLabel();
+        JM_btnback = new javax.swing.JButton();
+        JM_LblName = new javax.swing.JLabel();
+        JM_txtName = new javax.swing.JTextField();
+        JM_CbOrg = new javax.swing.JComboBox();
+        JM_LblOrg = new javax.swing.JLabel();
+        JM_lbltitle = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setForeground(new java.awt.Color(51, 0, 51));
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+        JM_jPanel1.setBackground(new java.awt.Color(0, 153, 153));
 
-        jScrollPane1.setBackground(new java.awt.Color(255, 255, 255));
+        JM_jScrollPane1.setBackground(new java.awt.Color(255, 255, 255));
 
-        OrgTbl.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
-        OrgTbl.setForeground(new java.awt.Color(102, 0, 102));
-        OrgTbl.setModel(new javax.swing.table.DefaultTableModel(
+        JM_OrgTbl.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
+        JM_OrgTbl.setForeground(new java.awt.Color(102, 0, 102));
+        JM_OrgTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},
                 {null, null},
@@ -111,123 +111,123 @@ public class ManageEmpJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(OrgTbl);
+        JM_jScrollPane1.setViewportView(JM_OrgTbl);
 
-        btncreate.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btncreate.setForeground(new java.awt.Color(0, 153, 153));
-        btncreate.setText("Create Employee");
-        btncreate.addActionListener(new java.awt.event.ActionListener() {
+        JM_btncreate.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btncreate.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btncreate.setText("Create Employee");
+        JM_btncreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btncreateActionPerformed(evt);
+                JM_btncreateActionPerformed(evt);
             }
         });
 
-        orgcombo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        orgcombo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        orgcombo.addActionListener(new java.awt.event.ActionListener() {
+        JM_orgcombo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_orgcombo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        JM_orgcombo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                orgcomboActionPerformed(evt);
+                JM_orgcomboActionPerformed(evt);
             }
         });
 
-        lblOrganisation.setBackground(new java.awt.Color(255, 255, 255));
-        lblOrganisation.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        lblOrganisation.setForeground(new java.awt.Color(255, 255, 255));
-        lblOrganisation.setText("Organization");
+        JM_lblOrganisation.setBackground(new java.awt.Color(255, 255, 255));
+        JM_lblOrganisation.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_lblOrganisation.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblOrganisation.setText("Organization");
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnback.setForeground(new java.awt.Color(0, 153, 153));
-        btnback.setText("<< Back");
-        btnback.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnback.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnback.setText("<< Back");
+        JM_btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnbackActionPerformed(evt);
+                JM_btnbackActionPerformed(evt);
             }
         });
 
-        LblName.setBackground(new java.awt.Color(255, 255, 255));
-        LblName.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        LblName.setForeground(new java.awt.Color(255, 255, 255));
-        LblName.setText("Name:");
+        JM_LblName.setBackground(new java.awt.Color(255, 255, 255));
+        JM_LblName.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_LblName.setForeground(new java.awt.Color(255, 255, 255));
+        JM_LblName.setText("Name:");
 
-        txtName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtName.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtName.setForeground(new java.awt.Color(102, 0, 102));
 
-        CbOrg.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        CbOrg.setForeground(new java.awt.Color(0, 153, 153));
-        CbOrg.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        JM_CbOrg.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_CbOrg.setForeground(new java.awt.Color(0, 153, 153));
+        JM_CbOrg.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        LblOrg.setBackground(new java.awt.Color(255, 255, 255));
-        LblOrg.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        LblOrg.setForeground(new java.awt.Color(255, 255, 255));
-        LblOrg.setText("Organization:");
+        JM_LblOrg.setBackground(new java.awt.Color(255, 255, 255));
+        JM_LblOrg.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_LblOrg.setForeground(new java.awt.Color(255, 255, 255));
+        JM_LblOrg.setText("Organization:");
 
-        lbltitle.setBackground(new java.awt.Color(180, 195, 195));
-        lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
-        lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbltitle.setText("MANAGE EMPLOYEE WORKAREA");
+        JM_lbltitle.setBackground(new java.awt.Color(180, 195, 195));
+        JM_lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_lbltitle.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_lbltitle.setText("MANAGE EMPLOYEE WORKAREA");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout JM_jPanel1Layout = new javax.swing.GroupLayout(JM_jPanel1);
+        JM_jPanel1.setLayout(JM_jPanel1Layout);
+        JM_jPanel1Layout.setHorizontalGroup(
+            JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JM_jPanel1Layout.createSequentialGroup()
+                .addGroup(JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(JM_jPanel1Layout.createSequentialGroup()
                         .addGap(257, 257, 257)
-                        .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 530, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(JM_jPanel1Layout.createSequentialGroup()
                         .addGap(514, 514, 514)
-                        .addComponent(lblOrganisation)
+                        .addComponent(JM_lblOrganisation)
                         .addGap(18, 18, 18)
-                        .addComponent(orgcombo, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(JM_orgcombo, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(JM_jPanel1Layout.createSequentialGroup()
+                        .addGroup(JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(JM_jPanel1Layout.createSequentialGroup()
                                 .addGap(50, 50, 50)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(LblOrg)
-                                    .addComponent(LblName))
+                                .addGroup(JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(JM_LblOrg)
+                                    .addComponent(JM_LblName))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(CbOrg, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(JM_txtName, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(JM_CbOrg, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(49, 49, 49))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(btncreate, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, JM_jPanel1Layout.createSequentialGroup()
+                                .addComponent(JM_btncreate, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(60, 60, 60)))
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 496, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 496, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(JM_jPanel1Layout.createSequentialGroup()
                         .addGap(64, 64, 64)
-                        .addComponent(btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(252, 512, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        JM_jPanel1Layout.setVerticalGroup(
+            JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(JM_jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_lbltitle, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(38, 38, 38)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(orgcombo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblOrganisation, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(JM_orgcombo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_lblOrganisation, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(JM_jPanel1Layout.createSequentialGroup()
                         .addGap(29, 29, 29)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(LblOrg)
-                            .addComponent(CbOrg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(JM_LblOrg)
+                            .addComponent(JM_CbOrg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(50, 50, 50)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(LblName))
+                        .addGroup(JM_jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(JM_txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_LblName))
                         .addGap(47, 47, 47)
-                        .addComponent(btncreate, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(JM_btncreate, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(JM_jPanel1Layout.createSequentialGroup()
                         .addGap(45, 45, 45)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 130, Short.MAX_VALUE)
-                .addComponent(btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnback, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(117, 117, 117))
         );
 
@@ -239,7 +239,7 @@ public class ManageEmpJPanel extends javax.swing.JPanel {
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addContainerGap()
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JM_jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addContainerGap()))
         );
         layout.setVerticalGroup(
@@ -248,15 +248,15 @@ public class ManageEmpJPanel extends javax.swing.JPanel {
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addContainerGap()
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(94, Short.MAX_VALUE)))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btncreateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btncreateActionPerformed
+    private void JM_btncreateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btncreateActionPerformed
 
-        Organisation org = (Organisation) CbOrg.getSelectedItem();
-        String name = txtName.getText();
+        Organisation org = (Organisation) JM_CbOrg.getSelectedItem();
+        String name = JM_txtName.getText();
         if(org.getName().equals("Volunteer Organization")){
             org.getEmpDir().createVolunteer(name);
             autoPoptbl(org);
@@ -265,35 +265,35 @@ public class ManageEmpJPanel extends javax.swing.JPanel {
         org.getEmpDir().createEmp(name);
         autoPoptbl(org);
 
-    }//GEN-LAST:event_btncreateActionPerformed
+    }//GEN-LAST:event_JM_btncreateActionPerformed
 
-    private void orgcomboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_orgcomboActionPerformed
-        Organisation org= (Organisation) orgcombo.getSelectedItem();
+    private void JM_orgcomboActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_orgcomboActionPerformed
+        Organisation org= (Organisation) JM_orgcombo.getSelectedItem();
         if (org != null){
             autoPoptbl(org);
         }
-    }//GEN-LAST:event_orgcomboActionPerformed
+    }//GEN-LAST:event_JM_orgcomboActionPerformed
 
-    private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbackActionPerformed
+    private void JM_btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnbackActionPerformed
 
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnbackActionPerformed
+    }//GEN-LAST:event_JM_btnbackActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox CbOrg;
-    private javax.swing.JLabel LblName;
-    private javax.swing.JLabel LblOrg;
-    private javax.swing.JTable OrgTbl;
-    private javax.swing.JButton btnback;
-    private javax.swing.JButton btncreate;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel lblOrganisation;
-    private javax.swing.JLabel lbltitle;
-    private javax.swing.JComboBox orgcombo;
-    private javax.swing.JTextField txtName;
+    private javax.swing.JComboBox JM_CbOrg;
+    private javax.swing.JLabel JM_LblName;
+    private javax.swing.JLabel JM_LblOrg;
+    private javax.swing.JTable JM_OrgTbl;
+    private javax.swing.JButton JM_btnback;
+    private javax.swing.JButton JM_btncreate;
+    private javax.swing.JPanel JM_jPanel1;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JLabel JM_lblOrganisation;
+    private javax.swing.JLabel JM_lbltitle;
+    private javax.swing.JComboBox JM_orgcombo;
+    private javax.swing.JTextField JM_txtName;
     // End of variables declaration//GEN-END:variables
 }
