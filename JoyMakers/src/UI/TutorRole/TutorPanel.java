@@ -86,10 +86,10 @@ public class TutorPanel extends javax.swing.JPanel {
         btnVolList = new javax.swing.JButton();
         btnDeleteReq = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
 
-        btnViewReqDetail.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnViewReqDetail.setForeground(new java.awt.Color(102, 0, 102));
+        btnViewReqDetail.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnViewReqDetail.setForeground(new java.awt.Color(0, 153, 153));
         btnViewReqDetail.setText("View Request Details");
         btnViewReqDetail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,8 +97,8 @@ public class TutorPanel extends javax.swing.JPanel {
             }
         });
 
-        btnNewReq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnNewReq.setForeground(new java.awt.Color(102, 0, 102));
+        btnNewReq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnNewReq.setForeground(new java.awt.Color(0, 153, 153));
         btnNewReq.setText("Create New Request");
         btnNewReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,12 +147,12 @@ public class TutorPanel extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Tutor Panel");
 
-        btnVolList.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnVolList.setForeground(new java.awt.Color(102, 0, 102));
+        btnVolList.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnVolList.setForeground(new java.awt.Color(0, 153, 153));
         btnVolList.setText("Get Volunteers List");
         btnVolList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -160,8 +160,8 @@ public class TutorPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDeleteReq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnDeleteReq.setForeground(new java.awt.Color(102, 0, 102));
+        btnDeleteReq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnDeleteReq.setForeground(new java.awt.Color(0, 153, 153));
         btnDeleteReq.setText("Delete Request");
         btnDeleteReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,16 +176,16 @@ public class TutorPanel extends javax.swing.JPanel {
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(86, 86, 86)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(btnVolList, javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(btnNewReq, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnDeleteReq, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnDeleteReq, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnNewReq, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnViewReqDetail, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(btnVolList, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnViewReqDetail, javax.swing.GroupLayout.DEFAULT_SIZE, 217, Short.MAX_VALUE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 376, Short.MAX_VALUE)
                 .addComponent(btnRefresh)
                 .addGap(58, 58, 58))
@@ -202,15 +202,11 @@ public class TutorPanel extends javax.swing.JPanel {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(51, 51, 51)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(61, 61, 61)
-                                .addComponent(btnVolList, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(40, 40, 40))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGap(47, 47, 47)
-                                .addComponent(btnNewReq, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(54, 54, 54)))
+                        .addGap(47, 47, 47)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnNewReq, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnVolList, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(54, 54, 54)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnDeleteReq, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnViewReqDetail, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))))
