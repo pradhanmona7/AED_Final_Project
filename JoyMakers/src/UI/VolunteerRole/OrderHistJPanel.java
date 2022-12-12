@@ -111,14 +111,14 @@ public void populateorderdetailstbl(ArrayList<String> category, ArrayList<Intege
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane5 = new javax.swing.JScrollPane();
+        JM_jScrollPane5 = new javax.swing.JScrollPane();
         tblorderhist = new javax.swing.JTable();
-        jScrollPane6 = new javax.swing.JScrollPane();
+        JM_jScrollPane6 = new javax.swing.JScrollPane();
         tblorderdetails = new javax.swing.JTable();
-        btnback = new javax.swing.JButton();
-        lblorderhist = new javax.swing.JLabel();
-        lblorderdetails = new javax.swing.JLabel();
-        lbltitle = new javax.swing.JLabel();
+        JM_btnback = new javax.swing.JButton();
+        JM_lblorderhist = new javax.swing.JLabel();
+        JM_lblorderdetails = new javax.swing.JLabel();
+        JM_lbltitle = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
@@ -145,7 +145,7 @@ public void populateorderdetailstbl(ArrayList<String> category, ArrayList<Intege
                 tblorderhistMouseClicked(evt);
             }
         });
-        jScrollPane5.setViewportView(tblorderhist);
+        JM_jScrollPane5.setViewportView(tblorderhist);
 
         tblorderdetails.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         tblorderdetails.setModel(new javax.swing.table.DefaultTableModel(
@@ -164,65 +164,65 @@ public void populateorderdetailstbl(ArrayList<String> category, ArrayList<Intege
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane6.setViewportView(tblorderdetails);
+        JM_jScrollPane6.setViewportView(tblorderdetails);
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnback.setForeground(new java.awt.Color(0, 153, 153));
-        btnback.setText("<< Back");
-        btnback.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnback.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnback.setText("<< Back");
+        JM_btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnbackActionPerformed(evt);
+                JM_btnbackActionPerformed(evt);
             }
         });
 
-        lblorderhist.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
-        lblorderhist.setForeground(new java.awt.Color(255, 255, 255));
-        lblorderhist.setText("Order History");
+        JM_lblorderhist.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        JM_lblorderhist.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblorderhist.setText("Order History");
 
-        lblorderdetails.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
-        lblorderdetails.setForeground(new java.awt.Color(255, 255, 255));
-        lblorderdetails.setText("Order Details");
+        JM_lblorderdetails.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        JM_lblorderdetails.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lblorderdetails.setText("Order Details");
 
-        lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
-        lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbltitle.setText("Volunteer Order History");
+        JM_lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_lbltitle.setForeground(new java.awt.Color(255, 255, 255));
+        JM_lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_lbltitle.setText("Volunteer Order History");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(lbltitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JM_lbltitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnback)
+                .addComponent(JM_btnback)
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblorderhist)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lblorderhist)
+                    .addComponent(JM_jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblorderdetails)
-                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_lblorderdetails)
+                    .addComponent(JM_jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 325, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnback)
+                .addComponent(JM_btnback)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbltitle)
+                .addComponent(JM_lbltitle)
                 .addGap(45, 45, 45)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblorderdetails, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lblorderhist))
+                    .addComponent(JM_lblorderdetails, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(JM_lblorderhist))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 344, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 344, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 344, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 344, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(288, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -241,21 +241,21 @@ public void populateorderdetailstbl(ArrayList<String> category, ArrayList<Intege
         }
     }//GEN-LAST:event_tblorderhistMouseClicked
 
-    private void btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbackActionPerformed
+    private void JM_btnbackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnbackActionPerformed
         // TODO add your handling code here:
         userPCont.remove(this);
         CardLayout layout = (CardLayout)userPCont.getLayout();
         layout.previous(userPCont);
-    }//GEN-LAST:event_btnbackActionPerformed
+    }//GEN-LAST:event_JM_btnbackActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnback;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JLabel lblorderdetails;
-    private javax.swing.JLabel lblorderhist;
-    private javax.swing.JLabel lbltitle;
+    private javax.swing.JButton JM_btnback;
+    private javax.swing.JScrollPane JM_jScrollPane5;
+    private javax.swing.JScrollPane JM_jScrollPane6;
+    private javax.swing.JLabel JM_lblorderdetails;
+    private javax.swing.JLabel JM_lblorderhist;
+    private javax.swing.JLabel JM_lbltitle;
     private javax.swing.JTable tblorderdetails;
     private javax.swing.JTable tblorderhist;
     // End of variables declaration//GEN-END:variables

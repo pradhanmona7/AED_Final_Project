@@ -51,14 +51,14 @@ public class NetworkPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
         tblNetwork = new javax.swing.JTable();
-        jLabel1 = new javax.swing.JLabel();
-        btnNetworkAdd = new javax.swing.JButton();
-        txtNetworkName = new javax.swing.JTextField();
-        btnBack = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        btnNetworkDelete = new javax.swing.JButton();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_btnNetworkAdd = new javax.swing.JButton();
+        JM_txtNetworkName = new javax.swing.JTextField();
+        JM_btnBack = new javax.swing.JButton();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_btnNetworkDelete = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
@@ -83,43 +83,43 @@ public class NetworkPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(tblNetwork);
+        JM_jScrollPane1.setViewportView(tblNetwork);
 
-        jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("NAME:");
+        JM_jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 18)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setText("NAME:");
 
-        btnNetworkAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnNetworkAdd.setForeground(new java.awt.Color(0, 153, 153));
-        btnNetworkAdd.setText("ADD");
-        btnNetworkAdd.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnNetworkAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnNetworkAdd.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnNetworkAdd.setText("ADD");
+        JM_btnNetworkAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnNetworkAddActionPerformed(evt);
+                JM_btnNetworkAddActionPerformed(evt);
             }
         });
 
-        txtNetworkName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtNetworkName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnBack.setForeground(new java.awt.Color(0, 153, 153));
-        btnBack.setText("<< Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnBack.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBack.setText("<< Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btnBackActionPerformed(evt);
             }
         });
 
-        jLabel2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("MANAGE NETWORK WORKAREA");
+        JM_jLabel2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel2.setText("MANAGE NETWORK WORKAREA");
 
-        btnNetworkDelete.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnNetworkDelete.setForeground(new java.awt.Color(0, 153, 153));
-        btnNetworkDelete.setText("DELETE");
-        btnNetworkDelete.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnNetworkDelete.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnNetworkDelete.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnNetworkDelete.setText("DELETE");
+        JM_btnNetworkDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnNetworkDeleteActionPerformed(evt);
+                JM_btnNetworkDeleteActionPerformed(evt);
             }
         });
 
@@ -127,48 +127,48 @@ public class NetworkPanel extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JM_jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(316, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btnNetworkDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnNetworkDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(layout.createSequentialGroup()
-                            .addComponent(jLabel1)
+                            .addComponent(JM_jLabel1)
                             .addGap(18, 18, 18)
-                            .addComponent(txtNetworkName, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtNetworkName, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnNetworkAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(JM_btnNetworkAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(295, 295, 295))
             .addGroup(layout.createSequentialGroup()
                 .addGap(68, 68, 68)
-                .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(123, 123, 123)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtNetworkName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnNetworkAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_txtNetworkName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnNetworkAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(25, 25, 25)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnNetworkDelete)
+                .addComponent(JM_btnNetworkDelete)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 71, Short.MAX_VALUE)
-                .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(98, 98, 98))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnNetworkAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNetworkAddActionPerformed
+    private void JM_btnNetworkAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnNetworkAddActionPerformed
 
-        String name = txtNetworkName.getText();
+        String name = JM_txtNetworkName.getText();
         if(name.equals("") || name==null){
             JOptionPane.showMessageDialog(null, "Network name mandatory");
             return;
@@ -183,16 +183,16 @@ public class NetworkPanel extends javax.swing.JPanel {
         net.setName(name);
 
         autoPopNetwork();
-        txtNetworkName.setText("");
-    }//GEN-LAST:event_btnNetworkAddActionPerformed
+        JM_txtNetworkName.setText("");
+    }//GEN-LAST:event_JM_btnNetworkAddActionPerformed
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
-    private void btnNetworkDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNetworkDeleteActionPerformed
+    private void JM_btnNetworkDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnNetworkDeleteActionPerformed
 
         int selectedRow = tblNetwork.getSelectedRow();
         if (selectedRow < 0) {
@@ -209,17 +209,17 @@ public class NetworkPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "Successfully deleted a network.");
             autoPopNetwork();
         }
-    }//GEN-LAST:event_btnNetworkDeleteActionPerformed
+    }//GEN-LAST:event_JM_btnNetworkDeleteActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBack;
-    private javax.swing.JButton btnNetworkAdd;
-    private javax.swing.JButton btnNetworkDelete;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JButton JM_btnBack;
+    private javax.swing.JButton JM_btnNetworkAdd;
+    private javax.swing.JButton JM_btnNetworkDelete;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JTextField JM_txtNetworkName;
     private javax.swing.JTable tblNetwork;
-    private javax.swing.JTextField txtNetworkName;
     // End of variables declaration//GEN-END:variables
 }

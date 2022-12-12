@@ -59,61 +59,61 @@ public class ViewVolPanel extends javax.swing.JPanel {
 
     private void autoPopBlanks(){
         
-            txtName.setText("");
-            txtSex.setText("");
-            txtAge.setText("");
-            txtEmail.setText("");
-            txtPhNo.setText("");
+            JM_txtName.setText("");
+            JM_txtSex.setText("");
+            JM_txtAge.setText("");
+            JM_txtEmail.setText("");
+            JM_txtPhNo.setText("");
             txtAddress.setText("");
-            txtCity.setText("");
-            txtPincode.setText("");
+            JM_txtCity.setText("");
+            JM_txtPincode.setText("");
             txtSkills.setText("");
             txtEducation.setText("");
             txtLanguage.setText("");
-            txtEnglish.setText("");
-            chbEmail.setSelected(false);
-            chbExcel.setSelected(false);
-            chbPowerPoint.setSelected(false);
-            chbWord.setSelected(false);
-            chbWeb.setSelected(false);
+            JM_txtEnglish.setText("");
+            JM_chbEmail.setSelected(false);
+            JM_chbExcel.setSelected(false);
+            JM_chbPowerPoint.setSelected(false);
+            JM_chbWord.setSelected(false);
+            JM_chbWeb.setSelected(false);
         
     }
     
     private void autoPopVolDetails(UserAccount ua){
         
-            txtName.setText(ua.getEmp().getName());
-            txtSex.setText(ua.getEmp().getSex());
+            JM_txtName.setText(ua.getEmp().getName());
+            JM_txtSex.setText(ua.getEmp().getSex());
             
              LocalDate nowDate = LocalDate.now();
              LocalDate birthdate = ua.getEmp().getDob();
              int age = ua.getEmp().ageCalculator(birthdate, nowDate);
-             txtAge.setText(String.valueOf(age));
+             JM_txtAge.setText(String.valueOf(age));
             
-            txtAge.setText(String.valueOf(age));
-            txtEmail.setText(ua.getEmp().getEmail());
-            txtPhNo.setText(ua.getEmp().getPhNo());
+            JM_txtAge.setText(String.valueOf(age));
+            JM_txtEmail.setText(ua.getEmp().getEmail());
+            JM_txtPhNo.setText(ua.getEmp().getPhNo());
             txtAddress.setText(ua.getVolunteer().getAddress());
-            txtPincode.setText(ua.getVolunteer().getPincode());
+            JM_txtPincode.setText(ua.getVolunteer().getPincode());
             txtSkills.setText(ua.getVolunteer().getSkills());
-            txtEnglish.setText(ua.getVolunteer().getEngProficent());
+            JM_txtEnglish.setText(ua.getVolunteer().getEngProficent());
             
             autoPopLanguage(ua);
             autoPopEducation(ua);
             
             if(ua.getVolunteer().getExpertise().contains("MS Word")){
-                chbWord.setSelected(true);
+                JM_chbWord.setSelected(true);
             }
             if(ua.getVolunteer().getExpertise().contains("MS Excel")){
-                chbExcel.setSelected(true);
+                JM_chbExcel.setSelected(true);
             }
             if(ua.getVolunteer().getExpertise().contains("PowerPoint")){
-                chbPowerPoint.setSelected(true);
+                JM_chbPowerPoint.setSelected(true);
             }
             if(ua.getVolunteer().getExpertise().contains("Web Browsing")){
-                chbWeb.setSelected(true);
+                JM_chbWeb.setSelected(true);
             }
             if(ua.getVolunteer().getExpertise().contains("Email Checking")){
-                chbEmail.setSelected(true);
+                JM_chbEmail.setSelected(true);
             }   
     }
     
@@ -141,103 +141,103 @@ public class ViewVolPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel9 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        txtName = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
-        jScrollPane4 = new javax.swing.JScrollPane();
+        JM_jLabel9 = new javax.swing.JLabel();
+        JM_jLabel20 = new javax.swing.JLabel();
+        JM_txtName = new javax.swing.JTextField();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_jScrollPane4 = new javax.swing.JScrollPane();
         txtSkills = new javax.swing.JTextArea();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        txtAge = new javax.swing.JTextField();
-        btnDecline = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
-        txtSex = new javax.swing.JTextField();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        JM_jLabel8 = new javax.swing.JLabel();
+        JM_jLabel10 = new javax.swing.JLabel();
+        JM_txtAge = new javax.swing.JTextField();
+        JM_btnDecline = new javax.swing.JButton();
+        JM_jLabel3 = new javax.swing.JLabel();
+        JM_txtSex = new javax.swing.JTextField();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
         tblVolList = new javax.swing.JTable();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        chbPowerPoint = new javax.swing.JCheckBox();
-        chbEmail = new javax.swing.JCheckBox();
-        chbWeb = new javax.swing.JCheckBox();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        txtPincode = new javax.swing.JTextField();
-        txtCity = new javax.swing.JTextField();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jScrollPane5 = new javax.swing.JScrollPane();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_jLabel21 = new javax.swing.JLabel();
+        JM_chbPowerPoint = new javax.swing.JCheckBox();
+        JM_chbEmail = new javax.swing.JCheckBox();
+        JM_chbWeb = new javax.swing.JCheckBox();
+        JM_jLabel17 = new javax.swing.JLabel();
+        JM_jLabel15 = new javax.swing.JLabel();
+        JM_txtPincode = new javax.swing.JTextField();
+        JM_txtCity = new javax.swing.JTextField();
+        JM_jLabel18 = new javax.swing.JLabel();
+        JM_jLabel14 = new javax.swing.JLabel();
+        JM_jLabel19 = new javax.swing.JLabel();
+        JM_jScrollPane5 = new javax.swing.JScrollPane();
         txtAddress = new javax.swing.JTextArea();
-        jScrollPane3 = new javax.swing.JScrollPane();
+        JM_jScrollPane3 = new javax.swing.JScrollPane();
         txtLanguage = new javax.swing.JTextArea();
-        jLabel13 = new javax.swing.JLabel();
-        txtEnglish = new javax.swing.JTextField();
-        txtPhNo = new javax.swing.JTextField();
-        chbWord = new javax.swing.JCheckBox();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        chbExcel = new javax.swing.JCheckBox();
-        txtEmail = new javax.swing.JTextField();
-        btnBack = new javax.swing.JButton();
-        jScrollPane2 = new javax.swing.JScrollPane();
+        JM_jLabel13 = new javax.swing.JLabel();
+        JM_txtEnglish = new javax.swing.JTextField();
+        JM_txtPhNo = new javax.swing.JTextField();
+        JM_chbWord = new javax.swing.JCheckBox();
+        JM_jLabel6 = new javax.swing.JLabel();
+        JM_jLabel11 = new javax.swing.JLabel();
+        JM_jLabel5 = new javax.swing.JLabel();
+        JM_chbExcel = new javax.swing.JCheckBox();
+        JM_txtEmail = new javax.swing.JTextField();
+        JM_btnBack = new javax.swing.JButton();
+        JM_jScrollPane2 = new javax.swing.JScrollPane();
         txtEducation = new javax.swing.JTextArea();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel9.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("Contact Information");
+        JM_jLabel9.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel9.setText("Contact Information");
 
-        jLabel20.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel20.setText("Work Knowledge of:");
+        JM_jLabel20.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel20.setText("Work Knowledge of:");
 
-        txtName.setEditable(false);
-        txtName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtName.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtName.setEditable(false);
+        JM_txtName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtName.setForeground(new java.awt.Color(102, 0, 102));
 
-        jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel1.setText("Name: ");
+        JM_jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        JM_jLabel1.setText("Name: ");
 
         txtSkills.setEditable(false);
         txtSkills.setColumns(20);
         txtSkills.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtSkills.setRows(5);
-        jScrollPane4.setViewportView(txtSkills);
+        JM_jScrollPane4.setViewportView(txtSkills);
 
-        jLabel8.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("Personal Information");
+        JM_jLabel8.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel8.setText("Personal Information");
 
-        jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("Volunteers Details");
+        JM_jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel10.setText("Volunteers Details");
 
-        txtAge.setEditable(false);
-        txtAge.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtAge.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtAge.setEditable(false);
+        JM_txtAge.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtAge.setForeground(new java.awt.Color(102, 0, 102));
 
-        btnDecline.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnDecline.setForeground(new java.awt.Color(0, 153, 153));
-        btnDecline.setText("Decline Request");
-        btnDecline.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnDecline.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnDecline.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnDecline.setText("Decline Request");
+        JM_btnDecline.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDeclineActionPerformed(evt);
+                JM_btnDeclineActionPerformed(evt);
             }
         });
 
-        jLabel3.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Age:");
+        JM_jLabel3.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel3.setText("Age:");
 
-        txtSex.setEditable(false);
-        txtSex.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtSex.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtSex.setEditable(false);
+        JM_txtSex.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtSex.setForeground(new java.awt.Color(102, 0, 102));
 
         tblVolList.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         tblVolList.setForeground(new java.awt.Color(102, 0, 102));
@@ -272,141 +272,141 @@ public class ViewVolPanel extends javax.swing.JPanel {
                 tblVolListMouseClicked(evt);
             }
         });
-        jScrollPane1.setViewportView(tblVolList);
+        JM_jScrollPane1.setViewportView(tblVolList);
 
-        jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Sex: ");
+        JM_jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel2.setText("Sex: ");
 
-        jLabel21.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setText("Skills:");
+        JM_jLabel21.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel21.setText("Skills:");
 
-        chbPowerPoint.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        chbPowerPoint.setForeground(new java.awt.Color(255, 255, 255));
-        chbPowerPoint.setText("PowerPoint");
+        JM_chbPowerPoint.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_chbPowerPoint.setForeground(new java.awt.Color(255, 255, 255));
+        JM_chbPowerPoint.setText("PowerPoint");
 
-        chbEmail.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        chbEmail.setForeground(new java.awt.Color(255, 255, 255));
-        chbEmail.setText("Email Checking");
+        JM_chbEmail.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_chbEmail.setForeground(new java.awt.Color(255, 255, 255));
+        JM_chbEmail.setText("Email Checking");
 
-        chbWeb.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        chbWeb.setForeground(new java.awt.Color(255, 255, 255));
-        chbWeb.setText("Web Browsing");
+        JM_chbWeb.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_chbWeb.setForeground(new java.awt.Color(255, 255, 255));
+        JM_chbWeb.setText("Web Browsing");
 
-        jLabel17.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel17.setText("Language Proficency & Skills");
+        JM_jLabel17.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel17.setText("Language Proficency & Skills");
 
-        jLabel15.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setText("Pincode:");
+        JM_jLabel15.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel15.setText("Pincode:");
 
-        txtPincode.setEditable(false);
-        txtPincode.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtPincode.setForeground(new java.awt.Color(102, 0, 102));
-        txtPincode.addActionListener(new java.awt.event.ActionListener() {
+        JM_txtPincode.setEditable(false);
+        JM_txtPincode.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtPincode.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtPincode.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtPincodeActionPerformed(evt);
+                JM_txtPincodeActionPerformed(evt);
             }
         });
 
-        txtCity.setEditable(false);
-        txtCity.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtCity.setForeground(new java.awt.Color(102, 0, 102));
-        txtCity.addActionListener(new java.awt.event.ActionListener() {
+        JM_txtCity.setEditable(false);
+        JM_txtCity.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtCity.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtCity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCityActionPerformed(evt);
+                JM_txtCityActionPerformed(evt);
             }
         });
 
-        jLabel18.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel18.setText("English: ");
+        JM_jLabel18.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        JM_jLabel18.setText("English: ");
 
-        jLabel14.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel14.setText("City:");
+        JM_jLabel14.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel14.setText("City:");
 
-        jLabel19.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setText("Other Language:");
+        JM_jLabel19.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel19.setText("Other Language:");
 
         txtAddress.setEditable(false);
         txtAddress.setColumns(20);
         txtAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtAddress.setRows(5);
-        jScrollPane5.setViewportView(txtAddress);
+        JM_jScrollPane5.setViewportView(txtAddress);
 
         txtLanguage.setEditable(false);
         txtLanguage.setColumns(20);
         txtLanguage.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtLanguage.setRows(5);
-        jScrollPane3.setViewportView(txtLanguage);
+        JM_jScrollPane3.setViewportView(txtLanguage);
 
-        jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setText("Address:");
+        JM_jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel13.setText("Address:");
 
-        txtEnglish.setEditable(false);
-        txtEnglish.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtEnglish.setForeground(new java.awt.Color(102, 0, 102));
-        txtEnglish.addActionListener(new java.awt.event.ActionListener() {
+        JM_txtEnglish.setEditable(false);
+        JM_txtEnglish.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtEnglish.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtEnglish.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtEnglishActionPerformed(evt);
+                JM_txtEnglishActionPerformed(evt);
             }
         });
 
-        txtPhNo.setEditable(false);
-        txtPhNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtPhNo.setForeground(new java.awt.Color(102, 0, 102));
-        txtPhNo.addActionListener(new java.awt.event.ActionListener() {
+        JM_txtPhNo.setEditable(false);
+        JM_txtPhNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtPhNo.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtPhNo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtPhNoActionPerformed(evt);
+                JM_txtPhNoActionPerformed(evt);
             }
         });
 
-        chbWord.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        chbWord.setForeground(new java.awt.Color(255, 255, 255));
-        chbWord.setText("MS Word");
-        chbWord.addActionListener(new java.awt.event.ActionListener() {
+        JM_chbWord.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_chbWord.setForeground(new java.awt.Color(255, 255, 255));
+        JM_chbWord.setText("MS Word");
+        JM_chbWord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                chbWordActionPerformed(evt);
+                JM_chbWordActionPerformed(evt);
             }
         });
 
-        jLabel6.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Contact Number:");
+        JM_jLabel6.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel6.setText("Contact Number:");
 
-        jLabel11.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setText("Education");
+        JM_jLabel11.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel11.setText("Education");
 
-        jLabel5.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("Email Id:");
+        JM_jLabel5.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel5.setText("Email Id:");
 
-        chbExcel.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        chbExcel.setForeground(new java.awt.Color(255, 255, 255));
-        chbExcel.setText("MS Excel");
+        JM_chbExcel.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_chbExcel.setForeground(new java.awt.Color(255, 255, 255));
+        JM_chbExcel.setText("MS Excel");
 
-        txtEmail.setEditable(false);
-        txtEmail.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtEmail.setForeground(new java.awt.Color(102, 0, 102));
-        txtEmail.addActionListener(new java.awt.event.ActionListener() {
+        JM_txtEmail.setEditable(false);
+        JM_txtEmail.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtEmail.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtEmail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtEmailActionPerformed(evt);
+                JM_txtEmailActionPerformed(evt);
             }
         });
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnBack.setForeground(new java.awt.Color(102, 0, 102));
-        btnBack.setText("<< Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        JM_btnBack.setForeground(new java.awt.Color(102, 0, 102));
+        JM_btnBack.setText("<< Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btnBackActionPerformed(evt);
             }
         });
 
@@ -415,7 +415,7 @@ public class ViewVolPanel extends javax.swing.JPanel {
         txtEducation.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtEducation.setForeground(new java.awt.Color(102, 0, 102));
         txtEducation.setRows(5);
-        jScrollPane2.setViewportView(txtEducation);
+        JM_jScrollPane2.setViewportView(txtEducation);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -423,10 +423,10 @@ public class ViewVolPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JM_jLabel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(btnBack)
+                        .addComponent(JM_btnBack)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap(61, Short.MAX_VALUE)
@@ -436,60 +436,60 @@ public class ViewVolPanel extends javax.swing.JPanel {
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(127, 127, 127)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(JM_txtName, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                .addComponent(txtAge)
-                                                .addComponent(txtSex, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                    .addComponent(jLabel1)
-                                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 369, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel2)
-                                    .addComponent(jLabel3)
+                                                .addComponent(JM_txtAge)
+                                                .addComponent(JM_txtSex, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(JM_jLabel1)
+                                    .addComponent(JM_jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 369, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(JM_jLabel2)
+                                    .addComponent(JM_jLabel3)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel6)
-                                            .addComponent(jLabel5)
-                                            .addComponent(jLabel13))
+                                            .addComponent(JM_jLabel6)
+                                            .addComponent(JM_jLabel5)
+                                            .addComponent(JM_jLabel13))
                                         .addGap(18, 18, 18)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(txtPhNo, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(txtPincode, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(txtCity, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 369, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel14)
-                                    .addComponent(jLabel15))
+                                            .addComponent(JM_txtPhNo, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(JM_txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(JM_txtPincode, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(JM_txtCity, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(JM_jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(JM_jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 369, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(JM_jLabel14)
+                                    .addComponent(JM_jLabel15))
                                 .addGap(30, 30, 30)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel18)
-                                            .addComponent(jLabel19)
-                                            .addComponent(jLabel20)
-                                            .addComponent(jLabel21))
+                                            .addComponent(JM_jLabel18)
+                                            .addComponent(JM_jLabel19)
+                                            .addComponent(JM_jLabel20)
+                                            .addComponent(JM_jLabel21))
                                         .addGap(24, 24, 24)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(JM_jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addGroup(layout.createSequentialGroup()
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                    .addComponent(chbPowerPoint, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                    .addComponent(chbWord, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                    .addComponent(chbExcel, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                    .addComponent(JM_chbPowerPoint, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                    .addComponent(JM_chbWord, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                    .addComponent(JM_chbExcel, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                 .addGap(18, 18, 18)
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                                    .addComponent(chbEmail, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                    .addComponent(chbWeb, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                    .addComponent(JM_chbEmail, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                    .addComponent(JM_chbWeb, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                .addComponent(txtEnglish, javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                                .addComponent(JM_txtEnglish, javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(JM_jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))))
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(JM_jLabel17, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(JM_jLabel11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(JM_jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(btnDecline, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(JM_btnDecline, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -497,88 +497,88 @@ public class ViewVolPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnBack)
+                .addComponent(JM_btnBack)
                 .addGap(15, 15, 15)
-                .addComponent(jLabel10)
+                .addComponent(JM_jLabel10)
                 .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnDecline, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnDecline, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel1)
-                            .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel1)
+                            .addComponent(JM_txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel2)
-                            .addComponent(txtSex, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel2)
+                            .addComponent(JM_txtSex, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel3)
-                            .addComponent(txtAge, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(JM_jLabel3)
+                            .addComponent(JM_txtAge, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(10, 10, 10)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel18)
-                            .addComponent(txtEnglish, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel18)
+                            .addComponent(JM_txtEnglish, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel19)
-                            .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel19)
+                            .addComponent(JM_jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(chbWord)
-                            .addComponent(chbEmail)
-                            .addComponent(jLabel20))
+                            .addComponent(JM_chbWord)
+                            .addComponent(JM_chbEmail)
+                            .addComponent(JM_jLabel20))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(chbExcel)
-                            .addComponent(chbWeb))
+                            .addComponent(JM_chbExcel)
+                            .addComponent(JM_chbWeb))
                         .addGap(11, 11, 11)
-                        .addComponent(chbPowerPoint)
+                        .addComponent(JM_chbPowerPoint)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel21)
-                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(JM_jLabel21)
+                            .addComponent(JM_jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel5)
-                            .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel5)
+                            .addComponent(JM_txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel6)
-                            .addComponent(txtPhNo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel6)
+                            .addComponent(JM_txtPhNo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel13)
-                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel13)
+                            .addComponent(JM_jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel14)
+                                .addComponent(JM_jLabel14)
                                 .addGap(34, 34, 34)
-                                .addComponent(jLabel15))
+                                .addComponent(JM_jLabel15))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(txtCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(JM_txtCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(txtPincode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addComponent(JM_txtPincode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap(43, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnDeclineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeclineActionPerformed
+    private void JM_btnDeclineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnDeclineActionPerformed
         int selectedRow = tblVolList.getSelectedRow();
         if(selectedRow>=0){
             int selBtn = JOptionPane.YES_NO_OPTION;
@@ -604,7 +604,7 @@ public class ViewVolPanel extends javax.swing.JPanel {
         }else{
             JOptionPane.showMessageDialog(null, "Make row selection");
         }
-    }//GEN-LAST:event_btnDeclineActionPerformed
+    }//GEN-LAST:event_JM_btnDeclineActionPerformed
 
     private void tblVolListMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblVolListMouseClicked
         int selectedrow= tblVolList.getSelectedRow();
@@ -619,31 +619,31 @@ public class ViewVolPanel extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_tblVolListMouseClicked
 
-    private void txtPincodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPincodeActionPerformed
+    private void JM_txtPincodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtPincodeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtPincodeActionPerformed
+    }//GEN-LAST:event_JM_txtPincodeActionPerformed
 
-    private void txtCityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCityActionPerformed
+    private void JM_txtCityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtCityActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCityActionPerformed
+    }//GEN-LAST:event_JM_txtCityActionPerformed
 
-    private void txtEnglishActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEnglishActionPerformed
+    private void JM_txtEnglishActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtEnglishActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtEnglishActionPerformed
+    }//GEN-LAST:event_JM_txtEnglishActionPerformed
 
-    private void txtPhNoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPhNoActionPerformed
+    private void JM_txtPhNoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtPhNoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtPhNoActionPerformed
+    }//GEN-LAST:event_JM_txtPhNoActionPerformed
 
-    private void chbWordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chbWordActionPerformed
+    private void JM_chbWordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_chbWordActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_chbWordActionPerformed
+    }//GEN-LAST:event_JM_chbWordActionPerformed
 
-    private void txtEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEmailActionPerformed
+    private void JM_txtEmailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtEmailActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtEmailActionPerformed
+    }//GEN-LAST:event_JM_txtEmailActionPerformed
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
         // TODO add your handling code here:
         userProcessContainer.remove(this);
         Component[] componentArray = userProcessContainer.getComponents();
@@ -652,51 +652,51 @@ public class ViewVolPanel extends javax.swing.JPanel {
         tutorPanel.autoPopReqTbl();
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBack;
-    private javax.swing.JButton btnDecline;
-    private javax.swing.JCheckBox chbEmail;
-    private javax.swing.JCheckBox chbExcel;
-    private javax.swing.JCheckBox chbPowerPoint;
-    private javax.swing.JCheckBox chbWeb;
-    private javax.swing.JCheckBox chbWord;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JButton JM_btnBack;
+    private javax.swing.JButton JM_btnDecline;
+    private javax.swing.JCheckBox JM_chbEmail;
+    private javax.swing.JCheckBox JM_chbExcel;
+    private javax.swing.JCheckBox JM_chbPowerPoint;
+    private javax.swing.JCheckBox JM_chbWeb;
+    private javax.swing.JCheckBox JM_chbWord;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel10;
+    private javax.swing.JLabel JM_jLabel11;
+    private javax.swing.JLabel JM_jLabel13;
+    private javax.swing.JLabel JM_jLabel14;
+    private javax.swing.JLabel JM_jLabel15;
+    private javax.swing.JLabel JM_jLabel17;
+    private javax.swing.JLabel JM_jLabel18;
+    private javax.swing.JLabel JM_jLabel19;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_jLabel20;
+    private javax.swing.JLabel JM_jLabel21;
+    private javax.swing.JLabel JM_jLabel3;
+    private javax.swing.JLabel JM_jLabel5;
+    private javax.swing.JLabel JM_jLabel6;
+    private javax.swing.JLabel JM_jLabel8;
+    private javax.swing.JLabel JM_jLabel9;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JScrollPane JM_jScrollPane2;
+    private javax.swing.JScrollPane JM_jScrollPane3;
+    private javax.swing.JScrollPane JM_jScrollPane4;
+    private javax.swing.JScrollPane JM_jScrollPane5;
+    private javax.swing.JTextField JM_txtAge;
+    private javax.swing.JTextField JM_txtCity;
+    private javax.swing.JTextField JM_txtEmail;
+    private javax.swing.JTextField JM_txtEnglish;
+    private javax.swing.JTextField JM_txtName;
+    private javax.swing.JTextField JM_txtPhNo;
+    private javax.swing.JTextField JM_txtPincode;
+    private javax.swing.JTextField JM_txtSex;
     private javax.swing.JTable tblVolList;
     private javax.swing.JTextArea txtAddress;
-    private javax.swing.JTextField txtAge;
-    private javax.swing.JTextField txtCity;
     private javax.swing.JTextArea txtEducation;
-    private javax.swing.JTextField txtEmail;
-    private javax.swing.JTextField txtEnglish;
     private javax.swing.JTextArea txtLanguage;
-    private javax.swing.JTextField txtName;
-    private javax.swing.JTextField txtPhNo;
-    private javax.swing.JTextField txtPincode;
-    private javax.swing.JTextField txtSex;
     private javax.swing.JTextArea txtSkills;
     // End of variables declaration//GEN-END:variables
 }

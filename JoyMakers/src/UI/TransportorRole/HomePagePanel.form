@@ -26,7 +26,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel25" pref="1388" max="32767" attributes="0"/>
+              <Component id="JM_jLabel25" pref="1388" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
@@ -34,29 +34,29 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="698" max="-2" attributes="0"/>
-                      <Component id="jLabel3" max="32767" attributes="0"/>
+                      <Component id="JM_jLabel3" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Component id="jScrollPane2" min="-2" pref="275" max="-2" attributes="0"/>
+                      <Component id="JM_jScrollPane2" min="-2" pref="275" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
-                      <Component id="jScrollPane3" min="-2" pref="275" max="-2" attributes="0"/>
+                      <Component id="JM_jScrollPane3" min="-2" pref="275" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="643" max="-2" attributes="0"/>
+                      <Component id="JM_jScrollPane1" min="-2" pref="643" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="jLabel4" max="32767" attributes="0"/>
+                              <Component id="JM_jLabel4" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="dtDeliver" max="32767" attributes="0"/>
-                                  <Component id="dtPickup" max="32767" attributes="0"/>
-                                  <Component id="jLabel5" alignment="0" pref="697" max="32767" attributes="0"/>
-                                  <Component id="txtPhNo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="JM_dtDeliver" max="32767" attributes="0"/>
+                                  <Component id="JM_dtPickup" max="32767" attributes="0"/>
+                                  <Component id="JM_jLabel5" alignment="0" pref="697" max="32767" attributes="0"/>
+                                  <Component id="JM_txtPhNo" alignment="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -65,16 +65,16 @@
           </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="387" max="-2" attributes="0"/>
-              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_jLabel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="btnAssignToMe" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnAssignToMe" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
-              <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnBack" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -83,40 +83,40 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-              <Component id="jLabel25" min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="JM_jLabel25" min="-2" pref="40" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="dtPickup" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_dtPickup" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="dtDeliver" min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="JM_dtDeliver" min="-2" pref="26" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel5" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="txtPhNo" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_txtPhNo" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="78" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                      <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_btnBack" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="246" max="-2" attributes="0"/>
+                      <Component id="JM_jScrollPane1" min="-2" pref="246" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnAssignToMe" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_btnAssignToMe" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
-                  <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane2" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="92" max="32767" attributes="0"/>
           </Group>
@@ -124,7 +124,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel25">
+    <Component class="javax.swing.JLabel" name="JM_jLabel25">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="24" style="1"/>
@@ -136,7 +136,7 @@
         <Property name="text" type="java.lang.String" value="Delivery Work Area"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane1">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -169,7 +169,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="JM_jLabel3">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -180,7 +180,7 @@
         <Property name="text" type="java.lang.String" value="PickUp Date"/>
       </Properties>
     </Component>
-    <Component class="com.toedter.calendar.JDateChooser" name="dtPickup">
+    <Component class="com.toedter.calendar.JDateChooser" name="JM_dtPickup">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="0" red="66" type="rgb"/>
@@ -191,7 +191,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
+    <Component class="javax.swing.JLabel" name="JM_jLabel4">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -202,7 +202,7 @@
         <Property name="text" type="java.lang.String" value="Delivery Date"/>
       </Properties>
     </Component>
-    <Component class="com.toedter.calendar.JDateChooser" name="dtDeliver">
+    <Component class="com.toedter.calendar.JDateChooser" name="JM_dtDeliver">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="0" red="66" type="rgb"/>
@@ -213,7 +213,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
+    <Component class="javax.swing.JLabel" name="JM_jLabel5">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -224,7 +224,7 @@
         <Property name="text" type="java.lang.String" value="Contact Number"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtPhNo">
+    <Component class="javax.swing.JTextField" name="JM_txtPhNo">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -234,10 +234,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPhNoActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_txtPhNoActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="JM_jLabel1">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -245,7 +245,7 @@
         <Property name="text" type="java.lang.String" value="Sender Address"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane2">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -269,7 +269,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="JM_jLabel2">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -277,7 +277,7 @@
         <Property name="text" type="java.lang.String" value="Reciever Address "/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane3">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -301,7 +301,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="btnBack">
+    <Component class="javax.swing.JButton" name="JM_btnBack">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -312,10 +312,10 @@
         <Property name="text" type="java.lang.String" value="&lt;&lt;&lt;Back"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnBackActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnAssignToMe">
+    <Component class="javax.swing.JButton" name="JM_btnAssignToMe">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="1"/>
@@ -326,7 +326,7 @@
         <Property name="text" type="java.lang.String" value="Assign to me"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAssignToMeActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnAssignToMeActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

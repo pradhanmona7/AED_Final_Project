@@ -24,22 +24,22 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="lbltitle" alignment="0" max="32767" attributes="0"/>
+          <Component id="JM_lbltitle" alignment="0" max="32767" attributes="0"/>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="btnback" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnback" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="lblorderhist" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jScrollPane5" alignment="0" min="-2" pref="700" max="-2" attributes="0"/>
+                  <Component id="JM_lblorderhist" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane5" alignment="0" min="-2" pref="700" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="lblorderdetails" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jScrollPane6" alignment="0" min="-2" pref="325" max="-2" attributes="0"/>
+                  <Component id="JM_lblorderdetails" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane6" alignment="0" min="-2" pref="325" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -49,18 +49,18 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="btnback" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnback" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="lbltitle" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_lbltitle" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="lblorderdetails" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblorderhist" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblorderdetails" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_lblorderhist" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane6" alignment="0" min="-2" pref="344" max="-2" attributes="0"/>
-                  <Component id="jScrollPane5" alignment="0" min="-2" pref="344" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane6" alignment="0" min="-2" pref="344" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane5" alignment="0" min="-2" pref="344" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="288" max="32767" attributes="0"/>
           </Group>
@@ -68,7 +68,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane5">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -101,7 +101,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane6">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -127,7 +127,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="btnback">
+    <Component class="javax.swing.JButton" name="JM_btnback">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="14" style="1"/>
@@ -138,10 +138,10 @@
         <Property name="text" type="java.lang.String" value="&lt;&lt; Back"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbackActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnbackActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblorderhist">
+    <Component class="javax.swing.JLabel" name="JM_lblorderhist">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="16" style="1"/>
@@ -152,7 +152,7 @@
         <Property name="text" type="java.lang.String" value="Order History"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblorderdetails">
+    <Component class="javax.swing.JLabel" name="JM_lblorderdetails">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="16" style="1"/>
@@ -163,7 +163,7 @@
         <Property name="text" type="java.lang.String" value="Order Details"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lbltitle">
+    <Component class="javax.swing.JLabel" name="JM_lbltitle">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="24" style="1"/>

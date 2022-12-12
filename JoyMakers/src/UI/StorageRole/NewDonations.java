@@ -105,34 +105,34 @@ public class NewDonations extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel25 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jScrollPane5 = new javax.swing.JScrollPane();
+        JM_jLabel25 = new javax.swing.JLabel();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_jScrollPane5 = new javax.swing.JScrollPane();
         tblNewDonations = new javax.swing.JTable();
-        jScrollPane6 = new javax.swing.JScrollPane();
+        JM_jScrollPane6 = new javax.swing.JScrollPane();
         tbViewlDetails = new javax.swing.JTable();
-        jLabel24 = new javax.swing.JLabel();
-        jScrollPane7 = new javax.swing.JScrollPane();
+        JM_jLabel24 = new javax.swing.JLabel();
+        JM_jScrollPane7 = new javax.swing.JScrollPane();
         txtDelAddr = new javax.swing.JTextArea();
-        jLabel11 = new javax.swing.JLabel();
-        txtphNo = new javax.swing.JTextField();
-        btnOrder = new javax.swing.JButton();
+        JM_jLabel11 = new javax.swing.JLabel();
+        JM_txtphNo = new javax.swing.JTextField();
+        JM_btnOrder = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel25.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 36)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel25.setText("Storage Work Area");
+        JM_jLabel25.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 36)); // NOI18N
+        JM_jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel25.setText("Storage Work Area");
 
-        jLabel2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Donations");
+        JM_jLabel2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        JM_jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel2.setText("Donations");
 
-        jLabel1.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Details");
+        JM_jLabel1.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setText("Details");
 
         tblNewDonations.setForeground(new java.awt.Color(102, 0, 102));
         tblNewDonations.setModel(new javax.swing.table.DefaultTableModel(
@@ -156,7 +156,7 @@ public class NewDonations extends javax.swing.JPanel {
                 tblNewDonationsMouseClicked(evt);
             }
         });
-        jScrollPane5.setViewportView(tblNewDonations);
+        JM_jScrollPane5.setViewportView(tblNewDonations);
 
         tbViewlDetails.setForeground(new java.awt.Color(102, 0, 102));
         tbViewlDetails.setModel(new javax.swing.table.DefaultTableModel(
@@ -175,30 +175,35 @@ public class NewDonations extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane6.setViewportView(tbViewlDetails);
+        JM_jScrollPane6.setViewportView(tbViewlDetails);
 
-        jLabel24.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel24.setText("Delivery Address:");
+        JM_jLabel24.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel24.setText("Delivery Address:");
 
         txtDelAddr.setColumns(20);
         txtDelAddr.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtDelAddr.setRows(5);
-        jScrollPane7.setViewportView(txtDelAddr);
+        JM_jScrollPane7.setViewportView(txtDelAddr);
 
-        jLabel11.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setText("Contact Number:");
+        JM_jLabel11.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel11.setText("Contact Number:");
 
-        txtphNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-
-        btnOrder.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
-        btnOrder.setForeground(new java.awt.Color(0, 153, 153));
-        btnOrder.setText("Order Now");
-        btnOrder.addActionListener(new java.awt.event.ActionListener() {
+        JM_txtphNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtphNo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnOrderActionPerformed(evt);
+                JM_txtphNoActionPerformed(evt);
+            }
+        });
+
+        JM_btnOrder.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        JM_btnOrder.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnOrder.setText("Order Now");
+        JM_btnOrder.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JM_btnOrderActionPerformed(evt);
             }
         });
 
@@ -208,62 +213,62 @@ public class NewDonations extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(192, 192, 192)
-                .addComponent(jLabel2)
+                .addComponent(JM_jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1)
+                .addComponent(JM_jLabel1)
                 .addGap(495, 495, 495))
             .addGroup(layout.createSequentialGroup()
                 .addGap(95, 95, 95)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel24)
+                        .addComponent(JM_jLabel24)
                         .addGap(44, 44, 44)
-                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel11)
+                        .addComponent(JM_jLabel11)
                         .addGap(18, 18, 18)
-                        .addComponent(txtphNo, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_txtphNo, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(48, 48, 48))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 401, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 401, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(212, 212, 212)
-                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnOrder, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnOrder, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(453, 453, 453))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, 1213, Short.MAX_VALUE)
+                .addComponent(JM_jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, 1213, Short.MAX_VALUE)
                 .addGap(181, 181, 181))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(36, 36, 36)
-                .addComponent(jLabel25)
+                .addComponent(JM_jLabel25)
                 .addGap(62, 62, 62)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2))
+                    .addComponent(JM_jLabel1)
+                    .addComponent(JM_jLabel2))
                 .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 323, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 4, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(9, 9, 9)
-                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                        .addComponent(JM_jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel24)
-                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel24)
+                    .addComponent(JM_jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel11)
-                        .addComponent(txtphNo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_jLabel11)
+                        .addComponent(JM_txtphNo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(2, 2, 2)
-                .addComponent(btnOrder, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnOrder, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(103, 103, 103))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -281,7 +286,7 @@ public class NewDonations extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_tblNewDonationsMouseClicked
 
-    private void btnOrderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrderActionPerformed
+    private void JM_btnOrderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnOrderActionPerformed
         // TODO add your handling code here:
         int selectedRow = tblNewDonations.getSelectedRow();
         if (selectedRow < 0){
@@ -293,7 +298,7 @@ public class NewDonations extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null,"Enter Address");
             return;
         }
-        String phNo = txtphNo.getText();
+        String phNo = JM_txtphNo.getText();
         if(phNo == null || phNo.equals("")){
             JOptionPane.showMessageDialog(null, "Phone Number cannot be left empty");
             return;
@@ -330,22 +335,26 @@ public class NewDonations extends javax.swing.JPanel {
             }
         }
 
-    }//GEN-LAST:event_btnOrderActionPerformed
+    }//GEN-LAST:event_JM_btnOrderActionPerformed
+
+    private void JM_txtphNoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txtphNoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JM_txtphNoActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnOrder;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JButton JM_btnOrder;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel11;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_jLabel24;
+    private javax.swing.JLabel JM_jLabel25;
+    private javax.swing.JScrollPane JM_jScrollPane5;
+    private javax.swing.JScrollPane JM_jScrollPane6;
+    private javax.swing.JScrollPane JM_jScrollPane7;
+    private javax.swing.JTextField JM_txtphNo;
     private javax.swing.JTable tbViewlDetails;
     private javax.swing.JTable tblNewDonations;
     private javax.swing.JTextArea txtDelAddr;
-    private javax.swing.JTextField txtphNo;
     // End of variables declaration//GEN-END:variables
 }

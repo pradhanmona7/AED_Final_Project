@@ -78,24 +78,24 @@ public class RestHomePagePanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnRefresh = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        JM_btnRefresh = new javax.swing.JButton();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
         tblAssignReq = new javax.swing.JTable();
-        btnViewFoodList = new javax.swing.JButton();
-        btnProcess = new javax.swing.JButton();
-        jScrollPane3 = new javax.swing.JScrollPane();
+        JM_btnViewFoodList = new javax.swing.JButton();
+        JM_btnProcess = new javax.swing.JButton();
+        JM_jScrollPane3 = new javax.swing.JScrollPane();
         txtMessage = new javax.swing.JTextArea();
-        btnBacks = new javax.swing.JButton();
-        jLabel11 = new javax.swing.JLabel();
+        JM_btnBacks = new javax.swing.JButton();
+        JM_jLabel11 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        btnRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnRefresh.setForeground(new java.awt.Color(0, 153, 153));
-        btnRefresh.setText("Refresh");
-        btnRefresh.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnRefresh.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnRefresh.setText("Refresh");
+        JM_btnRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnRefreshActionPerformed(evt);
+                JM_btnRefreshActionPerformed(evt);
             }
         });
 
@@ -118,44 +118,44 @@ public class RestHomePagePanel extends javax.swing.JPanel {
             }
         });
         tblAssignReq.setPreferredSize(new java.awt.Dimension(375, 64));
-        jScrollPane1.setViewportView(tblAssignReq);
+        JM_jScrollPane1.setViewportView(tblAssignReq);
 
-        btnViewFoodList.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnViewFoodList.setForeground(new java.awt.Color(0, 153, 153));
-        btnViewFoodList.setText("View Food List");
-        btnViewFoodList.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnViewFoodList.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnViewFoodList.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnViewFoodList.setText("View Food List");
+        JM_btnViewFoodList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnViewFoodListActionPerformed(evt);
+                JM_btnViewFoodListActionPerformed(evt);
             }
         });
 
-        btnProcess.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnProcess.setForeground(new java.awt.Color(0, 153, 153));
-        btnProcess.setText("Process");
-        btnProcess.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnProcess.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnProcess.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnProcess.setText("Process");
+        JM_btnProcess.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProcessActionPerformed(evt);
+                JM_btnProcessActionPerformed(evt);
             }
         });
 
         txtMessage.setColumns(20);
         txtMessage.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtMessage.setRows(5);
-        jScrollPane3.setViewportView(txtMessage);
+        JM_jScrollPane3.setViewportView(txtMessage);
 
-        btnBacks.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnBacks.setForeground(new java.awt.Color(0, 153, 153));
-        btnBacks.setText("<<<Back");
-        btnBacks.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBacks.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnBacks.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBacks.setText("<<<Back");
+        JM_btnBacks.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBacksActionPerformed(evt);
+                JM_btnBacksActionPerformed(evt);
             }
         });
 
-        jLabel11.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText("HomePage");
+        JM_jLabel11.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel11.setText("HomePage");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -167,55 +167,55 @@ public class RestHomePagePanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(42, 42, 42)
-                                .addComponent(btnBacks)
+                                .addComponent(JM_btnBacks)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(JM_jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(118, 118, 118)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(btnRefresh)
+                                    .addComponent(JM_btnRefresh)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                         .addGroup(layout.createSequentialGroup()
-                                            .addComponent(btnProcess, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(JM_btnProcess, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(btnViewFoodList))
-                                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 750, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                            .addComponent(JM_btnViewFoodList))
+                                        .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 750, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(0, 200, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(JM_jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(21, 21, 21)
-                .addComponent(jLabel11)
+                .addComponent(JM_jLabel11)
                 .addGap(32, 32, 32)
-                .addComponent(btnRefresh, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnRefresh, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(54, 54, 54)
-                        .addComponent(btnViewFoodList, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_btnViewFoodList, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(34, 34, 34)
-                        .addComponent(btnProcess, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_btnProcess, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnBacks, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnBacks, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(115, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnRefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefreshActionPerformed
+    private void JM_btnRefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnRefreshActionPerformed
         autoPopAssignedReq();
         txtMessage.setText("");   
-    }//GEN-LAST:event_btnRefreshActionPerformed
+    }//GEN-LAST:event_JM_btnRefreshActionPerformed
 
-    private void btnViewFoodListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnViewFoodListActionPerformed
+    private void JM_btnViewFoodListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnViewFoodListActionPerformed
         // TODO add your handling code here:
 
         int selectedRow = tblAssignReq.getSelectedRow();
@@ -227,9 +227,9 @@ public class RestHomePagePanel extends javax.swing.JPanel {
         VolunteerRestaurantWorkRequest req = (VolunteerRestaurantWorkRequest)tblAssignReq.getValueAt(selectedRow, 0);
         txtMessage.setText(req.getFoodList()+"");
         txtMessage.setEditable(false);
-    }//GEN-LAST:event_btnViewFoodListActionPerformed
+    }//GEN-LAST:event_JM_btnViewFoodListActionPerformed
 
-    private void btnProcessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcessActionPerformed
+    private void JM_btnProcessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnProcessActionPerformed
 
         int selectedRow = tblAssignReq.getSelectedRow();
 
@@ -250,24 +250,24 @@ public class RestHomePagePanel extends javax.swing.JPanel {
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
 
-    }//GEN-LAST:event_btnProcessActionPerformed
+    }//GEN-LAST:event_JM_btnProcessActionPerformed
 
-    private void btnBacksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBacksActionPerformed
+    private void JM_btnBacksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBacksActionPerformed
         // TODO add your handling code here:
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBacksActionPerformed
+    }//GEN-LAST:event_JM_btnBacksActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBacks;
-    private javax.swing.JButton btnProcess;
-    private javax.swing.JButton btnRefresh;
-    private javax.swing.JButton btnViewFoodList;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JButton JM_btnBacks;
+    private javax.swing.JButton JM_btnProcess;
+    private javax.swing.JButton JM_btnRefresh;
+    private javax.swing.JButton JM_btnViewFoodList;
+    private javax.swing.JLabel JM_jLabel11;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JScrollPane JM_jScrollPane3;
     private javax.swing.JTable tblAssignReq;
     private javax.swing.JTextArea txtMessage;
     // End of variables declaration//GEN-END:variables

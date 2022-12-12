@@ -84,29 +84,29 @@ public class NewRequestPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel25 = new javax.swing.JLabel();
-        btnBack = new javax.swing.JButton();
-        jScrollPane5 = new javax.swing.JScrollPane();
+        JM_jLabel25 = new javax.swing.JLabel();
+        JM_btnBack = new javax.swing.JButton();
+        JM_jScrollPane5 = new javax.swing.JScrollPane();
         tblMedList = new javax.swing.JTable();
-        btnAssignToMe = new javax.swing.JButton();
-        btnViewFoodList = new javax.swing.JButton();
-        jScrollPane4 = new javax.swing.JScrollPane();
+        JM_btnAssignToMe = new javax.swing.JButton();
+        JM_btnViewFoodList = new javax.swing.JButton();
+        JM_jScrollPane4 = new javax.swing.JScrollPane();
         txtMessage = new javax.swing.JTextArea();
-        btnRefresh = new javax.swing.JButton();
+        JM_btnRefresh = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel25.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel25.setText("New Food Requests");
+        JM_jLabel25.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel25.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel25.setText("New Food Requests");
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnBack.setForeground(new java.awt.Color(0, 153, 153));
-        btnBack.setText("<<<Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnBack.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBack.setText("<<<Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btnBackActionPerformed(evt);
             }
         });
 
@@ -130,37 +130,37 @@ public class NewRequestPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane5.setViewportView(tblMedList);
+        JM_jScrollPane5.setViewportView(tblMedList);
 
-        btnAssignToMe.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnAssignToMe.setForeground(new java.awt.Color(0, 153, 153));
-        btnAssignToMe.setText("Assign to me");
-        btnAssignToMe.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnAssignToMe.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnAssignToMe.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnAssignToMe.setText("Assign to me");
+        JM_btnAssignToMe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAssignToMeActionPerformed(evt);
+                JM_btnAssignToMeActionPerformed(evt);
             }
         });
 
-        btnViewFoodList.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnViewFoodList.setForeground(new java.awt.Color(0, 153, 153));
-        btnViewFoodList.setText("View Food List");
-        btnViewFoodList.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnViewFoodList.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnViewFoodList.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnViewFoodList.setText("View Food List");
+        JM_btnViewFoodList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnViewFoodListActionPerformed(evt);
+                JM_btnViewFoodListActionPerformed(evt);
             }
         });
 
         txtMessage.setColumns(20);
         txtMessage.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtMessage.setRows(5);
-        jScrollPane4.setViewportView(txtMessage);
+        JM_jScrollPane4.setViewportView(txtMessage);
 
-        btnRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnRefresh.setForeground(new java.awt.Color(0, 153, 153));
-        btnRefresh.setText("Refresh");
-        btnRefresh.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnRefresh.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnRefresh.setText("Refresh");
+        JM_btnRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnRefreshActionPerformed(evt);
+                JM_btnRefreshActionPerformed(evt);
             }
         });
 
@@ -172,23 +172,23 @@ public class NewRequestPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, 732, Short.MAX_VALUE)
+                        .addComponent(JM_jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, 732, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnRefresh, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_btnRefresh, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(16, 16, 16))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(16, 16, 16)
-                        .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap(136, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnAssignToMe)
+                                .addComponent(JM_btnAssignToMe)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(btnViewFoodList))
-                            .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 740, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(JM_btnViewFoodList))
+                            .addComponent(JM_jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 740, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(239, 239, 239))
         );
         layout.setVerticalGroup(
@@ -196,33 +196,33 @@ public class NewRequestPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(47, 47, 47)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel25)
-                    .addComponent(btnRefresh, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel25)
+                    .addComponent(JM_btnRefresh, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(57, 57, 57)
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(53, 53, 53)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAssignToMe, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnViewFoodList, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_btnAssignToMe, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnViewFoodList, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(152, 152, 152)
-                        .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(61, 61, 61)
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(135, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
         // TODO add your handling code here:
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
-    private void btnAssignToMeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAssignToMeActionPerformed
+    private void JM_btnAssignToMeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnAssignToMeActionPerformed
         // TODO add your handling code here:
         int selectedRow = tblMedList.getSelectedRow();
         if (selectedRow < 0){
@@ -235,9 +235,9 @@ public class NewRequestPanel extends javax.swing.JPanel {
         ua.getWorkQueue().getWrList().add(req);
         JOptionPane.showMessageDialog(null, "The food request is assigned successfully");
         autoPopFoodList();
-    }//GEN-LAST:event_btnAssignToMeActionPerformed
+    }//GEN-LAST:event_JM_btnAssignToMeActionPerformed
 
-    private void btnViewFoodListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnViewFoodListActionPerformed
+    private void JM_btnViewFoodListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnViewFoodListActionPerformed
         // TODO add your handling code here:
         int selectedRow = tblMedList.getSelectedRow();
 
@@ -249,23 +249,23 @@ public class NewRequestPanel extends javax.swing.JPanel {
         txtMessage.setText(req.getFoodList()+"");
         txtMessage.setEditable(false);
 
-    }//GEN-LAST:event_btnViewFoodListActionPerformed
+    }//GEN-LAST:event_JM_btnViewFoodListActionPerformed
 
-    private void btnRefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefreshActionPerformed
+    private void JM_btnRefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnRefreshActionPerformed
         // TODO add your handling code here:
         autoPopFoodList(); 
         txtMessage.setText("");
-    }//GEN-LAST:event_btnRefreshActionPerformed
+    }//GEN-LAST:event_JM_btnRefreshActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAssignToMe;
-    private javax.swing.JButton btnBack;
-    private javax.swing.JButton btnRefresh;
-    private javax.swing.JButton btnViewFoodList;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JButton JM_btnAssignToMe;
+    private javax.swing.JButton JM_btnBack;
+    private javax.swing.JButton JM_btnRefresh;
+    private javax.swing.JButton JM_btnViewFoodList;
+    private javax.swing.JLabel JM_jLabel25;
+    private javax.swing.JScrollPane JM_jScrollPane4;
+    private javax.swing.JScrollPane JM_jScrollPane5;
     private javax.swing.JTable tblMedList;
     private javax.swing.JTextArea txtMessage;
     // End of variables declaration//GEN-END:variables

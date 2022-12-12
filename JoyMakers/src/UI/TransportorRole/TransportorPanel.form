@@ -23,19 +23,19 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="364" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="603" max="-2" attributes="0"/>
+              <Component id="JM_jLabel1" min="-2" pref="603" max="-2" attributes="0"/>
               <EmptySpace pref="433" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="btnHomePage" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jLabel2" min="-2" pref="140" max="-2" attributes="0"/>
+                  <Component id="JM_btnHomePage" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel2" min="-2" pref="140" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnOrders" min="-2" pref="150" max="-2" attributes="0"/>
-                  <Component id="jLabel3" min="-2" pref="171" max="-2" attributes="0"/>
+                  <Component id="JM_btnOrders" min="-2" pref="150" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel3" min="-2" pref="171" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="399" max="-2" attributes="0"/>
           </Group>
@@ -45,16 +45,16 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="124" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jLabel3" max="32767" attributes="0"/>
-                  <Component id="jLabel2" pref="184" max="32767" attributes="0"/>
+                  <Component id="JM_jLabel3" max="32767" attributes="0"/>
+                  <Component id="JM_jLabel2" pref="184" max="32767" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnOrders" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
-                  <Component id="btnHomePage" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                  <Component id="JM_btnOrders" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                  <Component id="JM_btnHomePage" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="256" max="-2" attributes="0"/>
           </Group>
@@ -62,7 +62,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btnHomePage">
+    <Component class="javax.swing.JButton" name="JM_btnHomePage">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -73,10 +73,10 @@
         <Property name="text" type="java.lang.String" value="HomePage"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHomePageActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnHomePageActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnOrders">
+    <Component class="javax.swing.JButton" name="JM_btnOrders">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -87,10 +87,10 @@
         <Property name="text" type="java.lang.String" value="My Orders"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOrdersActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnOrdersActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="JM_jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial Black" size="24" style="1"/>
@@ -102,14 +102,14 @@
         <Property name="text" type="java.lang.String" value="Transport Panel"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="JM_jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/TransportorRole/home.png"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="JM_jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/TransportorRole/orders.png"/>

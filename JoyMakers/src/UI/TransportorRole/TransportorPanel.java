@@ -61,40 +61,40 @@ public class TransportorPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnHomePage = new javax.swing.JButton();
-        btnOrders = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        JM_btnHomePage = new javax.swing.JButton();
+        JM_btnOrders = new javax.swing.JButton();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        btnHomePage.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        btnHomePage.setForeground(new java.awt.Color(0, 153, 153));
-        btnHomePage.setText("HomePage");
-        btnHomePage.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnHomePage.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        JM_btnHomePage.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnHomePage.setText("HomePage");
+        JM_btnHomePage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnHomePageActionPerformed(evt);
+                JM_btnHomePageActionPerformed(evt);
             }
         });
 
-        btnOrders.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        btnOrders.setForeground(new java.awt.Color(0, 153, 153));
-        btnOrders.setText("My Orders");
-        btnOrders.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnOrders.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        JM_btnOrders.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnOrders.setText("My Orders");
+        JM_btnOrders.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnOrdersActionPerformed(evt);
+                JM_btnOrdersActionPerformed(evt);
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Transport Panel");
+        JM_jLabel1.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel1.setText("Transport Panel");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/TransportorRole/home.png"))); // NOI18N
+        JM_jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/TransportorRole/home.png"))); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/TransportorRole/orders.png"))); // NOI18N
+        JM_jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/TransportorRole/orders.png"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -102,60 +102,60 @@ public class TransportorPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(364, 364, 364)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 603, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 603, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(433, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btnHomePage, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_btnHomePage, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(240, 240, 240)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnOrders, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_btnOrders, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(399, 399, 399))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(93, 93, 93)
-                .addComponent(jLabel1)
+                .addComponent(JM_jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 124, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE))
+                    .addComponent(JM_jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JM_jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnOrders, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnHomePage, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_btnOrders, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnHomePage, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(256, 256, 256))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnHomePageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHomePageActionPerformed
+    private void JM_btnHomePageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnHomePageActionPerformed
         // TODO add your handling code here:
         HomePagePanel homePagePanel = new HomePagePanel(userProcessContainer, ua, org, system, ent);
         userProcessContainer.add("homePagePanel", homePagePanel);
         homePagePanel.autoPopOrders();
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnHomePageActionPerformed
+    }//GEN-LAST:event_JM_btnHomePageActionPerformed
 
-    private void btnOrdersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdersActionPerformed
+    private void JM_btnOrdersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnOrdersActionPerformed
         // TODO add your handling code here:
         OrdersPanel orderPanel = new OrdersPanel(userProcessContainer, ua, org, system, ent);
         userProcessContainer.add("orderPanel", orderPanel);
         orderPanel.autoPopAssignedOrd();
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnOrdersActionPerformed
+    }//GEN-LAST:event_JM_btnOrdersActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnHomePage;
-    private javax.swing.JButton btnOrders;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton JM_btnHomePage;
+    private javax.swing.JButton JM_btnOrders;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_jLabel3;
     // End of variables declaration//GEN-END:variables
 }

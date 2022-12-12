@@ -46,37 +46,37 @@ public class RestaurantPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnNewReq = new javax.swing.JButton();
-        btnHomePage = new javax.swing.JButton();
-        btnDelivery = new javax.swing.JButton();
+        JM_btnNewReq = new javax.swing.JButton();
+        JM_btnHomePage = new javax.swing.JButton();
+        JM_btnDelivery = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
-        btnNewReq.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
-        btnNewReq.setForeground(new java.awt.Color(0, 153, 153));
-        btnNewReq.setText("New Requests");
-        btnNewReq.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnNewReq.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
+        JM_btnNewReq.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnNewReq.setText("New Requests");
+        JM_btnNewReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnNewReqActionPerformed(evt);
+                JM_btnNewReqActionPerformed(evt);
             }
         });
 
-        btnHomePage.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
-        btnHomePage.setForeground(new java.awt.Color(0, 153, 153));
-        btnHomePage.setText("HomePage");
-        btnHomePage.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnHomePage.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
+        JM_btnHomePage.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnHomePage.setText("HomePage");
+        JM_btnHomePage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnHomePageActionPerformed(evt);
+                JM_btnHomePageActionPerformed(evt);
             }
         });
 
-        btnDelivery.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
-        btnDelivery.setForeground(new java.awt.Color(0, 153, 153));
-        btnDelivery.setText("Delivery");
-        btnDelivery.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnDelivery.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
+        JM_btnDelivery.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnDelivery.setText("Delivery");
+        JM_btnDelivery.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDeliveryActionPerformed(evt);
+                JM_btnDeliveryActionPerformed(evt);
             }
         });
 
@@ -87,55 +87,55 @@ public class RestaurantPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(129, 129, 129)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(btnNewReq, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnHomePage, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnDelivery, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(JM_btnNewReq, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JM_btnHomePage, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JM_btnDelivery, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(147, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(70, 70, 70)
-                .addComponent(btnHomePage)
+                .addComponent(JM_btnHomePage)
                 .addGap(27, 27, 27)
-                .addComponent(btnNewReq)
+                .addComponent(JM_btnNewReq)
                 .addGap(18, 18, 18)
-                .addComponent(btnDelivery)
+                .addComponent(JM_btnDelivery)
                 .addContainerGap(107, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnNewReqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNewReqActionPerformed
+    private void JM_btnNewReqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnNewReqActionPerformed
         // TODO add your handling code here:
         NewRequestPanel newRequestPanel = new NewRequestPanel(userProcessContainer, ua, org, net, ent);
         userProcessContainer.add("newRequestPanel", newRequestPanel);
         newRequestPanel.autoPopFoodList();
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnNewReqActionPerformed
+    }//GEN-LAST:event_JM_btnNewReqActionPerformed
 
-    private void btnHomePageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHomePageActionPerformed
+    private void JM_btnHomePageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnHomePageActionPerformed
         // TODO add your handling code here:
         RestHomePagePanel homePagePanel = new RestHomePagePanel(userProcessContainer, ua, org, net, ent);
         userProcessContainer.add("homePagePanel", homePagePanel);
         homePagePanel.autoPopAssignedReq();
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnHomePageActionPerformed
+    }//GEN-LAST:event_JM_btnHomePageActionPerformed
 
-    private void btnDeliveryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeliveryActionPerformed
+    private void JM_btnDeliveryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnDeliveryActionPerformed
         // TODO add your handling code here:
         DeliveryPanel deliveryPanel = new DeliveryPanel(userProcessContainer, ua, org, net, ent);
         userProcessContainer.add("deliveryPanel", deliveryPanel);
         deliveryPanel.autoPopDelivery();
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnDeliveryActionPerformed
+    }//GEN-LAST:event_JM_btnDeliveryActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnDelivery;
-    private javax.swing.JButton btnHomePage;
-    private javax.swing.JButton btnNewReq;
+    private javax.swing.JButton JM_btnDelivery;
+    private javax.swing.JButton JM_btnHomePage;
+    private javax.swing.JButton JM_btnNewReq;
     // End of variables declaration//GEN-END:variables
 }

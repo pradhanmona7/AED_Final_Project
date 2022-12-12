@@ -111,28 +111,28 @@ public class MyOrders extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel7 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jScrollPane8 = new javax.swing.JScrollPane();
+        JM_jLabel7 = new javax.swing.JLabel();
+        JM_jLabel3 = new javax.swing.JLabel();
+        JM_jLabel4 = new javax.swing.JLabel();
+        JM_jScrollPane8 = new javax.swing.JScrollPane();
         tblOrderHistory = new javax.swing.JTable();
-        jScrollPane9 = new javax.swing.JScrollPane();
+        JM_jScrollPane9 = new javax.swing.JScrollPane();
         tblOrdDetails = new javax.swing.JTable();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel7.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setText("Inventory Order History");
+        JM_jLabel7.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel7.setText("Inventory Order History");
 
-        jLabel3.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Order History");
+        JM_jLabel3.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel3.setText("Order History");
 
-        jLabel4.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Details");
+        JM_jLabel4.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel4.setText("Details");
 
         tblOrderHistory.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         tblOrderHistory.setForeground(new java.awt.Color(102, 0, 102));
@@ -157,7 +157,7 @@ public class MyOrders extends javax.swing.JPanel {
                 tblOrderHistoryMouseClicked(evt);
             }
         });
-        jScrollPane8.setViewportView(tblOrderHistory);
+        JM_jScrollPane8.setViewportView(tblOrderHistory);
 
         tblOrdDetails.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         tblOrdDetails.setForeground(new java.awt.Color(102, 0, 102));
@@ -177,39 +177,39 @@ public class MyOrders extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane9.setViewportView(tblOrdDetails);
+        JM_jScrollPane9.setViewportView(tblOrdDetails);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 1400, Short.MAX_VALUE)
+            .addComponent(JM_jLabel7, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 1400, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(185, 185, 185)
-                .addComponent(jLabel3)
+                .addComponent(JM_jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(279, 279, 279))
             .addGroup(layout.createSequentialGroup()
                 .addGap(84, 84, 84)
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(121, 121, 121)
-                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(35, 35, 35)
-                .addComponent(jLabel7)
+                .addComponent(JM_jLabel7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3))
+                    .addComponent(JM_jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 392, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 392, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(271, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -229,11 +229,11 @@ public class MyOrders extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JScrollPane jScrollPane8;
-    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JLabel JM_jLabel3;
+    private javax.swing.JLabel JM_jLabel4;
+    private javax.swing.JLabel JM_jLabel7;
+    private javax.swing.JScrollPane JM_jScrollPane8;
+    private javax.swing.JScrollPane JM_jScrollPane9;
     private javax.swing.JTable tblOrdDetails;
     private javax.swing.JTable tblOrderHistory;
     // End of variables declaration//GEN-END:variables

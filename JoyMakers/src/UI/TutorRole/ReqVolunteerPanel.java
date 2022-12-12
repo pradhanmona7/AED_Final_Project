@@ -50,229 +50,226 @@ public class ReqVolunteerPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        txtArea = new javax.swing.JTextField();
+        JM_txtArea = new javax.swing.JTextField();
         Date date = new Date();
         SpinnerDateModel sm = new SpinnerDateModel(date, null, null, Calendar.HOUR_OF_DAY);
-        tsTime = new javax.swing.JSpinner(sm);
-        dtChoser = new com.toedter.calendar.JDateChooser();
-        jScrollPane4 = new javax.swing.JScrollPane();
+        JM_tsTime = new javax.swing.JSpinner(sm);
+        JM_dtChoser = new com.toedter.calendar.JDateChooser();
+        JM_jScrollPane4 = new javax.swing.JScrollPane();
         txtRequirements = new javax.swing.JTextArea();
-        txtTitle = new javax.swing.JTextField();
-        txtNoOfStudents = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        txtPlace = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        btnBack = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
-        txtNoOfVol = new javax.swing.JTextField();
-        requestVolunteerJButton = new javax.swing.JButton();
-        txtNoOfHrs = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
+        JM_txtTitle = new javax.swing.JTextField();
+        JM_txtNoOfStudents = new javax.swing.JTextField();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_jLabel8 = new javax.swing.JLabel();
+        JM_jLabel3 = new javax.swing.JLabel();
+        JM_txtPlace = new javax.swing.JTextField();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_jLabel7 = new javax.swing.JLabel();
+        JM_btnBack = new javax.swing.JButton();
+        JM_jLabel5 = new javax.swing.JLabel();
+        JM_txtNoOfVol = new javax.swing.JTextField();
+        JM_requestVolunteerJButton = new javax.swing.JButton();
+        JM_txtNoOfHrs = new javax.swing.JTextField();
+        JM_jLabel4 = new javax.swing.JLabel();
+        JM_jLabel9 = new javax.swing.JLabel();
+        JM_jLabel6 = new javax.swing.JLabel();
+        JM_jLabel10 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
-        txtArea.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtArea.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtArea.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtArea.setForeground(new java.awt.Color(102, 0, 102));
 
-        JSpinner.DateEditor de = new JSpinner.DateEditor(tsTime, "HH:mm");
-        tsTime.setEditor(de);
-        tsTime.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JSpinner.DateEditor de = new JSpinner.DateEditor(JM_tsTime, "HH:mm");
+        JM_tsTime.setEditor(de);
+        JM_tsTime.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        dtChoser.setToolTipText("");
-        dtChoser.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_dtChoser.setToolTipText("");
+        JM_dtChoser.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
         txtRequirements.setColumns(20);
         txtRequirements.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtRequirements.setRows(5);
-        jScrollPane4.setViewportView(txtRequirements);
+        JM_jScrollPane4.setViewportView(txtRequirements);
 
-        txtTitle.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtTitle.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtTitle.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtTitle.setForeground(new java.awt.Color(102, 0, 102));
 
-        txtNoOfStudents.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtNoOfStudents.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtNoOfStudents.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtNoOfStudents.setForeground(new java.awt.Color(102, 0, 102));
 
-        jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel2.setText("Job Title:");
+        JM_jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel2.setText("Job Title:");
 
-        jLabel8.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel8.setText("Number of Students:");
+        JM_jLabel8.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel8.setText("Number of Students:");
 
-        jLabel3.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Date:");
+        JM_jLabel3.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel3.setText("Date:");
 
-        txtPlace.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtPlace.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtPlace.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtPlace.setForeground(new java.awt.Color(102, 0, 102));
 
-        jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel1.setText("Requirements:");
+        JM_jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel1.setText("Requirements:");
 
-        jLabel7.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel7.setText("Place:");
+        JM_jLabel7.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel7.setText("Place:");
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnBack.setForeground(new java.awt.Color(0, 153, 153));
-        btnBack.setText("<<Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnBack.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBack.setText("<<Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btnBackActionPerformed(evt);
             }
         });
 
-        jLabel5.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel5.setText("Number of Volunteers:");
+        JM_jLabel5.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel5.setText("Number of Volunteers:");
 
-        txtNoOfVol.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtNoOfVol.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtNoOfVol.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtNoOfVol.setForeground(new java.awt.Color(102, 0, 102));
 
-        requestVolunteerJButton.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        requestVolunteerJButton.setForeground(new java.awt.Color(0, 153, 153));
-        requestVolunteerJButton.setText("CREATE");
-        requestVolunteerJButton.addActionListener(new java.awt.event.ActionListener() {
+        JM_requestVolunteerJButton.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_requestVolunteerJButton.setForeground(new java.awt.Color(0, 153, 153));
+        JM_requestVolunteerJButton.setText("CREATE");
+        JM_requestVolunteerJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                requestVolunteerJButtonActionPerformed(evt);
+                JM_requestVolunteerJButtonActionPerformed(evt);
             }
         });
 
-        txtNoOfHrs.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtNoOfHrs.setForeground(new java.awt.Color(102, 0, 102));
+        JM_txtNoOfHrs.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtNoOfHrs.setForeground(new java.awt.Color(102, 0, 102));
 
-        jLabel4.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel4.setText("Number of Hours:");
+        JM_jLabel4.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel4.setText("Number of Hours:");
 
-        jLabel9.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel9.setText("Area:");
+        JM_jLabel9.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel9.setText("Area:");
 
-        jLabel6.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Time: ");
+        JM_jLabel6.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel6.setText("Time: ");
 
-        jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("New Volunteer Request");
+        JM_jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel10.setText("New Volunteer Request");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel4)
+                        .addComponent(JM_jLabel4)
                         .addGap(18, 18, 18)
-                        .addComponent(txtNoOfHrs, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(JM_txtNoOfHrs, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(282, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel8)
-                                    .addComponent(jLabel5)
-                                    .addComponent(jLabel1))
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(requestVolunteerJButton)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(txtNoOfStudents, javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(txtNoOfVol, javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel2)
-                                    .addComponent(jLabel3)
-                                    .addComponent(jLabel6)
-                                    .addComponent(jLabel7))
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtTitle)
-                                    .addComponent(dtChoser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(tsTime)
-                                    .addComponent(txtPlace, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel9)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtArea, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addComponent(JM_jLabel8)
+                            .addComponent(JM_jLabel5)
+                            .addComponent(JM_jLabel1))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(JM_requestVolunteerJButton)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(JM_txtNoOfStudents, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(JM_txtNoOfVol, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(JM_jScrollPane4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(JM_jLabel2)
+                            .addComponent(JM_jLabel3)
+                            .addComponent(JM_jLabel6)
+                            .addComponent(JM_jLabel7))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(JM_txtTitle)
+                            .addComponent(JM_dtChoser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(JM_tsTime)
+                            .addComponent(JM_txtPlace, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(JM_jLabel9)
+                        .addGap(18, 18, 18)
+                        .addComponent(JM_txtArea, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(295, Short.MAX_VALUE))
-            .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JM_jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(44, 44, 44)
-                .addComponent(jLabel10)
+                .addComponent(JM_jLabel10)
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(txtTitle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel2)
+                    .addComponent(JM_txtTitle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(dtChoser, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3))
+                    .addComponent(JM_dtChoser, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(tsTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel6))
+                    .addComponent(JM_tsTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel6))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtPlace, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel7))
+                    .addComponent(JM_txtPlace, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel7))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtArea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9))
+                    .addComponent(JM_txtArea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel9))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(txtNoOfHrs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel4)
+                    .addComponent(JM_txtNoOfHrs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtNoOfStudents, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8))
+                    .addComponent(JM_txtNoOfStudents, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jLabel8))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(txtNoOfVol, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel5)
+                    .addComponent(JM_txtNoOfVol, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel1)
+                    .addComponent(JM_jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(25, 25, 25)
-                .addComponent(requestVolunteerJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_requestVolunteerJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
-                .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(23, 23, 23))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
 
         userProcessContainer.remove(this);
         Component[] componentArray = userProcessContainer.getComponents();
@@ -281,20 +278,20 @@ public class ReqVolunteerPanel extends javax.swing.JPanel {
         tutorPanel.autoPopReqTbl();
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
-    private void requestVolunteerJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_requestVolunteerJButtonActionPerformed
+    private void JM_requestVolunteerJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_requestVolunteerJButtonActionPerformed
 
         TutorVolunteerWorkReq req = new TutorVolunteerWorkReq();
 
-        String title = txtTitle.getText();
+        String title = JM_txtTitle.getText();
         if(title== null || title.equals("")){
             JOptionPane.showMessageDialog(null, "Job Title cannot be left empty");
             return;
         }
         req.setTitle(title);
 
-        Date dt = dtChoser.getDate();
+        Date dt = JM_dtChoser.getDate();
         if(dt == null || dt.equals("")){
             JOptionPane.showMessageDialog(null, "Date cannot be left empty");
             return;
@@ -307,7 +304,7 @@ public class ReqVolunteerPanel extends javax.swing.JPanel {
 
         SimpleDateFormat fmt = new SimpleDateFormat("HH:mm");
 
-        Date time =  (Date) tsTime.getValue();
+        Date time =  (Date) JM_tsTime.getValue();
         String volTime = fmt.format(time);
         if(volTime == null || volTime.equals("")){
             JOptionPane.showMessageDialog(null, "Time field mandatory");
@@ -315,28 +312,28 @@ public class ReqVolunteerPanel extends javax.swing.JPanel {
         }
         req.setTime(volTime);
 
-        String volPlace = txtPlace.getText();
+        String volPlace = JM_txtPlace.getText();
         if(volPlace == null || volPlace.equals("")){
             JOptionPane.showMessageDialog(null, "Place field mandatory");
             return;
         }
         req.setAddress(volPlace);
 
-        String volArea = txtArea.getText();
+        String volArea = JM_txtArea.getText();
         if(volArea == null || volArea.equals("")){
             JOptionPane.showMessageDialog(null, "Area field mandatory");
             return;
         }
         req.setArea(volArea);
 
-        String noOfHrs = txtNoOfHrs.getText();
+        String noOfHrs = JM_txtNoOfHrs.getText();
         if(noOfHrs == null || noOfHrs.equals("")){
             JOptionPane.showMessageDialog(null, "Number of Hours field mandatory.");
             return;
         }
         req.setNumOfhours(noOfHrs);
 
-        String stud = txtNoOfStudents.getText();
+        String stud = JM_txtNoOfStudents.getText();
         if(stud == null || stud.equals("")){
             JOptionPane.showMessageDialog(null, "Number of Students field mandatory.");
             return;
@@ -359,7 +356,7 @@ public class ReqVolunteerPanel extends javax.swing.JPanel {
         }
         req.setNumOfStudents(noOfStud);
 
-        String noOfVol = txtNoOfVol.getText();
+        String noOfVol = JM_txtNoOfVol.getText();
         if(noOfVol == null || noOfVol.equals("")){
             JOptionPane.showMessageDialog(null, "Number of Volunteers field is mandatory");
             return;
@@ -406,39 +403,39 @@ public class ReqVolunteerPanel extends javax.swing.JPanel {
 
         JOptionPane.showMessageDialog(null, "Volunteer Request succesfully sent.");
 
-        txtTitle.setText("");
-        dtChoser.setDate(null);
-        txtPlace.setText("");
-        txtArea.setText("");
-        txtNoOfHrs.setText("");
-        txtNoOfStudents.setText("");
-        txtNoOfVol.setText("");
+        JM_txtTitle.setText("");
+        JM_dtChoser.setDate(null);
+        JM_txtPlace.setText("");
+        JM_txtArea.setText("");
+        JM_txtNoOfHrs.setText("");
+        JM_txtNoOfStudents.setText("");
+        JM_txtNoOfVol.setText("");
         txtRequirements.setText("");
-    }//GEN-LAST:event_requestVolunteerJButtonActionPerformed
+    }//GEN-LAST:event_JM_requestVolunteerJButtonActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBack;
-    private com.toedter.calendar.JDateChooser dtChoser;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JButton requestVolunteerJButton;
-    private javax.swing.JSpinner tsTime;
-    private javax.swing.JTextField txtArea;
-    private javax.swing.JTextField txtNoOfHrs;
-    private javax.swing.JTextField txtNoOfStudents;
-    private javax.swing.JTextField txtNoOfVol;
-    private javax.swing.JTextField txtPlace;
+    private javax.swing.JButton JM_btnBack;
+    private com.toedter.calendar.JDateChooser JM_dtChoser;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel10;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_jLabel3;
+    private javax.swing.JLabel JM_jLabel4;
+    private javax.swing.JLabel JM_jLabel5;
+    private javax.swing.JLabel JM_jLabel6;
+    private javax.swing.JLabel JM_jLabel7;
+    private javax.swing.JLabel JM_jLabel8;
+    private javax.swing.JLabel JM_jLabel9;
+    private javax.swing.JScrollPane JM_jScrollPane4;
+    private javax.swing.JButton JM_requestVolunteerJButton;
+    private javax.swing.JSpinner JM_tsTime;
+    private javax.swing.JTextField JM_txtArea;
+    private javax.swing.JTextField JM_txtNoOfHrs;
+    private javax.swing.JTextField JM_txtNoOfStudents;
+    private javax.swing.JTextField JM_txtNoOfVol;
+    private javax.swing.JTextField JM_txtPlace;
+    private javax.swing.JTextField JM_txtTitle;
     private javax.swing.JTextArea txtRequirements;
-    private javax.swing.JTextField txtTitle;
     // End of variables declaration//GEN-END:variables
 }

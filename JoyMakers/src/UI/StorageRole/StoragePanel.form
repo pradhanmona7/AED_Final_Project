@@ -28,20 +28,20 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="533" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="321" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel1" min="-2" pref="321" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="434" max="-2" attributes="0"/>
-                          <Component id="jLabel2" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="JM_jLabel2" min="-2" pref="150" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jLabel3" min="-2" pref="144" max="-2" attributes="0"/>
+                          <Component id="JM_jLabel3" min="-2" pref="144" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="417" max="-2" attributes="0"/>
-                          <Component id="btnNewDonations" min="-2" pref="177" max="-2" attributes="0"/>
+                          <Component id="JM_btnNewDonations" min="-2" pref="177" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
-                          <Component id="btnMyOrders" min="-2" pref="137" max="-2" attributes="0"/>
+                          <Component id="JM_btnMyOrders" min="-2" pref="137" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -53,16 +53,16 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="38" max="-2" attributes="0"/>
+              <Component id="JM_jLabel1" min="-2" pref="38" max="-2" attributes="0"/>
               <EmptySpace pref="197" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jLabel3" max="32767" attributes="0"/>
-                  <Component id="jLabel2" pref="190" max="32767" attributes="0"/>
+                  <Component id="JM_jLabel3" max="32767" attributes="0"/>
+                  <Component id="JM_jLabel2" pref="190" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnMyOrders" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
-                  <Component id="btnNewDonations" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="JM_btnMyOrders" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="JM_btnNewDonations" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
           </Group>
@@ -70,7 +70,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btnNewDonations">
+    <Component class="javax.swing.JButton" name="JM_btnNewDonations">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="18" style="1"/>
@@ -81,10 +81,10 @@
         <Property name="text" type="java.lang.String" value="New Donations"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNewDonationsActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnNewDonationsActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnMyOrders">
+    <Component class="javax.swing.JButton" name="JM_btnMyOrders">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="18" style="1"/>
@@ -95,10 +95,10 @@
         <Property name="text" type="java.lang.String" value="My Ordres"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMyOrdersActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnMyOrdersActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="JM_jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="36" style="1"/>
@@ -109,14 +109,14 @@
         <Property name="text" type="java.lang.String" value="STORAGE PANEL"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="JM_jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/StorageRole/donation.png"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="JM_jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/UI/StorageRole/order.png"/>

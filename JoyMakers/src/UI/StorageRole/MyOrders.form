@@ -21,19 +21,19 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jLabel7" alignment="1" pref="1400" max="32767" attributes="0"/>
+          <Component id="JM_jLabel7" alignment="1" pref="1400" max="32767" attributes="0"/>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
-              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_jLabel3" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="jLabel4" min="-2" pref="84" max="-2" attributes="0"/>
+              <Component id="JM_jLabel4" min="-2" pref="84" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="279" max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
-              <Component id="jScrollPane8" min="-2" pref="700" max="-2" attributes="0"/>
+              <Component id="JM_jScrollPane8" min="-2" pref="700" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
-              <Component id="jScrollPane9" min="-2" pref="341" max="-2" attributes="0"/>
+              <Component id="JM_jScrollPane9" min="-2" pref="341" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -42,16 +42,16 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_jLabel7" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel4" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel4" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane8" min="-2" pref="400" max="-2" attributes="0"/>
-                  <Component id="jScrollPane9" min="-2" pref="392" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane8" min="-2" pref="400" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane9" min="-2" pref="392" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="271" max="32767" attributes="0"/>
           </Group>
@@ -59,7 +59,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel7">
+    <Component class="javax.swing.JLabel" name="JM_jLabel7">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="24" style="1"/>
@@ -71,7 +71,7 @@
         <Property name="text" type="java.lang.String" value="Inventory Order History"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="JM_jLabel3">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -82,7 +82,7 @@
         <Property name="text" type="java.lang.String" value="Order History"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
+    <Component class="javax.swing.JLabel" name="JM_jLabel4">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -93,7 +93,7 @@
         <Property name="text" type="java.lang.String" value="Details"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane8">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -168,7 +168,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane9">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>

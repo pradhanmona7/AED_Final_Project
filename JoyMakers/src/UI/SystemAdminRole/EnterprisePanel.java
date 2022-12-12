@@ -50,14 +50,14 @@ public class EnterprisePanel extends javax.swing.JPanel {
     }
     
     private void autoPopComboBox() {
-        cbEntNetwork.removeAllItems();
-        cbEntType.removeAllItems();
+        JM_cbEntNetwork.removeAllItems();
+        JM_cbEntType.removeAllItems();
 
         for (Network net : system.getNetList()) {
-            cbEntNetwork.addItem(net);
+            JM_cbEntNetwork.addItem(net);
         }
         for (Enterprise.EntType type : Enterprise.EntType.values()) {
-            cbEntType.addItem(type);
+            JM_cbEntType.addItem(type);
         }
 
     }
@@ -70,69 +70,74 @@ public class EnterprisePanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        cbEntNetwork = new javax.swing.JComboBox();
-        jLabel2 = new javax.swing.JLabel();
-        txtEntName = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
-        cbEntType = new javax.swing.JComboBox();
-        btnEntAdd = new javax.swing.JButton();
-        btnBack = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_cbEntNetwork = new javax.swing.JComboBox();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_txtEntName = new javax.swing.JTextField();
+        JM_jLabel3 = new javax.swing.JLabel();
+        JM_cbEntType = new javax.swing.JComboBox();
+        JM_btnEntAdd = new javax.swing.JButton();
+        JM_btnBack = new javax.swing.JButton();
+        JM_jLabel4 = new javax.swing.JLabel();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
         tblEnterprise = new javax.swing.JTable();
-        btnEnterpriseDelete = new javax.swing.JButton();
+        JM_btnEnterpriseDelete = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Network");
+        JM_jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setText("Network");
 
-        cbEntNetwork.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbEntNetwork.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
-        jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Name");
-
-        txtEntName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-
-        jLabel3.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Enterprise Type");
-
-        cbEntType.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbEntType.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        cbEntType.addActionListener(new java.awt.event.ActionListener() {
+        JM_cbEntNetwork.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_cbEntNetwork.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        JM_cbEntNetwork.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbEntTypeActionPerformed(evt);
+                JM_cbEntNetworkActionPerformed(evt);
             }
         });
 
-        btnEntAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnEntAdd.setForeground(new java.awt.Color(0, 153, 153));
-        btnEntAdd.setText("Add");
-        btnEntAdd.addActionListener(new java.awt.event.ActionListener() {
+        JM_jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel2.setText("Name");
+
+        JM_txtEntName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+
+        JM_jLabel3.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel3.setText("Enterprise Type");
+
+        JM_cbEntType.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_cbEntType.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        JM_cbEntType.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnEntAddActionPerformed(evt);
+                JM_cbEntTypeActionPerformed(evt);
             }
         });
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnBack.setForeground(new java.awt.Color(0, 153, 153));
-        btnBack.setText("<< Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnEntAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnEntAdd.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnEntAdd.setText("Add");
+        JM_btnEntAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btnEntAddActionPerformed(evt);
             }
         });
 
-        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel4.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("MANAGE ENTERPRISE WORKAREA");
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnBack.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBack.setText("<< Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JM_btnBackActionPerformed(evt);
+            }
+        });
+
+        JM_jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        JM_jLabel4.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel4.setText("MANAGE ENTERPRISE WORKAREA");
 
         tblEnterprise.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         tblEnterprise.setForeground(new java.awt.Color(102, 0, 102));
@@ -155,14 +160,14 @@ public class EnterprisePanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(tblEnterprise);
+        JM_jScrollPane1.setViewportView(tblEnterprise);
 
-        btnEnterpriseDelete.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnEnterpriseDelete.setForeground(new java.awt.Color(0, 153, 153));
-        btnEnterpriseDelete.setText("DELETE");
-        btnEnterpriseDelete.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnEnterpriseDelete.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnEnterpriseDelete.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnEnterpriseDelete.setText("DELETE");
+        JM_btnEnterpriseDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnEnterpriseDeleteActionPerformed(evt);
+                JM_btnEnterpriseDeleteActionPerformed(evt);
             }
         });
 
@@ -170,69 +175,69 @@ public class EnterprisePanel extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(JM_jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap(255, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 523, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 523, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(btnEnterpriseDelete, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2))
+                            .addComponent(JM_btnEnterpriseDelete, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(JM_jLabel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(JM_jLabel1)
+                            .addComponent(JM_jLabel2))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(cbEntNetwork, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(cbEntType, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(txtEntName, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnEntAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(JM_cbEntNetwork, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(JM_cbEntType, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(JM_txtEntName, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_btnEntAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(255, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(42, 42, 42)
-                .addComponent(btnBack)
+                .addComponent(JM_btnBack)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(35, 35, 35)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnEnterpriseDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnEnterpriseDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(23, 23, 23)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(cbEntNetwork, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel1)
+                    .addComponent(JM_cbEntNetwork, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(cbEntType, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel3)
+                    .addComponent(JM_cbEntType, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(txtEntName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(JM_jLabel2)
+                    .addComponent(JM_txtEntName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
-                .addComponent(btnEntAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnEntAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(32, 32, 32)
-                .addComponent(btnBack)
+                .addComponent(JM_btnBack)
                 .addGap(96, 96, 96))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnEntAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEntAddActionPerformed
+    private void JM_btnEntAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnEntAddActionPerformed
 
-        Network net = (Network) cbEntNetwork.getSelectedItem();
-        Enterprise.EntType type = (Enterprise.EntType) cbEntType.getSelectedItem();
+        Network net = (Network) JM_cbEntNetwork.getSelectedItem();
+        Enterprise.EntType type = (Enterprise.EntType) JM_cbEntType.getSelectedItem();
 
         if (net == null || type == null) {
             JOptionPane.showMessageDialog(null, "Invalid Input.");
             return;
         }
 
-        String name = txtEntName.getText();
+        String name = JM_txtEntName.getText();
         if(name.equals("") || name==null){
             JOptionPane.showMessageDialog(null, "Name field Mandatory.");
             return;
@@ -248,16 +253,16 @@ public class EnterprisePanel extends javax.swing.JPanel {
 
         autoPopEnt();
         
-        txtEntName.setText("");
-    }//GEN-LAST:event_btnEntAddActionPerformed
+        JM_txtEntName.setText("");
+    }//GEN-LAST:event_JM_btnEntAddActionPerformed
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
-    private void btnEnterpriseDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnterpriseDeleteActionPerformed
+    private void JM_btnEnterpriseDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnEnterpriseDeleteActionPerformed
 
         int selectedRow = tblEnterprise.getSelectedRow();
         if (selectedRow < 0) {
@@ -279,25 +284,29 @@ public class EnterprisePanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "Successful deletion of enterprise.");
             autoPopEnt();
         }
-    }//GEN-LAST:event_btnEnterpriseDeleteActionPerformed
+    }//GEN-LAST:event_JM_btnEnterpriseDeleteActionPerformed
 
-    private void cbEntTypeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbEntTypeActionPerformed
+    private void JM_cbEntTypeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_cbEntTypeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_cbEntTypeActionPerformed
+    }//GEN-LAST:event_JM_cbEntTypeActionPerformed
+
+    private void JM_cbEntNetworkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_cbEntNetworkActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JM_cbEntNetworkActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBack;
-    private javax.swing.JButton btnEntAdd;
-    private javax.swing.JButton btnEnterpriseDelete;
-    private javax.swing.JComboBox cbEntNetwork;
-    private javax.swing.JComboBox cbEntType;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JButton JM_btnBack;
+    private javax.swing.JButton JM_btnEntAdd;
+    private javax.swing.JButton JM_btnEnterpriseDelete;
+    private javax.swing.JComboBox JM_cbEntNetwork;
+    private javax.swing.JComboBox JM_cbEntType;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_jLabel3;
+    private javax.swing.JLabel JM_jLabel4;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JTextField JM_txtEntName;
     private javax.swing.JTable tblEnterprise;
-    private javax.swing.JTextField txtEntName;
     // End of variables declaration//GEN-END:variables
 }

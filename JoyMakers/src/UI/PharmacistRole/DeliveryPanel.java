@@ -55,7 +55,7 @@ public class DeliveryPanel extends javax.swing.JPanel {
     }
     
     public void autoPopDelivery() {
-        DefaultTableModel mdl = (DefaultTableModel)tblMedDelivery.getModel();
+        DefaultTableModel mdl = (DefaultTableModel)JM_tblMedDelivery.getModel();
         mdl.setRowCount(0);    
         for (Iterator<WorkRequest> wr = org.getWorkQueue().getWrList().iterator(); wr.hasNext();) {
             WorkRequest workRequest = wr.next();
@@ -79,7 +79,7 @@ public class DeliveryPanel extends javax.swing.JPanel {
     }
 
     public void autoPopReq() {
-        DefaultTableModel mdl = (DefaultTableModel)tblMedDelivery.getModel();
+        DefaultTableModel mdl = (DefaultTableModel)JM_tblMedDelivery.getModel();
         mdl.setRowCount(0);            
         for (Iterator<WorkRequest> wr = org.getWorkQueue().getWrList().iterator(); wr.hasNext();) {
             WorkRequest workRequest = wr.next();
@@ -102,7 +102,7 @@ public class DeliveryPanel extends javax.swing.JPanel {
     }
     
     public void autoPopUnReq() {
-        DefaultTableModel mdl = (DefaultTableModel)tblMedDelivery.getModel();
+        DefaultTableModel mdl = (DefaultTableModel)JM_tblMedDelivery.getModel();
         mdl.setRowCount(0);    
         
         
@@ -128,7 +128,7 @@ public class DeliveryPanel extends javax.swing.JPanel {
     }
     
     public void autoPopDelivered() {
-        DefaultTableModel mdl = (DefaultTableModel)tblMedDelivery.getModel();
+        DefaultTableModel mdl = (DefaultTableModel)JM_tblMedDelivery.getModel();
         mdl.setRowCount(0);    
         for (Iterator<WorkRequest> wr = org.getWorkQueue().getWrList().iterator(); wr.hasNext();) {
             WorkRequest workRequest = wr.next();
@@ -162,38 +162,38 @@ public class DeliveryPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel26 = new javax.swing.JLabel();
-        refreshBtn2 = new javax.swing.JButton();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        tblMedDelivery = new javax.swing.JTable();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        txtDeliveryAddress = new javax.swing.JTextArea();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        txtContactNo = new javax.swing.JTextField();
-        btnReqDelivery = new javax.swing.JButton();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        cbFilter = new javax.swing.JComboBox();
-        btnBacks = new javax.swing.JButton();
+        JM_jLabel = new javax.swing.JLabel();
+        JM_refreshBtn2 = new javax.swing.JButton();
+        JM_jScrollPane6 = new javax.swing.JScrollPane();
+        JM_tblMedDelivery = new javax.swing.JTable();
+        JM_jScrollPane7 = new javax.swing.JScrollPane();
+        JM_txtDeliveryAddress = new javax.swing.JTextArea();
+        JM_jLabel24 = new javax.swing.JLabel();
+        JM_jLabel12 = new javax.swing.JLabel();
+        JM_txtContactNo = new javax.swing.JTextField();
+        JM_btnReqDelivery = new javax.swing.JButton();
+        JM_jLabel13 = new javax.swing.JLabel();
+        JM_jLabel14 = new javax.swing.JLabel();
+        JM_cbFilter = new javax.swing.JComboBox();
+        JM_btnBacks = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel26.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel26.setText("New Medicine Requests");
+        JM_jLabel.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel.setText("New Medicine Requests");
 
-        refreshBtn2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        refreshBtn2.setForeground(new java.awt.Color(0, 153, 153));
-        refreshBtn2.setText("Refresh");
-        refreshBtn2.addActionListener(new java.awt.event.ActionListener() {
+        JM_refreshBtn2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_refreshBtn2.setForeground(new java.awt.Color(0, 153, 153));
+        JM_refreshBtn2.setText("Refresh");
+        JM_refreshBtn2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                refreshBtn2ActionPerformed(evt);
+                JM_refreshBtn2ActionPerformed(evt);
             }
         });
 
-        tblMedDelivery.setModel(new javax.swing.table.DefaultTableModel(
+        JM_tblMedDelivery.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -212,65 +212,65 @@ public class DeliveryPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane6.setViewportView(tblMedDelivery);
+        JM_jScrollPane6.setViewportView(JM_tblMedDelivery);
 
-        txtDeliveryAddress.setColumns(20);
-        txtDeliveryAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txtDeliveryAddress.setRows(5);
-        jScrollPane7.setViewportView(txtDeliveryAddress);
+        JM_txtDeliveryAddress.setColumns(20);
+        JM_txtDeliveryAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtDeliveryAddress.setRows(5);
+        JM_jScrollPane7.setViewportView(JM_txtDeliveryAddress);
 
-        jLabel24.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel24.setText("Delivery Address:");
+        JM_jLabel24.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel24.setText("Delivery Address:");
 
-        jLabel12.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel12.setText("Contact Number:");
+        JM_jLabel12.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel12.setText("Contact Number:");
 
-        txtContactNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtContactNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        btnReqDelivery.setFont(new java.awt.Font("Lucida Grande", 1, 15)); // NOI18N
-        btnReqDelivery.setForeground(new java.awt.Color(0, 153, 153));
-        btnReqDelivery.setText("Request Delivery");
-        btnReqDelivery.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnReqDelivery.setFont(new java.awt.Font("Lucida Grande", 1, 15)); // NOI18N
+        JM_btnReqDelivery.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnReqDelivery.setText("Request Delivery");
+        JM_btnReqDelivery.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnReqDeliveryActionPerformed(evt);
+                JM_btnReqDeliveryActionPerformed(evt);
             }
         });
 
-        jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setText("Filter By: ");
+        JM_jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        JM_jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel13.setText("Filter By: ");
 
-        jLabel14.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel14.setText("Status");
+        JM_jLabel14.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel14.setText("Status");
 
-        cbFilter.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbFilter.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "All", "Requested", "UnRequested", "Delivered"}));
-        cbFilter.addItemListener(new java.awt.event.ItemListener() {
+        JM_cbFilter.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_cbFilter.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "All", "Requested", "UnRequested", "Delivered"}));
+        JM_cbFilter.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
-                cbFilterItemStateChanged(evt);
+                JM_cbFilterItemStateChanged(evt);
             }
         });
-        cbFilter.addMouseListener(new java.awt.event.MouseAdapter() {
+        JM_cbFilter.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                cbFilterMouseClicked(evt);
+                JM_cbFilterMouseClicked(evt);
             }
         });
-        cbFilter.addActionListener(new java.awt.event.ActionListener() {
+        JM_cbFilter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbFilterActionPerformed(evt);
+                JM_cbFilterActionPerformed(evt);
             }
         });
 
-        btnBacks.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        btnBacks.setForeground(new java.awt.Color(0, 153, 153));
-        btnBacks.setText("<<<Back");
-        btnBacks.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBacks.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_btnBacks.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBacks.setText("<<<Back");
+        JM_btnBacks.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBacksActionPerformed(evt);
+                JM_btnBacksActionPerformed(evt);
             }
         });
 
@@ -281,31 +281,31 @@ public class DeliveryPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(120, 120, 120)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel24))
+                    .addComponent(JM_jLabel12)
+                    .addComponent(JM_jLabel24))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnReqDelivery, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(JM_btnReqDelivery, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(303, 303, 303)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel13)
-                            .addComponent(jLabel14)
-                            .addComponent(cbFilter, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(txtContactNo, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel13)
+                            .addComponent(JM_jLabel14)
+                            .addComponent(JM_cbFilter, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(JM_txtContactNo, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 740, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 740, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(142, 142, 142)
-                .addComponent(refreshBtn2)
+                .addComponent(JM_refreshBtn2)
                 .addGap(57, 57, 57))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addComponent(btnBacks)
+                .addComponent(JM_btnBacks)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 128, Short.MAX_VALUE)
-                .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 894, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 894, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(49, 49, 49))
         );
         layout.setVerticalGroup(
@@ -313,60 +313,60 @@ public class DeliveryPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel26)
-                    .addComponent(btnBacks))
+                    .addComponent(JM_jLabel)
+                    .addComponent(JM_btnBacks))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(36, 36, 36)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(refreshBtn2)
-                            .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_refreshBtn2)
+                            .addComponent(JM_jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(57, 57, 57)
-                                .addComponent(jLabel24))
+                                .addComponent(JM_jLabel24))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(48, 48, 48)
-                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(JM_jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(214, 214, 214)
-                        .addComponent(jLabel13)
+                        .addComponent(JM_jLabel13)
                         .addGap(30, 30, 30)
-                        .addComponent(jLabel14)
+                        .addComponent(JM_jLabel14)
                         .addGap(18, 18, 18)
-                        .addComponent(cbFilter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_cbFilter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(58, 58, 58)
-                        .addComponent(jLabel12))
+                        .addComponent(JM_jLabel12))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(68, 68, 68)
-                        .addComponent(txtContactNo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_txtContactNo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(59, 59, 59)
-                .addComponent(btnReqDelivery, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnReqDelivery, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(110, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void refreshBtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshBtn2ActionPerformed
+    private void JM_refreshBtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_refreshBtn2ActionPerformed
         autoPopDelivery();
-        txtDeliveryAddress.setText("");
-        txtContactNo.setText("");
-    }//GEN-LAST:event_refreshBtn2ActionPerformed
+        JM_txtDeliveryAddress.setText("");
+        JM_txtContactNo.setText("");
+    }//GEN-LAST:event_JM_refreshBtn2ActionPerformed
 
-    private void btnReqDeliveryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReqDeliveryActionPerformed
+    private void JM_btnReqDeliveryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnReqDeliveryActionPerformed
         // TODO add your handling code here:
-        int selectedRow = tblMedDelivery.getSelectedRow();
+        int selectedRow = JM_tblMedDelivery.getSelectedRow();
         if (selectedRow < 0){
             JOptionPane.showConfirmDialog(null, "Select a row to place an order.","Warning", JOptionPane.WARNING_MESSAGE);
             return;
         }
-        String addr=txtDeliveryAddress.getText();
+        String addr=JM_txtDeliveryAddress.getText();
         if(addr==null || addr.equals("")){
             JOptionPane.showMessageDialog(null,"Enter Address");
             return;
         }
-        String phNo = txtContactNo.getText();
+        String phNo = JM_txtContactNo.getText();
         if(phNo == null || phNo.equals("")){
             JOptionPane.showMessageDialog(null, "Contact Number field cannot be left empty");
             return;
@@ -376,7 +376,7 @@ public class DeliveryPanel extends javax.swing.JPanel {
             return;
         }
 
-        HospitalPharmacyWorkReq req = (HospitalPharmacyWorkReq)tblMedDelivery.getValueAt(selectedRow, 0);
+        HospitalPharmacyWorkReq req = (HospitalPharmacyWorkReq)JM_tblMedDelivery.getValueAt(selectedRow, 0);
 
         req.setRecieverAdd(addr);
         req.setRecieverNo(phNo);
@@ -401,10 +401,10 @@ public class DeliveryPanel extends javax.swing.JPanel {
                 }
             }
         }
-    }//GEN-LAST:event_btnReqDeliveryActionPerformed
+    }//GEN-LAST:event_JM_btnReqDeliveryActionPerformed
 
-    private void cbFilterItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cbFilterItemStateChanged
-        String fil = (String) cbFilter.getSelectedItem();
+    private void JM_cbFilterItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_JM_cbFilterItemStateChanged
+        String fil = (String) JM_cbFilter.getSelectedItem();
         if(fil.equals("All")){
             autoPopDelivery();
         }
@@ -417,38 +417,38 @@ public class DeliveryPanel extends javax.swing.JPanel {
         if(fil.equals("Delivered")){
             autoPopDelivered();
         }
-    }//GEN-LAST:event_cbFilterItemStateChanged
+    }//GEN-LAST:event_JM_cbFilterItemStateChanged
 
-    private void cbFilterMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cbFilterMouseClicked
+    private void JM_cbFilterMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JM_cbFilterMouseClicked
 
-    }//GEN-LAST:event_cbFilterMouseClicked
+    }//GEN-LAST:event_JM_cbFilterMouseClicked
 
-    private void cbFilterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbFilterActionPerformed
+    private void JM_cbFilterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_cbFilterActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_cbFilterActionPerformed
+    }//GEN-LAST:event_JM_cbFilterActionPerformed
 
-    private void btnBacksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBacksActionPerformed
+    private void JM_btnBacksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBacksActionPerformed
         // TODO add your handling code here:
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBacksActionPerformed
+    }//GEN-LAST:event_JM_btnBacksActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBacks;
-    private javax.swing.JButton btnReqDelivery;
-    private javax.swing.JComboBox cbFilter;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JButton refreshBtn2;
-    private javax.swing.JTable tblMedDelivery;
-    private javax.swing.JTextField txtContactNo;
-    private javax.swing.JTextArea txtDeliveryAddress;
+    private javax.swing.JButton JM_btnBacks;
+    private javax.swing.JButton JM_btnReqDelivery;
+    private javax.swing.JComboBox JM_cbFilter;
+    private javax.swing.JLabel JM_jLabel;
+    private javax.swing.JLabel JM_jLabel12;
+    private javax.swing.JLabel JM_jLabel13;
+    private javax.swing.JLabel JM_jLabel14;
+    private javax.swing.JLabel JM_jLabel24;
+    private javax.swing.JScrollPane JM_jScrollPane6;
+    private javax.swing.JScrollPane JM_jScrollPane7;
+    private javax.swing.JButton JM_refreshBtn2;
+    private javax.swing.JTable JM_tblMedDelivery;
+    private javax.swing.JTextField JM_txtContactNo;
+    private javax.swing.JTextArea JM_txtDeliveryAddress;
     // End of variables declaration//GEN-END:variables
 }

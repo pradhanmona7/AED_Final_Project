@@ -23,7 +23,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_jPanel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -32,14 +32,14 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace min="0" pref="68" max="32767" attributes="0"/>
-              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_jPanel2" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="69" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel2">
+    <Container class="javax.swing.JPanel" name="JM_jPanel2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="99" green="99" red="0" type="rgb"/>
@@ -55,36 +55,36 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="291" max="-2" attributes="0"/>
-                                  <Component id="btnManageNetwork1" min="-2" pref="180" max="-2" attributes="0"/>
+                                  <Component id="JM_btnManageNetwork1" min="-2" pref="180" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel5" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel5" min="-2" pref="138" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" min="-2" pref="143" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel3" min="-2" pref="143" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="btnEnterprise1" alignment="1" min="-2" pref="158" max="-2" attributes="0"/>
+                              <Component id="JM_btnEnterprise1" alignment="1" min="-2" pref="158" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" min="-2" pref="151" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel4" min="-2" pref="151" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
-                                  <Component id="btnEnterpriseAdmin1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JM_btnEnterpriseAdmin1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="464" max="-2" attributes="0"/>
-                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_jLabel2" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="284" max="32767" attributes="0"/>
@@ -95,30 +95,30 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
-                  <Component id="jLabel2" min="-2" pref="58" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel2" min="-2" pref="58" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel3" min="-2" pref="190" max="-2" attributes="0"/>
-                      <Component id="jLabel5" min="-2" pref="201" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel3" min="-2" pref="190" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel5" min="-2" pref="201" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="btnManageNetwork1" min="-2" pref="63" max="-2" attributes="0"/>
-                      <Component id="btnEnterpriseAdmin1" alignment="0" pref="64" max="32767" attributes="0"/>
-                      <Component id="btnEnterprise1" max="32767" attributes="0"/>
+                      <Component id="JM_btnManageNetwork1" min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="JM_btnEnterpriseAdmin1" alignment="0" pref="64" max="32767" attributes="0"/>
+                      <Component id="JM_btnEnterprise1" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace pref="249" max="32767" attributes="0"/>
-                  <Component id="jLabel4" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel4" min="-2" pref="190" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="341" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="btnEnterprise1">
+        <Component class="javax.swing.JButton" name="JM_btnEnterprise1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial Rounded MT Bold" size="14" style="1"/>
@@ -129,10 +129,10 @@
             <Property name="text" type="java.lang.String" value="Manage Enterprise"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEnterprise1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnEnterprise1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnEnterpriseAdmin1">
+        <Component class="javax.swing.JButton" name="JM_btnEnterpriseAdmin1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial Rounded MT Bold" size="14" style="1"/>
@@ -143,10 +143,10 @@
             <Property name="text" type="java.lang.String" value="Manage Enterprise admin"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEnterpriseAdmin1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnEnterpriseAdmin1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnManageNetwork1">
+        <Component class="javax.swing.JButton" name="JM_btnManageNetwork1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial Rounded MT Bold" size="14" style="1"/>
@@ -157,10 +157,10 @@
             <Property name="text" type="java.lang.String" value=" Manage Network"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnManageNetwork1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnManageNetwork1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="JM_jLabel2">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial Black" size="36" style="1"/>
@@ -171,21 +171,21 @@
             <Property name="text" type="java.lang.String" value="System Admin Panel"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel3">
+        <Component class="javax.swing.JLabel" name="JM_jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/UI/SystemAdminRole/Enterprise.png"/>
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel4">
+        <Component class="javax.swing.JLabel" name="JM_jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/UI/SystemAdminRole/admin.png"/>
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel5">
+        <Component class="javax.swing.JLabel" name="JM_jLabel5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/UI/SystemAdminRole/network2.png"/>

@@ -27,9 +27,9 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="btnNewReq" alignment="0" max="32767" attributes="0"/>
-                  <Component id="btnHomePage" alignment="0" max="32767" attributes="0"/>
-                  <Component id="btnDelivery" alignment="1" max="32767" attributes="0"/>
+                  <Component id="JM_btnNewReq" alignment="0" max="32767" attributes="0"/>
+                  <Component id="JM_btnHomePage" alignment="0" max="32767" attributes="0"/>
+                  <Component id="JM_btnDelivery" alignment="1" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="147" max="32767" attributes="0"/>
           </Group>
@@ -39,18 +39,18 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
-              <Component id="btnHomePage" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnHomePage" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-              <Component id="btnNewReq" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnNewReq" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnDelivery" min="-2" max="-2" attributes="0"/>
+              <Component id="JM_btnDelivery" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="107" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btnNewReq">
+    <Component class="javax.swing.JButton" name="JM_btnNewReq">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="14" style="1"/>
@@ -61,10 +61,10 @@
         <Property name="text" type="java.lang.String" value="New Requests"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNewReqActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnNewReqActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnHomePage">
+    <Component class="javax.swing.JButton" name="JM_btnHomePage">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="14" style="1"/>
@@ -75,10 +75,10 @@
         <Property name="text" type="java.lang.String" value="HomePage"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHomePageActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnHomePageActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnDelivery">
+    <Component class="javax.swing.JButton" name="JM_btnDelivery">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="14" style="1"/>
@@ -89,7 +89,7 @@
         <Property name="text" type="java.lang.String" value="Delivery"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeliveryActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnDeliveryActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

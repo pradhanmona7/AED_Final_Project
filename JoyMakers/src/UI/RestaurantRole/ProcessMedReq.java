@@ -68,41 +68,41 @@ public class ProcessMedReq extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnBAck = new javax.swing.JButton();
-        jLabel10 = new javax.swing.JLabel();
-        btnSubmit = new javax.swing.JButton();
-        jScrollPane3 = new javax.swing.JScrollPane();
+        JM_btnBAck = new javax.swing.JButton();
+        JM_jLabel10 = new javax.swing.JLabel();
+        JM_btnSubmit = new javax.swing.JButton();
+        JM_jScrollPane3 = new javax.swing.JScrollPane();
         txtAddress = new javax.swing.JTextArea();
-        jLabel2 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_jScrollPane2 = new javax.swing.JScrollPane();
         tblMedRequestedList = new javax.swing.JTable();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
         txtMessage = new javax.swing.JTextArea();
-        jLabel1 = new javax.swing.JLabel();
-        btnAccept = new javax.swing.JButton();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_btnAccept = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        btnBAck.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnBAck.setForeground(new java.awt.Color(0, 153, 153));
-        btnBAck.setText("<< Back");
-        btnBAck.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBAck.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnBAck.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBAck.setText("<< Back");
+        JM_btnBAck.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBAckActionPerformed(evt);
+                JM_btnBAckActionPerformed(evt);
             }
         });
 
-        jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("Process Food Request");
+        JM_jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel10.setText("Process Food Request");
 
-        btnSubmit.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(0, 153, 153));
-        btnSubmit.setText("SUBMIT");
-        btnSubmit.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnSubmit.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnSubmit.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnSubmit.setText("SUBMIT");
+        JM_btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSubmitActionPerformed(evt);
+                JM_btnSubmitActionPerformed(evt);
             }
         });
 
@@ -110,11 +110,11 @@ public class ProcessMedReq extends javax.swing.JPanel {
         txtAddress.setColumns(20);
         txtAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtAddress.setRows(5);
-        jScrollPane3.setViewportView(txtAddress);
+        JM_jScrollPane3.setViewportView(txtAddress);
 
-        jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Message:");
+        JM_jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 18)); // NOI18N
+        JM_jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel2.setText("Message:");
 
         tblMedRequestedList.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         tblMedRequestedList.setForeground(new java.awt.Color(102, 0, 102));
@@ -137,24 +137,24 @@ public class ProcessMedReq extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane2.setViewportView(tblMedRequestedList);
+        JM_jScrollPane2.setViewportView(tblMedRequestedList);
 
         txtMessage.setColumns(20);
         txtMessage.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtMessage.setRows(5);
-        jScrollPane1.setViewportView(txtMessage);
+        JM_jScrollPane1.setViewportView(txtMessage);
 
-        jLabel1.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel1.setText("Address:");
+        JM_jLabel1.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel1.setText("Address:");
 
-        btnAccept.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnAccept.setForeground(new java.awt.Color(0, 153, 153));
-        btnAccept.setText("ACCEPT");
-        btnAccept.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnAccept.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnAccept.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnAccept.setText("ACCEPT");
+        JM_btnAccept.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAcceptActionPerformed(evt);
+                JM_btnAcceptActionPerformed(evt);
             }
         });
 
@@ -166,28 +166,28 @@ public class ProcessMedReq extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(49, 49, 49)
-                        .addComponent(btnBAck))
+                        .addComponent(JM_btnBAck))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(126, 126, 126)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1)
+                                .addComponent(JM_jLabel1)
                                 .addGap(18, 18, 18)
-                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(JM_jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(31, 31, 31)
-                                .addComponent(jLabel2)
+                                .addComponent(JM_jLabel2)
                                 .addGap(18, 18, 18)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 751, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 235, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 751, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(374, 374, 374)
-                        .addComponent(btnAccept, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_btnAccept, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(72, 72, 72)
-                        .addComponent(btnSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(JM_btnSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(143, Short.MAX_VALUE)
-                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 882, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 882, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(33, 33, 33))
         );
         layout.setVerticalGroup(
@@ -196,32 +196,32 @@ public class ProcessMedReq extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(70, 70, 70)
-                        .addComponent(jLabel10)
+                        .addComponent(JM_jLabel10)
                         .addGap(41, 41, 41)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 306, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 306, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(37, 37, 37)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel2)))
+                                    .addComponent(JM_jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(JM_jLabel2)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(45, 45, 45)
-                                .addComponent(jLabel1)))
+                                .addComponent(JM_jLabel1)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 100, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnAccept, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_btnAccept, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_btnSubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)))
-                .addComponent(btnBAck, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_btnBAck, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(48, 48, 48))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnBAckActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBAckActionPerformed
+    private void JM_btnBAckActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBAckActionPerformed
         userProcessContainer.remove(this);
         Component[] componentArray = userProcessContainer.getComponents();
         Component component = componentArray[componentArray.length - 1];
@@ -229,9 +229,9 @@ public class ProcessMedReq extends javax.swing.JPanel {
         homePagePanel.autoPopAssignedReq();
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBAckActionPerformed
+    }//GEN-LAST:event_JM_btnBAckActionPerformed
 
-    private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
+    private void JM_btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnSubmitActionPerformed
 
         String message = txtMessage.getText();
         if(message.equals("") || message==null){
@@ -242,27 +242,27 @@ public class ProcessMedReq extends javax.swing.JPanel {
         req.setStatus("Declined");
         req.setResDate(new Date());
         JOptionPane.showConfirmDialog(null, "Do you want to submit the response?");
-    }//GEN-LAST:event_btnSubmitActionPerformed
+    }//GEN-LAST:event_JM_btnSubmitActionPerformed
 
-    private void btnAcceptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcceptActionPerformed
+    private void JM_btnAcceptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnAcceptActionPerformed
 
         req.setStatus("Accepted");
         req.setResDate(new Date());
         req.setMessage("");
         JOptionPane.showConfirmDialog(null, "Do you want to accept the request?");
-    }//GEN-LAST:event_btnAcceptActionPerformed
+    }//GEN-LAST:event_JM_btnAcceptActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAccept;
-    private javax.swing.JButton btnBAck;
-    private javax.swing.JButton btnSubmit;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JButton JM_btnAccept;
+    private javax.swing.JButton JM_btnBAck;
+    private javax.swing.JButton JM_btnSubmit;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel10;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JScrollPane JM_jScrollPane2;
+    private javax.swing.JScrollPane JM_jScrollPane3;
     private javax.swing.JTable tblMedRequestedList;
     private javax.swing.JTextArea txtAddress;
     private javax.swing.JTextArea txtMessage;

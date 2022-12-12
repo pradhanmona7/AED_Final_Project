@@ -25,43 +25,43 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="291" max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" pref="696" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel7" min="-2" pref="696" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                              <Component id="JM_btnBack" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="751" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                                  <Component id="cbFilter" min="-2" pref="135" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel14" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel13" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JM_cbFilter" min="-2" pref="135" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="jScrollPane4" min="-2" pref="754" max="-2" attributes="0"/>
+                          <Component id="JM_jScrollPane4" min="-2" pref="754" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jScrollPane5" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
-                                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel9" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JM_jScrollPane5" alignment="0" min="-2" pref="280" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Group type="102" attributes="0">
                                       <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                                      <Component id="txtSenderPhNo" min="-2" pref="175" max="-2" attributes="0"/>
+                                      <Component id="JM_txtSenderPhNo" min="-2" pref="175" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace min="-2" pref="306" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jScrollPane6" min="-2" pref="280" max="-2" attributes="0"/>
-                                  <Component id="txtReceiverPhNo" min="-2" pref="175" max="-2" attributes="0"/>
-                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtReceiverName" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel10" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JM_jScrollPane6" min="-2" pref="280" max="-2" attributes="0"/>
+                                  <Component id="JM_txtReceiverPhNo" min="-2" pref="175" max="-2" attributes="0"/>
+                                  <Component id="JM_jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JM_txtReceiverName" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="txtSenderName" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
-                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_txtSenderName" alignment="0" min="-2" pref="175" max="-2" attributes="0"/>
+                          <Component id="JM_jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -75,53 +75,53 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
-                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel13" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_jLabel14" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="cbFilter" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_cbFilter" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace pref="124" max="32767" attributes="0"/>
-                      <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_btnBack" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jScrollPane4" min="-2" pref="246" max="-2" attributes="0"/>
+                      <Component id="JM_jScrollPane4" min="-2" pref="246" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="txtReceiverName" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtReceiverName" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="txtSenderName" min="-2" max="-2" attributes="0"/>
+                      <Component id="JM_txtSenderName" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JM_jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
-                  <Component id="jScrollPane5" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane6" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jScrollPane5" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="110" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtReceiverPhNo" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtSenderPhNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtReceiverPhNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JM_txtSenderPhNo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
           </Group>
@@ -129,7 +129,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel7">
+    <Component class="javax.swing.JLabel" name="JM_jLabel7">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="24" style="1"/>
@@ -141,7 +141,7 @@
         <Property name="text" type="java.lang.String" value="Delivery Order History"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane4">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -176,7 +176,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="jLabel13">
+    <Component class="javax.swing.JLabel" name="JM_jLabel13">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="16" style="1"/>
@@ -187,7 +187,7 @@
         <Property name="text" type="java.lang.String" value="Filter By: "/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel14">
+    <Component class="javax.swing.JLabel" name="JM_jLabel14">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -198,7 +198,7 @@
         <Property name="text" type="java.lang.String" value="Status"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JComboBox" name="cbFilter">
+    <Component class="javax.swing.JComboBox" name="JM_cbFilter">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -211,12 +211,12 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cbFilterItemStateChanged"/>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="cbFilterMouseClicked"/>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbFilterActionPerformed"/>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="JM_cbFilterItemStateChanged"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="JM_cbFilterMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_cbFilterActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel11">
+    <Component class="javax.swing.JLabel" name="JM_jLabel11">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -227,7 +227,7 @@
         <Property name="text" type="java.lang.String" value="Sender"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtSenderName">
+    <Component class="javax.swing.JTextField" name="JM_txtSenderName">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -237,7 +237,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
+    <Component class="javax.swing.JLabel" name="JM_jLabel6">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -248,7 +248,7 @@
         <Property name="text" type="java.lang.String" value="Sender Address"/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane5">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -269,7 +269,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="jLabel9">
+    <Component class="javax.swing.JLabel" name="JM_jLabel9">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -280,7 +280,7 @@
         <Property name="text" type="java.lang.String" value="Sender Contact"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtSenderPhNo">
+    <Component class="javax.swing.JTextField" name="JM_txtSenderPhNo">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -290,7 +290,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel12">
+    <Component class="javax.swing.JLabel" name="JM_jLabel12">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -301,7 +301,7 @@
         <Property name="text" type="java.lang.String" value="Reciever "/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtReceiverPhNo">
+    <Component class="javax.swing.JTextField" name="JM_txtReceiverPhNo">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -311,7 +311,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel8">
+    <Component class="javax.swing.JLabel" name="JM_jLabel8">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -322,7 +322,7 @@
         <Property name="text" type="java.lang.String" value="Reciever Address "/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtReceiverName">
+    <Component class="javax.swing.JTextField" name="JM_txtReceiverName">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -332,7 +332,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel10">
+    <Component class="javax.swing.JLabel" name="JM_jLabel10">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".SF NS Mono" size="14" style="0"/>
@@ -343,7 +343,7 @@
         <Property name="text" type="java.lang.String" value="Reciever Contact "/>
       </Properties>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane6">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -364,7 +364,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="btnBack">
+    <Component class="javax.swing.JButton" name="JM_btnBack">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Helvetica Neue" size="13" style="1"/>
@@ -375,7 +375,7 @@
         <Property name="text" type="java.lang.String" value="&lt;&lt;&lt;Back"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnBackActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

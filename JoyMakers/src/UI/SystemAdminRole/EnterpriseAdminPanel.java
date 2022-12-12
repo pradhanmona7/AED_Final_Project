@@ -59,17 +59,17 @@ public class EnterpriseAdminPanel extends javax.swing.JPanel {
     }
 
     private void autoPopNetworkCb(){
-        cbEntAdmNet.removeAllItems();
+        JM_cbEntAdmNet.removeAllItems();
         
         for (Network net : system.getNetList()){
-            cbEntAdmNet.addItem(net);
+            JM_cbEntAdmNet.addItem(net);
         }
     }
     
     private void autoPopulateEntCb(Network net){
-        cbEnt.removeAllItems();
+        JM_cbEnt.removeAllItems();
         for (Enterprise ent : net.getEntDir().getEntList()){
-            cbEnt.addItem(ent);
+            JM_cbEnt.addItem(ent);
         }
     }
     
@@ -82,33 +82,33 @@ public class EnterpriseAdminPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel4 = new javax.swing.JLabel();
-        txEntAdmName = new javax.swing.JTextField();
-        jScrollPane1 = new javax.swing.JScrollPane();
+        JM_jLabel4 = new javax.swing.JLabel();
+        JM_txEntAdmName = new javax.swing.JTextField();
+        JM_jScrollPane1 = new javax.swing.JScrollPane();
         tblEntAdmin = new javax.swing.JTable();
-        jLabel5 = new javax.swing.JLabel();
-        txtEntAdmPwd = new javax.swing.JPasswordField();
-        jLabel1 = new javax.swing.JLabel();
-        btnBack = new javax.swing.JButton();
-        cbEntAdmNet = new javax.swing.JComboBox();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        txtEntAdmUsername = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
-        cbEnt = new javax.swing.JComboBox();
-        btnEntAdmAdd = new javax.swing.JButton();
+        JM_jLabel5 = new javax.swing.JLabel();
+        JM_txtEntAdmPwd = new javax.swing.JPasswordField();
+        JM_jLabel1 = new javax.swing.JLabel();
+        JM_btnBack = new javax.swing.JButton();
+        JM_cbEntAdmNet = new javax.swing.JComboBox();
+        JM_jLabel6 = new javax.swing.JLabel();
+        JM_jLabel2 = new javax.swing.JLabel();
+        JM_txtEntAdmUsername = new javax.swing.JTextField();
+        JM_jLabel3 = new javax.swing.JLabel();
+        JM_cbEnt = new javax.swing.JComboBox();
+        JM_btnEntAdmAdd = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel4.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel4.setText("Password");
+        JM_jLabel4.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel4.setText("Password");
 
-        txEntAdmName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        txEntAdmName.addActionListener(new java.awt.event.ActionListener() {
+        JM_txEntAdmName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txEntAdmName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txEntAdmNameActionPerformed(evt);
+                JM_txEntAdmNameActionPerformed(evt);
             }
         });
 
@@ -133,65 +133,65 @@ public class EnterpriseAdminPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(tblEntAdmin);
+        JM_jScrollPane1.setViewportView(tblEntAdmin);
 
-        jLabel5.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel5.setText("Name");
+        JM_jLabel5.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel5.setText("Name");
 
-        txtEntAdmPwd.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtEntAdmPwd.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel1.setText("Network");
+        JM_jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel1.setText("Network");
 
-        btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnBack.setForeground(new java.awt.Color(0, 153, 153));
-        btnBack.setText("<< Back");
-        btnBack.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnBack.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnBack.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnBack.setText("<< Back");
+        JM_btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBackActionPerformed(evt);
+                JM_btnBackActionPerformed(evt);
             }
         });
 
-        cbEntAdmNet.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbEntAdmNet.setForeground(new java.awt.Color(0, 153, 153));
-        cbEntAdmNet.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        cbEntAdmNet.addActionListener(new java.awt.event.ActionListener() {
+        JM_cbEntAdmNet.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_cbEntAdmNet.setForeground(new java.awt.Color(0, 153, 153));
+        JM_cbEntAdmNet.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        JM_cbEntAdmNet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cbEntAdmNetActionPerformed(evt);
+                JM_cbEntAdmNetActionPerformed(evt);
             }
         });
 
-        jLabel6.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setText("MANAGE ENTERPRISE ADMIN WORKAREA");
+        JM_jLabel6.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        JM_jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        JM_jLabel6.setText("MANAGE ENTERPRISE ADMIN WORKAREA");
 
-        jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel2.setText("Username");
+        JM_jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        JM_jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel2.setText("Username");
 
-        txtEntAdmUsername.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_txtEntAdmUsername.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        jLabel3.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel3.setText("Enterprise");
+        JM_jLabel3.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        JM_jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        JM_jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        JM_jLabel3.setText("Enterprise");
 
-        cbEnt.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        cbEnt.setForeground(new java.awt.Color(0, 153, 153));
-        cbEnt.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        JM_cbEnt.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        JM_cbEnt.setForeground(new java.awt.Color(0, 153, 153));
+        JM_cbEnt.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        btnEntAdmAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        btnEntAdmAdd.setForeground(new java.awt.Color(0, 153, 153));
-        btnEntAdmAdd.setText("Add");
-        btnEntAdmAdd.addActionListener(new java.awt.event.ActionListener() {
+        JM_btnEntAdmAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        JM_btnEntAdmAdd.setForeground(new java.awt.Color(0, 153, 153));
+        JM_btnEntAdmAdd.setText("Add");
+        JM_btnEntAdmAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnEntAdmAddActionPerformed(evt);
+                JM_btnEntAdmAddActionPerformed(evt);
             }
         });
 
@@ -201,32 +201,32 @@ public class EnterpriseAdminPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap(138, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 523, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 523, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(139, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JM_jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5))
+                            .addComponent(JM_jLabel3)
+                            .addComponent(JM_jLabel1)
+                            .addComponent(JM_jLabel2)
+                            .addComponent(JM_jLabel4)
+                            .addComponent(JM_jLabel5))
                         .addGap(34, 34, 34)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(cbEnt, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cbEntAdmNet, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtEntAdmUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtEntAdmPwd, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txEntAdmName, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_cbEnt, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_cbEntAdmNet, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtEntAdmUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txtEntAdmPwd, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(JM_txEntAdmName, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(237, 237, 237))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(35, 35, 35)
-                        .addComponent(btnBack)
+                        .addComponent(JM_btnBack)
                         .addGap(239, 239, 239)
-                        .addComponent(btnEntAdmAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_btnEntAdmAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -234,59 +234,59 @@ public class EnterpriseAdminPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(JM_jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(35, 35, 35)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(32, 32, 32)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel1)
-                            .addComponent(cbEntAdmNet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel1)
+                            .addComponent(JM_cbEntAdmNet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(21, 21, 21)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel3)
-                            .addComponent(cbEnt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel3)
+                            .addComponent(JM_cbEnt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel2)
-                            .addComponent(txtEntAdmUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel2)
+                            .addComponent(JM_txtEntAdmUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel4)
-                            .addComponent(txtEntAdmPwd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel4)
+                            .addComponent(JM_txtEntAdmPwd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel5)
-                            .addComponent(txEntAdmName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(JM_jLabel5)
+                            .addComponent(JM_txEntAdmName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(btnEntAdmAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_btnEntAdmAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(27, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(JM_btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(36, 36, 36))))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txEntAdmNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txEntAdmNameActionPerformed
+    private void JM_txEntAdmNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_txEntAdmNameActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txEntAdmNameActionPerformed
+    }//GEN-LAST:event_JM_txEntAdmNameActionPerformed
 
-    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
+    private void JM_btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnBackActionPerformed
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }//GEN-LAST:event_JM_btnBackActionPerformed
 
-    private void cbEntAdmNetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbEntAdmNetActionPerformed
+    private void JM_cbEntAdmNetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_cbEntAdmNetActionPerformed
 
-        Network net = (Network) cbEntAdmNet.getSelectedItem();
+        Network net = (Network) JM_cbEntAdmNet.getSelectedItem();
         if (net != null){
             autoPopulateEntCb(net);
         }
 
-    }//GEN-LAST:event_cbEntAdmNetActionPerformed
+    }//GEN-LAST:event_JM_cbEntAdmNetActionPerformed
 
     private boolean checkPassword(String input){
         Pattern pattern = Pattern.compile("^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[$#&])[A-Za-z\\d$#*&]{6,}$");
@@ -294,13 +294,13 @@ public class EnterpriseAdminPanel extends javax.swing.JPanel {
         return matcher.matches();
     }
     
-    private void btnEntAdmAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEntAdmAddActionPerformed
+    private void JM_btnEntAdmAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnEntAdmAddActionPerformed
 
-        Enterprise ent = (Enterprise) cbEnt.getSelectedItem();
+        Enterprise ent = (Enterprise) JM_cbEnt.getSelectedItem();
 
-        String uname = txtEntAdmUsername.getText();
-        String pwd = String.valueOf(txtEntAdmPwd.getPassword());
-        String name = txEntAdmName.getText();
+        String uname = JM_txtEntAdmUsername.getText();
+        String pwd = String.valueOf(JM_txtEntAdmPwd.getPassword());
+        String name = JM_txEntAdmName.getText();
         if(uname.equals("") || uname == null || pwd.equals("") || pwd == null){
             JOptionPane.showMessageDialog(null, "Enter Login Information");
             return;
@@ -320,28 +320,28 @@ public class EnterpriseAdminPanel extends javax.swing.JPanel {
         ent.getUserAccDir().createAccount(uname, pwd, emp, new AdminRole());
         autoPopEntAdmin();
 
-        txtEntAdmUsername.setText("");
-        txtEntAdmPwd.setText("");
-        txEntAdmName.setText("");
+        JM_txtEntAdmUsername.setText("");
+        JM_txtEntAdmPwd.setText("");
+        JM_txEntAdmName.setText("");
 
-    }//GEN-LAST:event_btnEntAdmAddActionPerformed
+    }//GEN-LAST:event_JM_btnEntAdmAddActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBack;
-    private javax.swing.JButton btnEntAdmAdd;
-    private javax.swing.JComboBox cbEnt;
-    private javax.swing.JComboBox cbEntAdmNet;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JButton JM_btnBack;
+    private javax.swing.JButton JM_btnEntAdmAdd;
+    private javax.swing.JComboBox JM_cbEnt;
+    private javax.swing.JComboBox JM_cbEntAdmNet;
+    private javax.swing.JLabel JM_jLabel1;
+    private javax.swing.JLabel JM_jLabel2;
+    private javax.swing.JLabel JM_jLabel3;
+    private javax.swing.JLabel JM_jLabel4;
+    private javax.swing.JLabel JM_jLabel5;
+    private javax.swing.JLabel JM_jLabel6;
+    private javax.swing.JScrollPane JM_jScrollPane1;
+    private javax.swing.JTextField JM_txEntAdmName;
+    private javax.swing.JPasswordField JM_txtEntAdmPwd;
+    private javax.swing.JTextField JM_txtEntAdmUsername;
     private javax.swing.JTable tblEntAdmin;
-    private javax.swing.JTextField txEntAdmName;
-    private javax.swing.JPasswordField txtEntAdmPwd;
-    private javax.swing.JTextField txtEntAdmUsername;
     // End of variables declaration//GEN-END:variables
 }
