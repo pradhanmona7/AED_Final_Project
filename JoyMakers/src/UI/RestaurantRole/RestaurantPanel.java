@@ -50,10 +50,11 @@ public class RestaurantPanel extends javax.swing.JPanel {
         btnHomePage = new javax.swing.JButton();
         btnDelivery = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
-        btnNewReq.setForeground(new java.awt.Color(102, 0, 102));
+        btnNewReq.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
+        btnNewReq.setForeground(new java.awt.Color(0, 153, 153));
         btnNewReq.setText("New Requests");
         btnNewReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -61,7 +62,8 @@ public class RestaurantPanel extends javax.swing.JPanel {
             }
         });
 
-        btnHomePage.setForeground(new java.awt.Color(102, 0, 102));
+        btnHomePage.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
+        btnHomePage.setForeground(new java.awt.Color(0, 153, 153));
         btnHomePage.setText("HomePage");
         btnHomePage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -69,7 +71,8 @@ public class RestaurantPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDelivery.setForeground(new java.awt.Color(102, 0, 102));
+        btnDelivery.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
+        btnDelivery.setForeground(new java.awt.Color(0, 153, 153));
         btnDelivery.setText("Delivery");
         btnDelivery.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,7 +90,7 @@ public class RestaurantPanel extends javax.swing.JPanel {
                     .addComponent(btnNewReq, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnHomePage, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnDelivery, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(158, Short.MAX_VALUE))
+                .addContainerGap(147, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -98,7 +101,7 @@ public class RestaurantPanel extends javax.swing.JPanel {
                 .addComponent(btnNewReq)
                 .addGap(18, 18, 18)
                 .addComponent(btnDelivery)
-                .addContainerGap(110, Short.MAX_VALUE))
+                .addContainerGap(107, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
