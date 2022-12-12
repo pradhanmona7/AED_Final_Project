@@ -166,33 +166,33 @@ public class DeliveryPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        JM_jLabel26 = new javax.swing.JLabel();
-        JM_refreshBtn2 = new javax.swing.JButton();
-        JM_jScrollPane6 = new javax.swing.JScrollPane();
+        jLabel26 = new javax.swing.JLabel();
+        refreshBtn2 = new javax.swing.JButton();
+        jScrollPane6 = new javax.swing.JScrollPane();
         tblMedDelivery = new javax.swing.JTable();
-        JM_jScrollPane7 = new javax.swing.JScrollPane();
+        jScrollPane7 = new javax.swing.JScrollPane();
         txtDeliveryAddress = new javax.swing.JTextArea();
-        JM_jLabel24 = new javax.swing.JLabel();
-        JM_jLabel12 = new javax.swing.JLabel();
-        JM_txtContactNo = new javax.swing.JTextField();
-        JM_btnReqDelivery = new javax.swing.JButton();
-        JM_jLabel13 = new javax.swing.JLabel();
-        JM_jLabel14 = new javax.swing.JLabel();
-        JM_cbFilter = new javax.swing.JComboBox();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        txtContactNo = new javax.swing.JTextField();
+        btnReqDelivery = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        cbFilter = new javax.swing.JComboBox();
 
         setBackground(new java.awt.Color(0, 153, 153));
 
-        JM_jLabel26.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        JM_jLabel26.setForeground(new java.awt.Color(255, 255, 255));
-        JM_jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        JM_jLabel26.setText("New Food Requests");
+        jLabel26.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel26.setText("New Food Requests");
 
-        JM_refreshBtn2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        JM_refreshBtn2.setForeground(new java.awt.Color(0, 153, 153));
-        JM_refreshBtn2.setText("Refresh");
-        JM_refreshBtn2.addActionListener(new java.awt.event.ActionListener() {
+        refreshBtn2.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
+        refreshBtn2.setForeground(new java.awt.Color(0, 153, 153));
+        refreshBtn2.setText("Refresh");
+        refreshBtn2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                JM_refreshBtn2ActionPerformed(evt);
+                refreshBtn2ActionPerformed(evt);
             }
         });
 
@@ -216,56 +216,56 @@ public class DeliveryPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
-        JM_jScrollPane6.setViewportView(tblMedDelivery);
+        jScrollPane6.setViewportView(tblMedDelivery);
 
         txtDeliveryAddress.setColumns(20);
         txtDeliveryAddress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtDeliveryAddress.setRows(5);
-        JM_jScrollPane7.setViewportView(txtDeliveryAddress);
+        jScrollPane7.setViewportView(txtDeliveryAddress);
 
-        JM_jLabel24.setFont(new java.awt.Font(".SF NS Mono", 1, 18)); // NOI18N
-        JM_jLabel24.setForeground(new java.awt.Color(255, 255, 255));
-        JM_jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        JM_jLabel24.setText("Delivery Address:");
+        jLabel24.setFont(new java.awt.Font(".SF NS Mono", 1, 18)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel24.setText("Delivery Address:");
 
-        JM_jLabel12.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        JM_jLabel12.setForeground(new java.awt.Color(255, 255, 255));
-        JM_jLabel12.setText("Contact Number:");
+        jLabel12.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setText("Contact Number:");
 
-        JM_txtContactNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        txtContactNo.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
-        JM_btnReqDelivery.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
-        JM_btnReqDelivery.setForeground(new java.awt.Color(0, 153, 153));
-        JM_btnReqDelivery.setText("Request Delivery");
-        JM_btnReqDelivery.addActionListener(new java.awt.event.ActionListener() {
+        btnReqDelivery.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        btnReqDelivery.setForeground(new java.awt.Color(0, 153, 153));
+        btnReqDelivery.setText("Request Delivery");
+        btnReqDelivery.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                JM_btnReqDeliveryActionPerformed(evt);
+                btnReqDeliveryActionPerformed(evt);
             }
         });
 
-        JM_jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
-        JM_jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        JM_jLabel13.setText("Filter By: ");
+        jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setText("Filter By: ");
 
-        JM_jLabel14.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
-        JM_jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-        JM_jLabel14.setText("Status");
+        jLabel14.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("Status");
 
-        JM_cbFilter.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        JM_cbFilter.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "All", "Requested", "UnRequested", "Delivered"}));
-        JM_cbFilter.addItemListener(new java.awt.event.ItemListener() {
+        cbFilter.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
+        cbFilter.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "All", "Requested", "UnRequested", "Delivered"}));
+        cbFilter.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
-                JM_cbFilterItemStateChanged(evt);
+                cbFilterItemStateChanged(evt);
             }
         });
-        JM_cbFilter.addMouseListener(new java.awt.event.MouseAdapter() {
+        cbFilter.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                JM_cbFilterMouseClicked(evt);
+                cbFilterMouseClicked(evt);
             }
         });
-        JM_cbFilter.addActionListener(new java.awt.event.ActionListener() {
+        cbFilter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                JM_cbFilterActionPerformed(evt);
+                cbFilterActionPerformed(evt);
             }
         });
 
@@ -275,9 +275,9 @@ public class DeliveryPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(JM_jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(JM_refreshBtn2)
+                .addComponent(refreshBtn2)
                 .addGap(192, 192, 192))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -285,23 +285,23 @@ public class DeliveryPanel extends javax.swing.JPanel {
                         .addGap(88, 88, 88)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(JM_jLabel24)
+                                .addComponent(jLabel24)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(JM_jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(209, 209, 209)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(JM_jLabel13)
-                                    .addComponent(JM_cbFilter, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(JM_jLabel14)))
-                            .addComponent(JM_jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 740, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel13)
+                                    .addComponent(cbFilter, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel14)))
+                            .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 740, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(79, 79, 79)
-                                .addComponent(JM_jLabel12)
+                                .addComponent(jLabel12)
                                 .addGap(18, 18, 18)
-                                .addComponent(JM_txtContactNo, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(txtContactNo, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(402, 402, 402)
-                        .addComponent(JM_btnReqDelivery, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnReqDelivery, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(342, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -310,39 +310,39 @@ public class DeliveryPanel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(48, 48, 48)
-                        .addComponent(JM_jLabel26)
+                        .addComponent(jLabel26)
                         .addGap(18, 18, 18)
-                        .addComponent(JM_jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(JM_jLabel13)
+                        .addComponent(jLabel13)
                         .addGap(10, 10, 10)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(JM_jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(JM_jLabel24)
+                            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel24)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(JM_jLabel14)
+                                .addComponent(jLabel14)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(JM_cbFilter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(cbFilter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(37, 37, 37)
-                        .addComponent(JM_refreshBtn2)))
+                        .addComponent(refreshBtn2)))
                 .addGap(59, 59, 59)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(JM_jLabel12)
-                    .addComponent(JM_txtContactNo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel12)
+                    .addComponent(txtContactNo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(63, 63, 63)
-                .addComponent(JM_btnReqDelivery, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnReqDelivery, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(116, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void JM_refreshBtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_refreshBtn2ActionPerformed
+    private void refreshBtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshBtn2ActionPerformed
         autoPopDelivery();
         txtDeliveryAddress.setText("");
-        JM_txtContactNo.setText("");
-    }//GEN-LAST:event_JM_refreshBtn2ActionPerformed
+        txtContactNo.setText("");
+    }//GEN-LAST:event_refreshBtn2ActionPerformed
 
-    private void JM_btnReqDeliveryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_btnReqDeliveryActionPerformed
+    private void btnReqDeliveryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReqDeliveryActionPerformed
         // TODO add your handling code here:
         int selectedRow = tblMedDelivery.getSelectedRow();
         if (selectedRow < 0){
@@ -354,7 +354,7 @@ public class DeliveryPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null,"Please enter Address.");
             return;
         }
-        String phNo = JM_txtContactNo.getText();
+        String phNo = txtContactNo.getText();
         if(phNo == null || phNo.equals("")){
             JOptionPane.showMessageDialog(null, "Contact Number is mandatory.");
             return;
@@ -389,10 +389,10 @@ public class DeliveryPanel extends javax.swing.JPanel {
                 }
             }
         }
-    }//GEN-LAST:event_JM_btnReqDeliveryActionPerformed
+    }//GEN-LAST:event_btnReqDeliveryActionPerformed
 
-    private void JM_cbFilterItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_JM_cbFilterItemStateChanged
-        String fil = (String) JM_cbFilter.getSelectedItem();
+    private void cbFilterItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cbFilterItemStateChanged
+        String fil = (String) cbFilter.getSelectedItem();
         if(fil.equals("All")){
             autoPopDelivery();
         }
@@ -405,30 +405,30 @@ public class DeliveryPanel extends javax.swing.JPanel {
         if(fil.equals("Delivered")){
             autoPopDelivered();
         }
-    }//GEN-LAST:event_JM_cbFilterItemStateChanged
+    }//GEN-LAST:event_cbFilterItemStateChanged
 
-    private void JM_cbFilterMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JM_cbFilterMouseClicked
+    private void cbFilterMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cbFilterMouseClicked
 
-    }//GEN-LAST:event_JM_cbFilterMouseClicked
+    }//GEN-LAST:event_cbFilterMouseClicked
 
-    private void JM_cbFilterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JM_cbFilterActionPerformed
+    private void cbFilterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbFilterActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_JM_cbFilterActionPerformed
+    }//GEN-LAST:event_cbFilterActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton JM_btnReqDelivery;
-    private javax.swing.JComboBox JM_cbFilter;
-    private javax.swing.JLabel JM_jLabel12;
-    private javax.swing.JLabel JM_jLabel13;
-    private javax.swing.JLabel JM_jLabel14;
-    private javax.swing.JLabel JM_jLabel24;
-    private javax.swing.JLabel JM_jLabel26;
-    private javax.swing.JScrollPane JM_jScrollPane6;
-    private javax.swing.JScrollPane JM_jScrollPane7;
-    private javax.swing.JButton JM_refreshBtn2;
-    private javax.swing.JTextField JM_txtContactNo;
+    private javax.swing.JButton btnReqDelivery;
+    private javax.swing.JComboBox cbFilter;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JButton refreshBtn2;
     private javax.swing.JTable tblMedDelivery;
+    private javax.swing.JTextField txtContactNo;
     private javax.swing.JTextArea txtDeliveryAddress;
     // End of variables declaration//GEN-END:variables
 }

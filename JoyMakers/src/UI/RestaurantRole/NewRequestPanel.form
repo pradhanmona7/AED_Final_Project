@@ -25,26 +25,26 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="JM_jLabel25" pref="732" max="32767" attributes="0"/>
+                      <Component id="jLabel25" pref="732" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="JM_btnRefresh" min="-2" pref="116" max="-2" attributes="0"/>
+                      <Component id="btnRefresh" min="-2" pref="116" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                      <Component id="JM_btnBack" min="-2" pref="163" max="-2" attributes="0"/>
+                      <Component id="btnBack" min="-2" pref="163" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="JM_jScrollPane4" min="-2" pref="230" max="-2" attributes="0"/>
+                      <Component id="jScrollPane4" min="-2" pref="230" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace pref="136" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="JM_btnAssignToMe" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnAssignToMe" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="JM_btnViewFoodList" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnViewFoodList" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="JM_jScrollPane5" min="-2" pref="740" max="-2" attributes="0"/>
+                          <Component id="jScrollPane5" min="-2" pref="740" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -57,24 +57,24 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="JM_jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="JM_btnRefresh" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnRefresh" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-              <Component id="JM_jScrollPane5" min="-2" pref="150" max="-2" attributes="0"/>
+              <Component id="jScrollPane5" min="-2" pref="150" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="JM_btnAssignToMe" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
-                  <Component id="JM_btnViewFoodList" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="btnAssignToMe" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="btnViewFoodList" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
-                      <Component id="JM_btnBack" min="-2" pref="57" max="-2" attributes="0"/>
+                      <Component id="btnBack" min="-2" pref="57" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
-                      <Component id="JM_jScrollPane4" min="-2" pref="100" max="-2" attributes="0"/>
+                      <Component id="jScrollPane4" min="-2" pref="100" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="135" max="32767" attributes="0"/>
@@ -83,7 +83,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="JM_jLabel25">
+    <Component class="javax.swing.JLabel" name="jLabel25">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="24" style="1"/>
@@ -95,7 +95,7 @@
         <Property name="text" type="java.lang.String" value="New Food Requests"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="JM_btnBack">
+    <Component class="javax.swing.JButton" name="btnBack">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -106,10 +106,10 @@
         <Property name="text" type="java.lang.String" value="&lt;&lt;&lt;Back"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnBackActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
       </Events>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane5">
+    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -137,7 +137,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="JM_btnAssignToMe">
+    <Component class="javax.swing.JButton" name="btnAssignToMe">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -148,10 +148,10 @@
         <Property name="text" type="java.lang.String" value="Assign to me"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnAssignToMeActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAssignToMeActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="JM_btnViewFoodList">
+    <Component class="javax.swing.JButton" name="btnViewFoodList">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -162,10 +162,10 @@
         <Property name="text" type="java.lang.String" value="View Food List"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnViewFoodListActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnViewFoodListActionPerformed"/>
       </Events>
     </Component>
-    <Container class="javax.swing.JScrollPane" name="JM_jScrollPane4">
+    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -183,7 +183,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="JM_btnRefresh">
+    <Component class="javax.swing.JButton" name="btnRefresh">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name=".AppleSystemUIFont" size="18" style="1"/>
@@ -194,7 +194,7 @@
         <Property name="text" type="java.lang.String" value="Refresh"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JM_btnRefreshActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRefreshActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
