@@ -184,20 +184,22 @@ public class ViewVolPanel extends javax.swing.JPanel {
         jScrollPane2 = new javax.swing.JScrollPane();
         txtEducation = new javax.swing.JTextArea();
 
+        setBackground(new java.awt.Color(0, 153, 153));
+
         jLabel9.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Contact Information");
 
-        jLabel20.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel20.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Work Knowledge of:");
 
         txtName.setEditable(false);
         txtName.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtName.setForeground(new java.awt.Color(102, 0, 102));
 
-        jLabel1.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel1.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel1.setText("Name: ");
 
@@ -208,11 +210,11 @@ public class ViewVolPanel extends javax.swing.JPanel {
         jScrollPane4.setViewportView(txtSkills);
 
         jLabel8.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Personal Information");
 
         jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("Volunteers Details");
 
@@ -220,8 +222,8 @@ public class ViewVolPanel extends javax.swing.JPanel {
         txtAge.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtAge.setForeground(new java.awt.Color(102, 0, 102));
 
-        btnDecline.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnDecline.setForeground(new java.awt.Color(102, 0, 102));
+        btnDecline.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnDecline.setForeground(new java.awt.Color(0, 153, 153));
         btnDecline.setText("Decline Request");
         btnDecline.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -229,8 +231,8 @@ public class ViewVolPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel3.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Age:");
 
         txtSex.setEditable(false);
@@ -272,29 +274,32 @@ public class ViewVolPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblVolList);
 
-        jLabel2.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel2.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Sex: ");
 
-        jLabel21.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel21.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("Skills:");
 
-        chbPowerPoint.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        chbPowerPoint.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        chbPowerPoint.setForeground(new java.awt.Color(255, 255, 255));
         chbPowerPoint.setText("PowerPoint");
 
-        chbEmail.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        chbEmail.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        chbEmail.setForeground(new java.awt.Color(255, 255, 255));
         chbEmail.setText("Email Checking");
 
-        chbWeb.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        chbWeb.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        chbWeb.setForeground(new java.awt.Color(255, 255, 255));
         chbWeb.setText("Web Browsing");
 
         jLabel17.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Language Proficency & Skills");
 
-        jLabel15.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel15.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Pincode:");
 
         txtPincode.setEditable(false);
@@ -315,17 +320,17 @@ public class ViewVolPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel18.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel18.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel18.setText("English: ");
 
-        jLabel14.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel14.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("City:");
 
-        jLabel19.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel19.setFont(new java.awt.Font(".SF NS Mono", 1, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Other Language:");
 
         txtAddress.setEditable(false);
@@ -340,8 +345,8 @@ public class ViewVolPanel extends javax.swing.JPanel {
         txtLanguage.setRows(5);
         jScrollPane3.setViewportView(txtLanguage);
 
-        jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel13.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Address:");
 
         txtEnglish.setEditable(false);
@@ -362,7 +367,8 @@ public class ViewVolPanel extends javax.swing.JPanel {
             }
         });
 
-        chbWord.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        chbWord.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        chbWord.setForeground(new java.awt.Color(255, 255, 255));
         chbWord.setText("MS Word");
         chbWord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -370,19 +376,20 @@ public class ViewVolPanel extends javax.swing.JPanel {
             }
         });
 
-        jLabel6.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel6.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Contact Number:");
 
         jLabel11.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Education");
 
-        jLabel5.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel5.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Email Id:");
 
-        chbExcel.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        chbExcel.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        chbExcel.setForeground(new java.awt.Color(255, 255, 255));
         chbExcel.setText("MS Excel");
 
         txtEmail.setEditable(false);
@@ -422,7 +429,7 @@ public class ViewVolPanel extends javax.swing.JPanel {
                         .addComponent(btnBack)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap(65, Short.MAX_VALUE)
+                        .addContainerGap(61, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -483,7 +490,7 @@ public class ViewVolPanel extends javax.swing.JPanel {
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 700, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(btnDecline, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
