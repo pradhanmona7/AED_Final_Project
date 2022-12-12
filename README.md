@@ -30,3 +30,5 @@ Following are the roles under the project:
 #Architecture Diagram 
 
 ![Architecture daigram](https://user-images.githubusercontent.com/114711523/206943585-c7804033-14f8-47c2-86ef-8ae48442ad61.png)
+# Uml Diagram
+![Blank diagram](https://user-images.githubusercontent.com/114711523/206963171-e0a73062-fa28-4659-8f7a-8ca183b416c4.png)
