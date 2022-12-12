@@ -9,13 +9,16 @@ The aim of our project is to create a management system for NGO called JoyMakers
 3. Transportation
 4. Restaurant 
 #The organization association to it are :
+
 1.Doctor
 2. Pharmacy
 3. Health
 4. Volunterr
 5. Tutor
 6. store
+
 #Following are the roles under the project:
+
 1. Admin
 2. Tutor
 3. volunteer
