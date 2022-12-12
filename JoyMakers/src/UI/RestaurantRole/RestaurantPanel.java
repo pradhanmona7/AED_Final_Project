@@ -60,6 +60,10 @@ public class RestaurantPanel extends javax.swing.JPanel {
         txtDal.setEnabled(false);
         txtRice.setEnabled(false);
         txtTea.setEnabled(false);
+        txtCoffee.setEnabled(false);
+        txtBiscuits.setEnabled(false);
+        txtRajma.setEnabled(false);
+        txtchkn.setEnabled(false);
     }
 
     /**
@@ -506,7 +510,7 @@ public class RestaurantPanel extends javax.swing.JPanel {
 
     private void chkRajmaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkRajmaActionPerformed
         // TODO add your handling code here:
-        
+        txtRajma.setEnabled(false);
         if (chkRajma.isSelected())
         {
            txtRajma.setEnabled(true);
@@ -622,6 +626,7 @@ public class RestaurantPanel extends javax.swing.JPanel {
     
     private void chkDalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkDalActionPerformed
         // TODO add your handling code here:
+        txtDal.setEnabled(false);
         txtDal.setEnabled(false);
         if (chkDal.isSelected())
         {
