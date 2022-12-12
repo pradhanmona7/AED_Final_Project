@@ -270,8 +270,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         jLabel33 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
 
-        VolunteerJTabbedPane.setBackground(new java.awt.Color(180, 195, 195));
-        VolunteerJTabbedPane.setForeground(new java.awt.Color(102, 0, 102));
+        VolunteerJTabbedPane.setBackground(new java.awt.Color(0, 153, 153));
+        VolunteerJTabbedPane.setForeground(new java.awt.Color(255, 255, 255));
         VolunteerJTabbedPane.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
         VolunteerJTabbedPane.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
@@ -281,7 +281,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
 
         HomePageJPanel.setLayout(new java.awt.BorderLayout());
 
-        leftJPanel.setBackground(new java.awt.Color(255, 255, 255));
+        leftJPanel.setBackground(new java.awt.Color(0, 153, 153));
         leftJPanel.setForeground(new java.awt.Color(102, 0, 102));
         leftJPanel.setToolTipText("");
 
@@ -289,8 +289,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         txtAge.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         txtAge.setForeground(new java.awt.Color(102, 0, 102));
 
-        btnUpdateDetail.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnUpdateDetail.setForeground(new java.awt.Color(102, 0, 102));
+        btnUpdateDetail.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnUpdateDetail.setForeground(new java.awt.Color(0, 153, 153));
         btnUpdateDetail.setText("Update Details");
         btnUpdateDetail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -312,11 +312,11 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         jLabel2.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Sex: ");
 
         jLabel5.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Email Id:");
 
         txtEmail.setEditable(false);
@@ -329,7 +329,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         jLabel6.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Contact Number:");
 
         txtPhNo.setEditable(false);
@@ -342,22 +342,22 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Name: ");
 
         jLabel3.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Age:");
 
         lblent.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
 
         jLabel24.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 20)); // NOI18N
-        jLabel24.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel24.setText("Volunteer Details");
 
-        btnHistory.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnHistory.setForeground(new java.awt.Color(102, 0, 102));
+        btnHistory.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnHistory.setForeground(new java.awt.Color(0, 153, 153));
         btnHistory.setText("Donation History");
         btnHistory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -436,7 +436,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane1.setLeftComponent(leftJPanel);
 
-        rightJPanel.setBackground(new java.awt.Color(255, 255, 255));
+        rightJPanel.setBackground(new java.awt.Color(0, 153, 153));
 
         tblTaskAssigned.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
         tblTaskAssigned.setForeground(new java.awt.Color(102, 0, 102));
@@ -466,8 +466,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane2.setViewportView(tblTaskAssigned);
 
-        btnRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnRefresh.setForeground(new java.awt.Color(102, 0, 102));
+        btnRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnRefresh.setForeground(new java.awt.Color(0, 153, 153));
         btnRefresh.setText("Refresh");
         btnRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -480,20 +480,20 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         txtTitle.setForeground(new java.awt.Color(102, 0, 102));
 
         jLabel18.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel18.setText("Job Title:");
 
         jLabel19.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Date:");
 
         jLabel20.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Time: ");
 
         jLabel9.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel9.setText("Place:");
 
@@ -513,17 +513,17 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         jLabel21.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel21.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel21.setText("Number of Hours:");
 
         jLabel10.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel10.setText("Number of Students:");
 
         jLabel22.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel22.setText("Number of Volunteers:");
 
@@ -532,15 +532,15 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         numberOfVolunteersJTextField1.setForeground(new java.awt.Color(102, 0, 102));
 
         jLabel23.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel23.setText("Requirements:");
 
         dtChoser.setEnabled(false);
         dtChoser.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
 
-        btnCancelReq.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnCancelReq.setForeground(new java.awt.Color(102, 0, 102));
+        btnCancelReq.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnCancelReq.setForeground(new java.awt.Color(0, 153, 153));
         btnCancelReq.setText("Cancel Request");
         btnCancelReq.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -555,12 +555,12 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         jScrollPane3.setViewportView(requirementsJTextArea);
 
         jLabel11.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 22)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("Volunteer Work Area");
 
         jLabel27.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel27.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
         jLabel27.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel27.setText("Area:");
 
@@ -569,7 +569,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         areaJTextField1.setForeground(new java.awt.Color(102, 0, 102));
 
         jLabel28.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 15)); // NOI18N
-        jLabel28.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
         jLabel28.setText("My Tasks");
 
         javax.swing.GroupLayout rightJPanelLayout = new javax.swing.GroupLayout(rightJPanel);
@@ -579,7 +579,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
             .addComponent(jSeparator2)
             .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(rightJPanelLayout.createSequentialGroup()
-                .addContainerGap(123, Short.MAX_VALUE)
+                .addContainerGap(425, Short.MAX_VALUE)
                 .addGroup(rightJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(rightJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addGroup(rightJPanelLayout.createSequentialGroup()
@@ -616,7 +616,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
                                 .addComponent(dtChoser, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(txtTitle, javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(areaJTextField1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(124, Short.MAX_VALUE))
+                .addContainerGap(425, Short.MAX_VALUE))
         );
         rightJPanelLayout.setVerticalGroup(
             rightJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -670,7 +670,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
                 .addGroup(rightJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel23)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(248, Short.MAX_VALUE))
+                .addContainerGap(78, Short.MAX_VALUE))
         );
 
         JSpinner.DateEditor de1 = new JSpinner.DateEditor(tsTime, "HH:mm");
@@ -683,14 +683,14 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
 
         VolunteerJTabbedPane.addTab("Home Page", HomePageJPanel);
 
-        TasksJPanel.setBackground(new java.awt.Color(180, 195, 195));
+        TasksJPanel.setBackground(new java.awt.Color(0, 153, 153));
 
         numberOfVolunteersJTextField.setEditable(false);
         numberOfVolunteersJTextField.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         numberOfVolunteersJTextField.setForeground(new java.awt.Color(102, 0, 102));
 
         jLabel16.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel16.setText("Number of Volunteers:");
 
@@ -707,11 +707,11 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         dtVolChoser.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
         jLabel14.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Time: ");
 
         jLabel13.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Date:");
 
         JSpinner.DateEditor de = new JSpinner.DateEditor(tsVolTime, "HH:mm");
@@ -720,12 +720,12 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         tsVolTime.setEnabled(false);
 
         jLabel17.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel17.setText("Requirements:");
 
         jLabel12.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel12.setText("Job Title:");
 
@@ -762,7 +762,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblNewVolList);
 
         jLabel15.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel15.setText("Number of Hours:");
 
@@ -770,20 +770,20 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         txtVolPlace.setForeground(new java.awt.Color(102, 0, 102));
 
         jLabel7.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel7.setText("Place:");
 
         jLabel8.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel8.setText("Number of Students:");
 
         numberOfStudentsJTextField.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
         numberOfStudentsJTextField.setForeground(new java.awt.Color(102, 0, 102));
 
-        btnNewRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnNewRefresh.setForeground(new java.awt.Color(102, 0, 102));
+        btnNewRefresh.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnNewRefresh.setForeground(new java.awt.Color(0, 153, 153));
         btnNewRefresh.setText("Refresh");
         btnNewRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -797,8 +797,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         requirementsJTextArea1.setRows(5);
         jScrollPane4.setViewportView(requirementsJTextArea1);
 
-        btnAssignToMe.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnAssignToMe.setForeground(new java.awt.Color(102, 0, 102));
+        btnAssignToMe.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnAssignToMe.setForeground(new java.awt.Color(0, 153, 153));
         btnAssignToMe.setText("Assign to me");
         btnAssignToMe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -807,12 +807,12 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         jLabel25.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 22)); // NOI18N
-        jLabel25.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel25.setText("New Volunteer Requests");
 
         jLabel26.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel26.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
         jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel26.setText("Area:");
 
@@ -914,8 +914,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
 
         VolunteerJTabbedPane.addTab("New Tasks", TasksJPanel);
 
-        DonateJPanel.setBackground(new java.awt.Color(255, 255, 255));
-        DonateJPanel.setForeground(new java.awt.Color(102, 0, 102));
+        DonateJPanel.setBackground(new java.awt.Color(0, 153, 153));
+        DonateJPanel.setForeground(new java.awt.Color(255, 255, 255));
         DonateJPanel.setPreferredSize(new java.awt.Dimension(3043, 1021));
 
         txtQuantity.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
@@ -941,8 +941,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane5.setViewportView(tblDonateReq);
 
-        btnAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnAdd.setForeground(new java.awt.Color(102, 0, 102));
+        btnAdd.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnAdd.setForeground(new java.awt.Color(0, 153, 153));
         btnAdd.setText("Add");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -950,8 +950,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnDelete.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(102, 0, 102));
+        btnDelete.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnDelete.setForeground(new java.awt.Color(0, 153, 153));
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -959,8 +959,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnModify.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnModify.setForeground(new java.awt.Color(102, 0, 102));
+        btnModify.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnModify.setForeground(new java.awt.Color(0, 153, 153));
         btnModify.setText("Modify");
         btnModify.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -969,16 +969,16 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         jLabel29.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel29.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
         jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel29.setText("Pickup Address:");
 
         jLabel30.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel30.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
         jLabel30.setText("Category:");
 
         jLabel31.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel31.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
         jLabel31.setText("Quantity:");
 
         txtAddress.setColumns(20);
@@ -987,8 +987,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         txtAddress.setRows(5);
         jScrollPane6.setViewportView(txtAddress);
 
-        btnDonate.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnDonate.setForeground(new java.awt.Color(102, 0, 102));
+        btnDonate.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnDonate.setForeground(new java.awt.Color(0, 153, 153));
         btnDonate.setText("DONATE");
         btnDonate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1000,7 +1000,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         selCat.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Books", "Toys", "Clothes", "Other" }));
 
         jLabel32.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel32.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
         jLabel32.setText("Description:");
 
         txtDescription.setColumns(20);
@@ -1009,8 +1009,8 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         txtDescription.setRows(5);
         jScrollPane7.setViewportView(txtDescription);
 
-        btnUpdate.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnUpdate.setForeground(new java.awt.Color(102, 0, 102));
+        btnUpdate.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnUpdate.setForeground(new java.awt.Color(0, 153, 153));
         btnUpdate.setText("Update");
         btnUpdate.setEnabled(false);
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -1023,11 +1023,11 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         txtNumber.setForeground(new java.awt.Color(102, 0, 102));
 
         jLabel33.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        jLabel33.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
         jLabel33.setText("Mobile Number:");
 
         jLabel34.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 22)); // NOI18N
-        jLabel34.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
         jLabel34.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel34.setText("Donate Work Requests");
 
@@ -1123,7 +1123,7 @@ public class VolunteerWorkAreaJPanel extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(VolunteerJTabbedPane, javax.swing.GroupLayout.PREFERRED_SIZE, 1005, Short.MAX_VALUE)
+            .addComponent(VolunteerJTabbedPane, javax.swing.GroupLayout.DEFAULT_SIZE, 1005, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 

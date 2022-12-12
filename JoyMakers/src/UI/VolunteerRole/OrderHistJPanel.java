@@ -120,7 +120,7 @@ public void populateorderdetailstbl(ArrayList<String> category, ArrayList<Intege
         lblorderdetails = new javax.swing.JLabel();
         lbltitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(102, 0, 102));
 
         tblorderhist.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 13)); // NOI18N
@@ -166,7 +166,8 @@ public void populateorderdetailstbl(ArrayList<String> category, ArrayList<Intege
         });
         jScrollPane6.setViewportView(tblorderdetails);
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
+        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnback.setForeground(new java.awt.Color(0, 153, 153));
         btnback.setText("<< Back");
         btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,12 +176,15 @@ public void populateorderdetailstbl(ArrayList<String> category, ArrayList<Intege
         });
 
         lblorderhist.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        lblorderhist.setForeground(new java.awt.Color(255, 255, 255));
         lblorderhist.setText("Order History");
 
         lblorderdetails.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 16)); // NOI18N
+        lblorderdetails.setForeground(new java.awt.Color(255, 255, 255));
         lblorderdetails.setText("Order Details");
 
         lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
+        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
         lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbltitle.setText("Volunteer Order History");
 
@@ -219,7 +223,7 @@ public void populateorderdetailstbl(ArrayList<String> category, ArrayList<Intege
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 344, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 344, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(98, Short.MAX_VALUE))
+                .addContainerGap(288, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

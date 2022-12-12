@@ -161,10 +161,10 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         txtareaskills = new javax.swing.JTextArea();
         lblskill = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 153, 153));
 
-        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnback.setForeground(new java.awt.Color(102, 0, 102));
+        btnback.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnback.setForeground(new java.awt.Color(0, 153, 153));
         btnback.setText("<< Back");
         btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -177,22 +177,22 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         txtname.setForeground(new java.awt.Color(102, 0, 102));
 
         lblname.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblname.setForeground(new java.awt.Color(102, 0, 102));
+        lblname.setForeground(new java.awt.Color(255, 255, 255));
         lblname.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblname.setText("Name: ");
 
         lblsex.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblsex.setForeground(new java.awt.Color(102, 0, 102));
+        lblsex.setForeground(new java.awt.Color(255, 255, 255));
         lblsex.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblsex.setText("Sex: ");
 
         lbldob.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbldob.setForeground(new java.awt.Color(102, 0, 102));
+        lbldob.setForeground(new java.awt.Color(255, 255, 255));
         lbldob.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lbldob.setText("D.O.B:");
 
         lblnationality.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblnationality.setForeground(new java.awt.Color(102, 0, 102));
+        lblnationality.setForeground(new java.awt.Color(255, 255, 255));
         lblnationality.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblnationality.setText("Nationality:");
 
@@ -206,7 +206,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         lblemailid.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblemailid.setForeground(new java.awt.Color(102, 0, 102));
+        lblemailid.setForeground(new java.awt.Color(255, 255, 255));
         lblemailid.setText("Email Id:");
 
         txtconno.setEditable(false);
@@ -219,7 +219,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         lblconno.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblconno.setForeground(new java.awt.Color(102, 0, 102));
+        lblconno.setForeground(new java.awt.Color(255, 255, 255));
         lblconno.setText("Contact Number:");
 
         txtemailid.setEditable(false);
@@ -232,7 +232,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         lbltitle.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 24)); // NOI18N
-        lbltitle.setForeground(new java.awt.Color(102, 0, 102));
+        lbltitle.setForeground(new java.awt.Color(255, 255, 255));
         lbltitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbltitle.setText("Update Volunteer Details");
 
@@ -246,8 +246,8 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnupdt.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnupdt.setForeground(new java.awt.Color(102, 0, 102));
+        btnupdt.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnupdt.setForeground(new java.awt.Color(0, 153, 153));
         btnupdt.setText("UPDATE");
         btnupdt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -255,8 +255,8 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnsave.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnsave.setForeground(new java.awt.Color(102, 0, 102));
+        btnsave.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 14)); // NOI18N
+        btnsave.setForeground(new java.awt.Color(0, 153, 153));
         btnsave.setText("SAVE");
         btnsave.setEnabled(false);
         btnsave.addActionListener(new java.awt.event.ActionListener() {
@@ -270,15 +270,15 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         DOBDate.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
 
         lblperinfo.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        lblperinfo.setForeground(new java.awt.Color(102, 0, 102));
+        lblperinfo.setForeground(new java.awt.Color(255, 255, 255));
         lblperinfo.setText("Personal Information");
 
         lblcontinfo.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        lblcontinfo.setForeground(new java.awt.Color(102, 0, 102));
+        lblcontinfo.setForeground(new java.awt.Color(255, 255, 255));
         lblcontinfo.setText("Contact Information");
 
         lbladdress.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbladdress.setForeground(new java.awt.Color(102, 0, 102));
+        lbladdress.setForeground(new java.awt.Color(255, 255, 255));
         lbladdress.setText("Address:");
 
         jScrollPane1.setForeground(new java.awt.Color(102, 0, 102));
@@ -290,7 +290,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(txtareaddress);
 
         lbledu.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        lbledu.setForeground(new java.awt.Color(102, 0, 102));
+        lbledu.setForeground(new java.awt.Color(255, 255, 255));
         lbledu.setText("Education");
 
         cityTextJField.setEditable(false);
@@ -303,11 +303,11 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         lblcity.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblcity.setForeground(new java.awt.Color(102, 0, 102));
+        lblcity.setForeground(new java.awt.Color(255, 255, 255));
         lblcity.setText("City:");
 
         lblpincode.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblpincode.setForeground(new java.awt.Color(102, 0, 102));
+        lblpincode.setForeground(new java.awt.Color(255, 255, 255));
         lblpincode.setText("Pincode:");
 
         txtpincode.setEditable(false);
@@ -330,17 +330,17 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         lbledu1.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbledu1.setForeground(new java.awt.Color(102, 0, 102));
+        lbledu1.setForeground(new java.awt.Color(255, 255, 255));
         lbledu1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lbledu1.setText("Education: ");
 
         lblschool.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblschool.setForeground(new java.awt.Color(102, 0, 102));
+        lblschool.setForeground(new java.awt.Color(255, 255, 255));
         lblschool.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblschool.setText("School/University: ");
 
         lbldegree.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbldegree.setForeground(new java.awt.Color(102, 0, 102));
+        lbldegree.setForeground(new java.awt.Color(255, 255, 255));
         lbldegree.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lbldegree.setText("Degree:");
 
@@ -362,7 +362,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         btnadd.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnadd.setForeground(new java.awt.Color(102, 0, 102));
+        btnadd.setForeground(new java.awt.Color(0, 153, 153));
         btnadd.setText("ADD");
         btnadd.setEnabled(false);
         btnadd.addActionListener(new java.awt.event.ActionListener() {
@@ -372,7 +372,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         lbllang.setFont(new java.awt.Font(".AppleSystemUIFont", 1, 18)); // NOI18N
-        lbllang.setForeground(new java.awt.Color(102, 0, 102));
+        lbllang.setForeground(new java.awt.Color(255, 255, 255));
         lbllang.setText("Language Proficency & Skills");
 
         jScrollPane2.setForeground(new java.awt.Color(102, 0, 102));
@@ -384,7 +384,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         jScrollPane2.setViewportView(txtareaedu);
 
         lbleng.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lbleng.setForeground(new java.awt.Color(102, 0, 102));
+        lbleng.setForeground(new java.awt.Color(255, 255, 255));
         lbleng.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lbleng.setText("English: ");
 
@@ -399,7 +399,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         lblotherlang.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblotherlang.setForeground(new java.awt.Color(102, 0, 102));
+        lblotherlang.setForeground(new java.awt.Color(255, 255, 255));
         lblotherlang.setText("Other Language:");
 
         jScrollPane3.setForeground(new java.awt.Color(102, 0, 102));
@@ -419,7 +419,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         btnlangadd.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
-        btnlangadd.setForeground(new java.awt.Color(102, 0, 102));
+        btnlangadd.setForeground(new java.awt.Color(0, 153, 153));
         btnlangadd.setText("ADD");
         btnlangadd.setEnabled(false);
         btnlangadd.addActionListener(new java.awt.event.ActionListener() {
@@ -429,7 +429,6 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         checkboxword.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        checkboxword.setForeground(new java.awt.Color(102, 0, 102));
         checkboxword.setText("MS Word");
         checkboxword.setEnabled(false);
         checkboxword.addActionListener(new java.awt.event.ActionListener() {
@@ -439,12 +438,10 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         checkboxexcel.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        checkboxexcel.setForeground(new java.awt.Color(102, 0, 102));
         checkboxexcel.setText("MS Excel");
         checkboxexcel.setEnabled(false);
 
-        checkboxppt.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        checkboxppt.setForeground(new java.awt.Color(102, 0, 102));
+        checkboxppt.setFont(new java.awt.Font(".AppleSystemUIFont", 0, 14)); // NOI18N
         checkboxppt.setText("PowerPoint");
         checkboxppt.setEnabled(false);
         checkboxppt.addActionListener(new java.awt.event.ActionListener() {
@@ -454,17 +451,15 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         });
 
         checkboxemail.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        checkboxemail.setForeground(new java.awt.Color(102, 0, 102));
         checkboxemail.setText("Email Checking");
         checkboxemail.setEnabled(false);
 
         checkboxweb.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        checkboxweb.setForeground(new java.awt.Color(102, 0, 102));
         checkboxweb.setText("Web Browsing");
         checkboxweb.setEnabled(false);
 
         lblwrknw.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblwrknw.setForeground(new java.awt.Color(102, 0, 102));
+        lblwrknw.setForeground(new java.awt.Color(255, 255, 255));
         lblwrknw.setText("Work Knowledge of:");
 
         jScrollPane4.setForeground(new java.awt.Color(102, 0, 102));
@@ -476,7 +471,7 @@ public class UpdateVolJPanel extends javax.swing.JPanel {
         jScrollPane4.setViewportView(txtareaskills);
 
         lblskill.setFont(new java.awt.Font(".SF NS Mono", 0, 14)); // NOI18N
-        lblskill.setForeground(new java.awt.Color(102, 0, 102));
+        lblskill.setForeground(new java.awt.Color(255, 255, 255));
         lblskill.setText("Skills:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
