@@ -1,3 +1,4 @@
+# Java Swing Project NGO Management System ,IDE:NetBeans, Database: DBo4
 # AED_Final_Project
 AED Final Project
 
