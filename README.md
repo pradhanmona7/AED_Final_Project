@@ -1,8 +1,6 @@
 # Java Swing Project NGO Management System ,IDE:NetBeans, Database: DBo4
-# AED_Final_Project
-AED Final Project
 
-JoyMakers
+Application Engineering Development Final Project JoyMakers
 
 The aim of our project is to create a management system for NGO called JoyMakers. The people doing a social cause should have a easily accessible management system. In the following project we have four major enterprises i.e
 1. Hospital
